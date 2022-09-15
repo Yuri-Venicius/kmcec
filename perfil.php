@@ -1,6 +1,12 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 ?>
 
 <!DOCTYPE html>
@@ -26,6 +32,8 @@ include('verifica_login.php');
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 </head>
 
@@ -36,25 +44,39 @@ include('verifica_login.php');
         <nav id="sidebar">
             <div class="sidebar-header">
 
-            <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
+                <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
             </div>
 
             <ul class="list-unstyled components">
 
-                <p>Bem-Vindo, <?php echo $_SESSION['usuario'];?></p>
+                <p><?php 
+                if($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL'){
+                    print("Olá, ". $usuarioLogado['usuario']); 
+                }else{
+                    print("Olá, ". $usuarioLogado['nome']);
+                }
+                ?></p>
                 <li>
-                    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                 </li>
                 <li>
-                    <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
-                </li> <li>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                    <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
                     <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
                 </li>
                 <p></p>
                 <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
             </ul>
             </li>
-            <p>&copy; 2020 | KM Cursos & Concursos<p>
+            <p>
+				 Copyright &copy;<script>document.write(new Date().getFullYear());</script> KM Cursos & Concursos
+			</p>
         </nav>
 
 
@@ -88,86 +110,42 @@ include('verifica_login.php');
             <h2>Meus Dados</h2>
             <form>
                 <div class="form-row">
-                  <div class="form-group col-md-4">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputPassword4">Senha</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputPassword4">Confirmar Senha</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                  </div>
+                    <div class="form-group col-md-3">
+                        <label for="nome">Nome</label>
+                        <input type="text" readonly class="form-control-plaintext"  name="nome" id="nome" placeholder="<?php print($usuarioLogado['nome']." ". $usuarioLogado['sobrenome']) ?>">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="cpf">CPF</label>
+                        <input type="text" readonly class="form-control-plaintext"  name="cpf" id="cpf" placeholder="<?php print(substr($usuarioLogado['cpf'], -11, 3).".".substr($usuarioLogado['cpf'], -8, 3).".".substr($usuarioLogado['cpf'], -5, 3)."-".substr($usuarioLogado['cpf'], -2, 2)) ?>">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">E-mail</label>
+                        <input type="text" readonly class="form-control-plaintext"  name="email" id="email" placeholder="<?php print($usuarioLogado['email']) ?>">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="contato">Contato</label>
+                        <input type="text" readonly class="form-control-plaintext"  name="contato" id="contato" placeholder="<?php print("(".substr($usuarioLogado['contato'], -11, 2).") ".substr($usuarioLogado['contato'], -9, 1)." ".substr($usuarioLogado['contato'], -8, 4)."-".substr($usuarioLogado['contato'], -4, 4)) ?>">
+                    </div>
                 </div>
+            </form>
+            <h2>Alterar senha de acesso</h2>
+            <form method="POST" action="alteraDadosUsuario.php">
                 <div class="form-row">
-                <div class="form-group col-md-2">
-                  <label for="inputAddress">Tel. Celular</label>
-                  <input type="text" class="form-control" onkeypress="$(this).mask('(00) 0000-00009')">
+                    <div class="form-group col-md-4">
+                        <label for="senha">Senha atual</label>
+                        <input type="text" class="form-control" name="senha" id="senha">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="novaSenha">Nova Senha</label>
+                        <input type="text" class="form-control" name="novaSenha" id="novaSenha">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="confirmarNovaSenha">Confirmar Nova Senha</label>
+                        <input type="text" class="form-control" name="confirmarNovaSenha" id="novaSenha">
+                    </div>
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="inputAddress">Endereço</label>
-                    <input type="addres" class="form-control" id="inputAddres" placeholder="Rua Bem Ali...">
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputAddress">Número</label>
-                    <input type="addres" class="form-control" id="inputNumero" placeholder=''>
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputAddress">Complemento</label>
-                    <input type="addres" class="form-control" id="inputComplemento" placeholder="Rua Bem Ali...">
-                </div>
-
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">Cidade</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">Estado</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Estado...</option>
-                      <option>AC</option>
-                      <option>AL</option>
-                      <option>AM</option>
-                      <option>AP</option>
-                      <option>BA</option>
-                      <option>CE</option>
-                      <option>DF</option>
-                      <option>ES</option>
-                      <option>GO</option>
-                      <option>MA</option>
-                      <option>MT</option>
-                      <option>MS</option>
-                      <option>MG</option>
-                      <option>PA</option>
-                      <option>PB</option>
-                      <option>PR</option>
-                      <option>PE</option>
-                      <option>PI</option>
-                      <option>RJ</option>
-                      <option>RN</option>
-                      <option>RO</option>
-                      <option>RS</option>
-                      <option>RR</option>
-                      <option>SC</option>
-                      <option>SE</option>
-                      <option>SP</option>
-                      <option>TO</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">CEP</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
-                </div>
-                <div class="form-group">
-                
-                </div>
-                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-              </form>
+                <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Alterar</button><p></p>
+            </form>
         </div>
     </div>
 

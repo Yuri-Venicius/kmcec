@@ -1,7 +1,12 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
 
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -54,7 +59,8 @@ include('verifica_login.php');
                 <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
             </ul>
             </li>
-            <p>&copy; 2020 | KM Cursos & Concursos<p>
+            <p>&copy; 2020 | KM Cursos & Concursos
+            <p>
         </nav>
 
         <!-- Page Content  -->
@@ -87,33 +93,79 @@ include('verifica_login.php');
             <h2>Cadastro de novo usuário</h2>
             <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
 
-            <?php if ($_SESSION['usuario'] == 'yvenicios@gmail.com') : ?>
+            <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
                 <form method="POST" action="cadastroUsuario.php">
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="usuario">Usuário - Email</label>
+                        <div class="form-group col-md-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" class="form-control" name="sobrenome" id="sobrenome">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" name="cpf" id="cpf">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="email">E-mail</label>
+                            <input type="text" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="contato">Contato</label>
+                            <input type="text" class="form-control" name="contato" id="contato">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="usuario">Usuário [email]</label>
                             <input type="text" class="form-control" name="usuario" id="usuario">
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="senha" >Senha - CPF</label>
+                        <div class="form-group col-md-3">
+                            <label for="senha">Senha [CPF]</label>
                             <input type="text" class="form-control" name="senha" id="senha">
                         </div>
                     </div>
-                                
-                    <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Cadastrar</button><p></p>
-                        <!-- <div class="alert alert-success" role="alert">
-                        Aluno cadastrado com sucesso!
+
+                    <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Cadastrar Usuário</button>
+                    <p></p>
+                </form>
+
+                <h2>Cadastro de usuário em um curso</h2>
+                <p>Esta área é exclusiva para cadastro de um usuário existente em um curso</p>
+                <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
+
+                <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
+                    <div class="col-md-3">
+                        <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
+                        <input type="text" class="form-control" name="cpfParaCurso" id="cpfParaCurso">
+                    </div>
+                    <div class="col-md-9">
+                        <label for="codCurso" class="form-label">Curso</label>
+                        <select name="codCurso" id="codCurso" class="form-select">
+                            <option selected>Selecione o curso</option>
+                            <?php $query = "SELECT * from curso";
+                            $select = mysqli_query($conexao, $query);
+
+                            while ($result = mysqli_fetch_assoc($select)) { ?>
+                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Confirmar o cadastro
+                            </label>
                         </div>
-                        <div class="alert alert-danger" role="alert">
-                        Ocorreu um erro ao cadastrar o aluno!
-                        </div>
-                        <div class="alert alert-warning" role="alert">
-                    
-                        Este aluno ja possui cadastro!
-                        </div> -->
-              </form>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" value="CadastrarAlunoCurso" id="cadastrarAlunoCurso" class="btn btn-primary">Cadastrar no Curso</button>
+                    </div>
+                </form>
+
             <?php endif; ?>
-          
+
 
         </div>
 

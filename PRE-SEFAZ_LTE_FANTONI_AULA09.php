@@ -1,5 +1,12 @@
 <?php
     session_start();
+include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     include('verifica_login.php');
     ?>
 
@@ -67,7 +74,7 @@
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA08.php">Anterior</a>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/ur981z" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/m91s9u" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">

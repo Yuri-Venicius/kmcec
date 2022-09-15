@@ -1,6 +1,13 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>

@@ -1,6 +1,13 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -297,14 +304,13 @@ include('verifica_login.php');
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 16/05/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 17/05/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 21/06/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA04.php">AULA 04 - GRAVAÇÃO 05/07/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA05.php">AULA 05 - GRAVAÇÃO 12/07/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA06.php">AULA 06 - GRAVAÇÃO 20/07/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA07.php">AULA 07 - GRAVAÇÃO 02/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA08.php">AULA 08 - GRAVAÇÃO 05/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA09.php">AULA 09 - GRAVAÇÃO 09/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">AULA 10 - GRAVAÇÃO 12/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA11.php">AULA 11 - GRAVAÇÃO 18/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA04.php">AULA 04 - GRAVAÇÃO 12/07/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA05.php">AULA 05 - GRAVAÇÃO 20/07/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA06.php">AULA 06 - GRAVAÇÃO 02/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA07.php">AULA 07 - GRAVAÇÃO 05/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA08.php">AULA 08 - GRAVAÇÃO 09/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA09.php">AULA 09 - GRAVAÇÃO 12/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">AULA 10 - GRAVAÇÃO 18/08/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>

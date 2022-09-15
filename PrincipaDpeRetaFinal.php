@@ -1,6 +1,13 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -223,8 +230,8 @@ include('verifica_login.php');
                                     </p>
                                     <div class="collapse" id="collapseHistoriaBidu">
                                     <div class="card card-body">
-                                        <a href="DPE_FINAL_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 06/09/22 </a><p></p>
-                                        <a href="DPE_FINAL_HISTORIA_BIDU_AULA02.php">AULA 02 - GRAVAÇÃO 13/09/22 </a><p></p>
+                                        <p>NÃO HÁ CONTEÚDO GRAVADO DISPONÍVEL</p>
+                                        <!-- <a href="DPE_FINAL_HISTORIA_BIDU_AULA04.php">AULA 04 - GRAVAÇÃO 29/07/22 </a><p></p> -->
                                     </div>
                                     </div>
                         </div>
@@ -281,7 +288,8 @@ include('verifica_login.php');
                                     </p>
                                     <div class="collapse" id="collapseDirConstNeto">
                                     <div class="card card-body"> 
-                                        <a href="DPE_FINAL_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 08/09/2022</a><p></p> 
+                                        <p>NÃO HÁ CONTEÚDO GRAVADO DISPONÍVEL</p>
+                                        <!-- <a href="DPE_FINAL_DIR_CONST_NETO_AULA04.php">AULA 04 - GRAVAÇÃO 01/08/2022</a><p></p>  -->
                                     </div>
                                     </div>    
                         </div>
@@ -291,7 +299,26 @@ include('verifica_login.php');
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">RETA FINAL - DIREITO ADMINISTRATIVO/LEGISLAÇÃO DPE - CLEIDE REGINA</h5>
+                            <h5 class="card-title">RETA FINAL - LEGISLAÇÃO ESPECÍFICA DPE - CLEIDE REGINA</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDPECleide" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1w3g0HiBP5u_72bKhZ0gTR7mi7Qbieicw?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseDPECleide">
+                                    <div class="card card-body"> 
+                                        <p>NÃO HÁ CONTEÚDO GRAVADO DISPONÍVEL</p>
+                                        <!-- <a href="DPE_FINAL_LEG_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 24/08/2022</a><p></p>  -->
+                                    </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RETA FINAL - DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAdmCleide" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
@@ -301,10 +328,6 @@ include('verifica_login.php');
                                     <div class="card card-body"> 
                                         <a href="DPE_FINAL_DIR_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 29/08/2022</a><p></p> 
                                         <a href="DPE_FINAL_DIR_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 02/09/2022</a><p></p> 
-                                        <a href="DPE_FINAL_DIR_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 05/09/2022</a><p></p> 
-                                        <a href="DPE_FINAL_DIR_CLEIDE_AULA04.php">AULA 04 - GRAVAÇÃO 09/09/2022</a><p></p> 
-                                        <a href="DPE_FINAL_DIR_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 12/09/2022</a><p></p> 
-                                        <a href="DPE_FINAL_DIR_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 12/09/2022</a><p></p> 
                                     </div>
                                     </div>    
                         </div>

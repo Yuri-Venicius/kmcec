@@ -1,9 +1,13 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
 
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 ?>
-<?php $adm = 1; ?>
 <!DOCTYPE html>
 <html>
 
@@ -26,6 +30,9 @@ include('verifica_login.php');
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 </head>
 
@@ -41,12 +48,26 @@ include('verifica_login.php');
 
             <ul class="list-unstyled components">
 
-                <p>Bem-Vindo, <?php echo $_SESSION['usuario']; ?></p>
+                <p><?php
+                    if ($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL') {
+                        print("Olá, " . $usuarioLogado['usuario']);
+                    } else {
+                        print("Olá, " . $usuarioLogado['nome']);
+                    }
+                    ?></p>
                 <li>
-                    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                 </li>
                 <li>
-                    <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
                 </li>
                 <li>
                     <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
@@ -55,8 +76,11 @@ include('verifica_login.php');
                 <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
             </ul>
             </li>
-            <p>&copy; 2020 | KM Cursos & Concursos
             <p>
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> KM Cursos & Concursos
+            </p>
         </nav>
 
         <!-- Page Content  -->
@@ -67,8 +91,6 @@ include('verifica_login.php');
 
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
-                        <span>Menu</span>
-
                     </button>
 
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +100,9 @@ include('verifica_login.php');
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.php">KM Online</a>
+                                <a nav-link href="https://kmconcursos.com.br/index.php/shop/">
+                                    <button type="button" class="btn btn-warning">Loja KM</button>
+                                </a>
                             </li>
 
                         </ul>
@@ -87,55 +111,53 @@ include('verifica_login.php');
             </nav>
 
             <h2>Página Inicial</h2>
-            <p>Navegue pelo Menu Lateral para acessar seus cursos e materiais para Download.</p>
 
-            <?php if ($_SESSION['usuario'] == 'yvenicios@gmail.com') : ?>
-                <div class="row">
+            <p>Acesse seus cursos disponíveis abaixo</p>
+            <p></p>
+            <h2>Seus Cursos Disponíveis</h2>
+            <p></p>
+            <div class="row">
+                <?php
+                $codCurso = '1444';
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if ($verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)) : ?>
                     <div class="col-sm-6">
                         <div class="card">
-                            <h5 class="card-title" style="margin-left: 30px; margin-right: 30px;">ÁREA DE CADASTROS</h5>
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseBotaoCadastros" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> CADASTRAR
-                                    </button>
-                                    </p>
-                                    <div class="collapse" id="collapseBotaoCadastros">
-                                    <div class="card card-body">
-                                        <a href="novoUsuario.php"><i class="fas fa-user-alt"></i> Novo Usário</a>
-                                        <p></p>
-                                        <!-- <a href="novoCurso.php"><i class="fas fa-book"></i> Novo Curso</a> -->
-
-                                    </div>
-                                    </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CRM - Informática</h5>
+                                <p class="card-text">Curso de informática e suas tecnologias voltado para o concurso do CRM 2020.
+                                <p>
+                                    Ministrado por Prof. Wilton Sobrinho.</p>
+                                <a href="menuinfoCRM.php" class="btn btn-primary">Acessar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            <?php endif; ?>
+                <?php endif; ?>
+                
+            </div>
 
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <!-- jQuery Custom Scroller CDN -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-        </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#sidebar").mCustomScrollbar({
+                        theme: "minimal"
+                    });
 
-        <!-- jQuery CDN - Slim version (=without AJAX) -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <!-- Popper.JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        <!-- jQuery Custom Scroller CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
+                    $('#sidebarCollapse').on('click', function() {
+                        $('#sidebar, #content').toggleClass('active');
+                        $('.collapse.in').toggleClass('in');
+                        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    });
                 });
-
-                $('#sidebarCollapse').on('click', function() {
-                    $('#sidebar, #content').toggleClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                });
-            });
-        </script>
+            </script>
 </body>
 
 </html>

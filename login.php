@@ -1,6 +1,8 @@
 <?php
 session_start();
+// include('verifica_login.php');
 include('conexao.php');
+
 if(empty($_POST['usuario']) || empty($_POST['senha'])) {
     header('Location: login_Home.php');
     exit();

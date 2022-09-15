@@ -1,6 +1,13 @@
 <?php
 session_start();
 include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -200,24 +207,9 @@ include('verifica_login.php');
                         </div>
                     </div><p></p>
                 </div>
+
                 
-                <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                            <h5 class="card-title">SIMULADOS</h5>
-                            <p class="card-text">
-                                <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimulados" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> Arquivos disponíveis em "Materiais"
-                                    </button> -->
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/129rFX-XGfDnmC9nd9eHGh6eqSPLgd8oU?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                    </p>
-                                    <div class="collapse" id="collapseSimulados">
-                                    <div class="card card-body"> 
-                                    </div>
-                                    </div>    
-                        </div>
-                    </div><p></p>
-                </div>
+            
          
         </div>
 
