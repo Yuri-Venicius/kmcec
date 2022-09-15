@@ -118,7 +118,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p></p>
             <div class="row">
                 <?php
-                $codCurso = '1444';
+                $codCurso = 1444;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if ($verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)) : ?>
                     <div class="col-sm-6">
@@ -133,7 +133,74 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     </div>
                 <?php endif; ?>
-                
+
+                <?php
+                $codCurso = 603;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+                    $_SESSION['usuario'] == 'rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'rhuanvinicios@hotmail.com ' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com ' ||
+                    $_SESSION['usuario'] == 'amabili.c.s.fanticheli@gmail.com' || $_SESSION['usuario'] == 'joaovictornohama@gmail.com' || $_SESSION['usuario'] == 'rodrigogeologia22@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'loide1441@hotmail.com' || $_SESSION['usuario'] == 'julianocunha216@gmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'ferri77ed@gmail.com' || $_SESSION['usuario'] == 'rubiaglaucia@hotmail.com' || $_SESSION['usuario'] == 'filinto_brandao@hotmail.com' || $_SESSION['usuario'] == 'cleiderribeiro@hotmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LICITAÇÃO - Lei 8.166/93</h5>
+                                <p class="card-text">Curso da Lei 8.166/93 de Licitação.
+                                <p>
+                                    Ministrado por Profª Cleide Regina.</p>
+                                <a href="menuLicitacao.php" class="btn btn-primary">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 642;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+                    $_SESSION['usuario'] == 'advandresampaio@gmail.com' || $_SESSION['usuario'] == 'advandresampaio@gmail.com' || $_SESSION['usuario'] == 'Advandresampaio@gmail.com ' || $_SESSION['usuario'] == 'Advandresampaio@gmail.com ' ||
+                    // $_SESSION['usuario'] == 'edcleise_augusta@hotmail.com' || $_SESSION['usuario'] == 'edcleise_augusta@hotmail.com ' || $_SESSION['usuario'] == 'Edcleise_augusta@hotmail.com' || $_SESSION['usuario'] == 'Edcleise_augusta@hotmail.com ' || 
+                    // $_SESSION['usuario'] == 'brunoendic@gmail.com' || $_SESSION['usuario'] == 'brunoendic@gmail.com ' || $_SESSION['usuario'] == 'Brunoendic@gmail.com' || $_SESSION['usuario'] == 'Brunoendic@gmail.com ' || 
+                    // $_SESSION['usuario'] == 'carolinelauren22@gmail.com' || $_SESSION['usuario'] == 'carolinelauren22@gmail.com ' || $_SESSION['usuario'] == 'Carolinelauren22@gmail.com' || $_SESSION['usuario'] == 'Carolinelauren22@gmail.com ' || 
+                    // $_SESSION['usuario'] == 'cristgasilva27@gmail.com' || $_SESSION['usuario'] == 'cristgasilva27@gmail.com ' || 
+                    // $_SESSION['usuario'] == 'vitor.paulo.tec@gmail.com' || $_SESSION['usuario'] == 'bianca_monezi@outlook.com' || $_SESSION['usuario'] == 'cleitondireitopm@gmail.com' || 
+                    // $_SESSION['usuario'] == 'joseaparecidoibvc@hotmail.com' || $_SESSION['usuario'] == 'durvafjunior@gmail.com' || $_SESSION['usuario'] == 'leonardofga@bol.com' || 
+                    // $_SESSION['usuario'] == 'wily.fla1@gmail.com' || $_SESSION['usuario'] == 'edelsonselva.mt@hotmail.com' ||
+                    // $_SESSION['usuario'] == 'vivianeconceicaopaula@gmail.com' || $_SESSION['usuario'] == 'vanessa_amorimagro@hotmail.com' || 
+                    // $_SESSION['usuario'] == 'bruno.fully@hotmail.com' || $_SESSION['usuario'] == 'jucicleyinacio@hotmail.com' || 
+                    // $_SESSION['usuario'] == 'xavier.eduardofernando@gmail.com' || $_SESSION['usuario'] == 'andressa.balzak@hotmail.com' || $_SESSION['usuario'] == 'polyana.bmedeiros@gmail.com' | $_SESSION['usuario'] == 'matheus.andriu7@gmail.com' || $_SESSION['usuario'] == 'gabrielgomeshonorato@gmail.com' || $_SESSION['usuario'] == 'williandavgmt@gmail.com' || $_SESSION['usuario'] == 'guegaribeiro@hotmail.com' || $_SESSION['usuario'] == 'advandresampaio@gmail.com' || $_SESSION['usuario'] == 'leonardofga@bol.com.br' || 
+                    // $_SESSION['usuario'] == 'jurandir_rodrigues@hotmail.com' || $_SESSION['usuario'] == 'simonecampanham@yahoo.com.br' || $_SESSION['usuario'] == 'simonecampanham@yahoo.com.br ' || 
+                    // $_SESSION['usuario'] == 'camilabezbs@hotmail.com' || $_SESSION['usuario'] == 'mario.binny@hotmail.com' || $_SESSION['usuario'] == 'emvwanderson@gmail.com' || $_SESSION['usuario'] == 'mandinha.brito16@hotmail.com' || $_SESSION['usuario'] == 'juliomoraes161@gmail.com' || $_SESSION['usuario'] == 'jhony_tody@hotmail.com' || $_SESSION['usuario'] == 'li_benta@hotmail.com' || $_SESSION['usuario'] == 'isadora.nunes2@hotmail.com' || $_SESSION['usuario'] == 'marcio_2011@hotmail.com' ||
+                    // $_SESSION['usuario'] == 'glacioneide.nascimento@gmail.com' || $_SESSION['usuario'] == 'rayane01_santo@hotmail.com' ||
+                    // $_SESSION['usuario'] == 'jormagalhaes@hotmail.com' || $_SESSION['usuario'] == 'wesleydu@gmail.com' ||
+                    // $_SESSION['usuario'] == 'keylacj@hotmail.com' || $_SESSION['usuario'] == 'concurseiro.alfacba@gmail.com' ||
+                    // $_SESSION['usuario'] == 'estilarmoveis@bol.com.br' || $_SESSION['usuario'] == 'valzinhaba@gmail.com' ||
+                    // $_SESSION['usuario'] == 'eduardopc1703@gmail.com' || $_SESSION['usuario'] == 'valdecirr.maurilio@gmail.com' ||
+                    // $_SESSION['usuario'] == 'alexalexanderneves@gmail.com' || $_SESSION['usuario'] == 'primave.7@gmail.com' ||
+                    // $_SESSION['usuario'] == 'grunwaldluciana9@gmail.com' || $_SESSION['usuario'] == 'jlt1carvalho@gmail.com' ||
+                    // $_SESSION['usuario'] == 'concurseira25112017@gmail.com' || $_SESSION['usuario'] == 'shirleybatista65@hotmail.com' ||
+                    // $_SESSION['usuario'] == 'jvmcarmo@hotmail.com' || $_SESSION['usuario'] == 'mari100686@gmail.com' ||
+                    // $_SESSION['usuario'] == 'ericaquintino86@hotmail.com' || $_SESSION['usuario'] == 'juninhu_branco@hotmail.com' ||
+                    // $_SESSION['usuario'] == 'cecymiranda20@hotmail.com' || $_SESSION['usuario'] == 'euvanefs@gmail.com' || $_SESSION['usuario'] == 'euvanefs@gmail.com ' || $_SESSION['usuario'] == 'Euvanefs@gmail.com' || 
+                    // $_SESSION['usuario'] == 'abnbribeiro@gmail.com' || $_SESSION['usuario'] == 'alexsandre13cibm@gmail.com' ||
+                    // $_SESSION['usuario'] == 'dilian.hitnan@gmail.com' || $_SESSION['usuario'] == 'karoldipietro@gmail.com' ||
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' ||
+                    $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - Macetes e resolução de questões</h5>
+                                <p class="card-text">Curso de Língua portuguesa voltado para concursos e com enfoque nos macetes e resoluções de questões.
+                                <p>Ministrado por Prof. Luis Carlos Gouveia.
+                                </p>
+                                <a href="menuPortugues.php" class="btn btn-primary">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
 
             <!-- jQuery CDN - Slim version (=without AJAX) -->
