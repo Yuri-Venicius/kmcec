@@ -7,7 +7,6 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>

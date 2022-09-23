@@ -34,28 +34,49 @@
         <div class="wrapper">
             <!-- Sidebar  -->
             <nav id="sidebar">
-                <div class="sidebar-header">
+            <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
-                </div>
+            </div>
 
-                <ul class="list-unstyled components">
+            <ul class="list-unstyled components">
 
-                    <p>Bem-Vindo, <?php echo $_SESSION['usuario'];?></p>
-                    <li>
-                        <a href="index.php"><i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li>
-                        <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
-                    </li> <li>
-                        <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
-                    </li>
-                    <p></p>
-                    <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
-                </ul>
+                <p><?php
+                    if ($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL') {
+                        print("Olá, " . $usuarioLogado['usuario']);
+                    } else {
+                        print("Olá, " . $usuarioLogado['nome']);
+                    }
+                    ?></p>
+                <li>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                 </li>
-                <p>&copy; 2020 | KM Cursos & Concursos<p>
-            </nav>
+                <li>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
+                </li>
+                <p></p>
+                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </ul>
+            </li>
+            <p>
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> KM Cursos & Concursos
+            </p>
+        </nav>
 
             <!-- Page Content  -->
             <div id="content">

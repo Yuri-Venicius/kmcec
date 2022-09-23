@@ -1,12 +1,5 @@
 <?php
     session_start();
-include('verifica_login.php');
-include('buscaDadosBasicosUsuario.php');
-include('buscaDadosDoCurso.php');
-include('verificaAcessoAoCurso.php');
-
-$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     include('verifica_login.php');
     ?>
 
@@ -41,28 +34,49 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <div class="wrapper">
             <!-- Sidebar  -->
             <nav id="sidebar">
-                <div class="sidebar-header">
+            <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
-                </div>
+            </div>
 
-                <ul class="list-unstyled components">
+            <ul class="list-unstyled components">
 
-                    <p>Bem-Vindo, <?php echo $_SESSION['usuario'];?></p>
-                    <li>
-                        <a href="index.php"><i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li>
-                        <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
-                    </li> <li>
-                        <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
-                    </li>
-                    <p></p>
-                    <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
-                </ul>
+                <p><?php
+                    if ($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL') {
+                        print("Olá, " . $usuarioLogado['usuario']);
+                    } else {
+                        print("Olá, " . $usuarioLogado['nome']);
+                    }
+                    ?></p>
+                <li>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                 </li>
-                <p>&copy; 2020 | KM Cursos & Concursos<p>
-            </nav>
+                <li>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
+                </li>
+                <p></p>
+                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </ul>
+            </li>
+            <p>
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> KM Cursos & Concursos
+            </p>
+        </nav>
 
             <!-- Page Content  -->
             <div id="content">
@@ -72,7 +86,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <h2>ISOLADAS DO KM - INFORMÁTICA | PROFESSOR JOÃO CLEBER</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="ISOLADAS_INFO_JOAO_AULA01.php">Anterior</a>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="ISOLADAS_INFO_JOAO_AULA03.php">Próximo</a> -->
+                <a style="align-items: flex-end;" class="btn btn-primary" href="ISOLADAS_INFO_JOAO_AULA03.php">Próximo</a>
                 <p></p>
                 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/xfuq8y" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>

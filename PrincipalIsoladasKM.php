@@ -1,13 +1,6 @@
 <?php
 session_start();
 include('verifica_login.php');
-include('buscaDadosBasicosUsuario.php');
-include('buscaDadosDoCurso.php');
-include('verificaAcessoAoCurso.php');
-
-$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -116,6 +109,7 @@ include('verifica_login.php');
                                         <a href="ISOLADAS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 30/07/2022</a><p></p> 
                                         <a href="ISOLADAS_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 20/08/2022</a><p></p> 
                                         <a href="ISOLADAS_PORTUGUES_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 03/09/2022</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 17/09/2022</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -178,6 +172,7 @@ include('verifica_login.php');
                                     <div class="card card-body"> 
                                         <a href="ISOLADAS_INFO_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 27/08/22 </a><p></p> 
                                         <a href="ISOLADAS_INFO_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 03/09/22 </a><p></p> 
+                                        <a href="ISOLADAS_INFO_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 17/09/22 </a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -202,14 +197,30 @@ include('verifica_login.php');
                                         <a href="ISOLADAS_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 20/08/2022 </a><p></p> 
                                         <a href="ISOLADAS_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 27/08/2022 </a><p></p> 
                                         <a href="ISOLADAS_RLM_IGOR_AULA06.php">AULA 06 - GRAVAÇÃO 03/09/2022 </a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA07.php">AULA 07 - GRAVAÇÃO 20/09/2022 </a><p></p> 
                                     </div>
                                     </div>    
                         </div>
                     </div><p></p>
                 </div>
-
                 
-            
+                <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                            <h5 class="card-title">SIMULADOS</h5>
+                            <p class="card-text">
+                                <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimulados" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> Arquivos disponíveis em "Materiais"
+                                    </button> -->
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/129rFX-XGfDnmC9nd9eHGh6eqSPLgd8oU?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseSimulados">
+                                    <div class="card card-body"> 
+                                    </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                </div>
          
         </div>
 

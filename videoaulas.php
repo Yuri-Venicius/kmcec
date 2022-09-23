@@ -1,12 +1,12 @@
 <?php
-session_start();
-include('verifica_login.php');
-include('buscaDadosBasicosUsuario.php');
-include('buscaDadosDoCurso.php');
-include('verificaAcessoAoCurso.php');
-
-$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+    session_start();
+	include('verifica_login.php');
+	include('buscaDadosBasicosUsuario.php');
+	include('buscaDadosDoCurso.php');
+	include('verificaAcessoAoCurso.php');
+	
+	$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+	$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 ?>
 
 <!DOCTYPE html>
@@ -41,30 +41,49 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 	<div class="wrapper">
 		<!-- Sidebar  -->
 		<nav id="sidebar">
-			<div class="sidebar-header">
+            <div class="sidebar-header">
 
-				<a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
-			</div>
+                <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
+            </div>
 
-			<ul class="list-unstyled components">
+            <ul class="list-unstyled components">
 
-				<p>Bem-Vindo, <?php echo $_SESSION['usuario']; ?></p>
-				<li>
-					<a href="index.php"><i class="fas fa-home"></i> Home</a>
-				</li>
-				<li>
-					<a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
-				</li>
-				<li>
-					<a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
-				</li>
-				<p></p>
-				<li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
-			</ul>
-			</li>
-			<p>&copy; 2020 | KM Cursos & Concursos
-			<p>
-		</nav>
+                <p><?php
+                    if ($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL') {
+                        print("Olá, " . $usuarioLogado['usuario']);
+                    } else {
+                        print("Olá, " . $usuarioLogado['nome']);
+                    }
+                    ?></p>
+                <li>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
+                </li>
+                <li>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
+                </li>
+                <p></p>
+                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </ul>
+            </li>
+            <p>
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> KM Cursos & Concursos
+            </p>
+        </nav>
 
 		<!-- Page Content  -->
 		<div id="content">
@@ -99,8 +118,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
 			<div class="row">
 
-				<?php $liberado = verificaAcessoAoCurso($conexao, $_SESSION['usuario']); ?>
-					<?php if ($liberado == 1) : ?>
+				<?php if ($_SESSION['usuario'] == 'cleiderribeiro@hotmail.com' || $_SESSION['usuario'] == 'julianocunha216@gmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'rubiaglaucia@hotmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com') : ?>
 					<div class="col-sm-6">
 						<div class="card">
 							<div class="card-body">
@@ -143,12 +161,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 					</div>
 				<?php endif; ?>
 
-				<?php if ($_SESSION['usuario'] == 'amabili.c.s.fanticheli@gmail.com' || $_SESSION['usuario'] == 'joaovictornohama@gmail.com' || $_SESSION['usuario'] == 'rodrigogeologia22@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'loide1441@hotmail.com' || $_SESSION['usuario'] == 'julianocunha216@gmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'ferri77ed@gmail.com' || $_SESSION['usuario'] == 'rubiaglaucia@hotmail.com' || $_SESSION['usuario'] == 'filinto_brandao@hotmail.com' || $_SESSION['usuario'] == 'cleiderribeiro@hotmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com') : ?>
+				<?php if (
+					$_SESSION['usuario'] == 'rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'rhuanvinicios@hotmail.com ' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com ' || 
+					$_SESSION['usuario'] == 'amabili.c.s.fanticheli@gmail.com' || $_SESSION['usuario'] == 'joaovictornohama@gmail.com' || $_SESSION['usuario'] == 'rodrigogeologia22@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'loide1441@hotmail.com' || $_SESSION['usuario'] == 'julianocunha216@gmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'ferri77ed@gmail.com' || $_SESSION['usuario'] == 'rubiaglaucia@hotmail.com' || $_SESSION['usuario'] == 'filinto_brandao@hotmail.com' || $_SESSION['usuario'] == 'cleiderribeiro@hotmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com') : ?>
 					<div class="col-sm-6">
 						<div class="card">
 							<div class="card-body">
-								<h5 class="card-title">LICITAÇÃO - Lei 8.666/93</h5>
-								<p class="card-text">Curso da Lei 8.666/93 de Licitação.
+								<h5 class="card-title">LICITAÇÃO - Lei 8.166/93</h5>
+								<p class="card-text">Curso da Lei 8.166/93 de Licitação.
 								<p>
 									Ministrado por Profª Cleide Regina.</p>
 								<a href="menuLicitacao.php" class="btn btn-primary">Acessar</a>
@@ -173,6 +193,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
 
 				<?php if (
+					$_SESSION['usuario'] == 'tatianesouza0812@gmail.com' || $_SESSION['usuario'] == 'tatianesouza0812@gmail.com' || $_SESSION['usuario'] == 'Tatianesouza0812@gmail.com ' || $_SESSION['usuario'] == 'Tatianesouza0812@gmail.com ' || 
+					$_SESSION['usuario'] == 'advandresampaio@gmail.com' || $_SESSION['usuario'] == 'advandresampaio@gmail.com' || $_SESSION['usuario'] == 'Advandresampaio@gmail.com ' || $_SESSION['usuario'] == 'Advandresampaio@gmail.com ' || 
 					// $_SESSION['usuario'] == 'edcleise_augusta@hotmail.com' || $_SESSION['usuario'] == 'edcleise_augusta@hotmail.com ' || $_SESSION['usuario'] == 'Edcleise_augusta@hotmail.com' || $_SESSION['usuario'] == 'Edcleise_augusta@hotmail.com ' || 
 					// $_SESSION['usuario'] == 'brunoendic@gmail.com' || $_SESSION['usuario'] == 'brunoendic@gmail.com ' || $_SESSION['usuario'] == 'Brunoendic@gmail.com' || $_SESSION['usuario'] == 'Brunoendic@gmail.com ' || 
 					// $_SESSION['usuario'] == 'carolinelauren22@gmail.com' || $_SESSION['usuario'] == 'carolinelauren22@gmail.com ' || $_SESSION['usuario'] == 'Carolinelauren22@gmail.com' || $_SESSION['usuario'] == 'Carolinelauren22@gmail.com ' || 
@@ -394,7 +416,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 					</div>
 				<?php endif; ?>
 
-				<?php if ($_SESSION['usuario'] == 'helderlucaslourenso@gmail.com' || $_SESSION['usuario'] == 'marcio_2011@hotmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com') : ?>
+				<?php if (
+					$_SESSION['usuario'] == 'rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'rhuanvinicios@hotmail.com ' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com' || $_SESSION['usuario'] == 'Rhuanvinicios@hotmail.com ' ||
+					$_SESSION['usuario'] == 'helderlucaslourenso@gmail.com' || $_SESSION['usuario'] == 'marcio_2011@hotmail.com' || $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com') : ?>
 					<div class="col-sm-6">
 						<div class="card">
 							<div class="card-body">
@@ -1254,6 +1278,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 				
 				<?php if (
+					$_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com ' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com ' ||
+					$_SESSION['usuario'] == 'jessica-amorim912@hotmail.com' || $_SESSION['usuario'] == 'jessica-amorim912@hotmail.com ' || $_SESSION['usuario'] == 'Jessica-amorim912@hotmail.com' || $_SESSION['usuario'] == 'Jessica-amorim912@hotmail.com ' ||
+					$_SESSION['usuario'] == 'amanda_infinito@hotmail.com' || $_SESSION['usuario'] == 'amanda_infinito@hotmail.com ' || $_SESSION['usuario'] == 'Amanda_infinito@hotmail.com' || $_SESSION['usuario'] == 'Amanda_infinito@hotmail.com ' ||
+					$_SESSION['usuario'] == 'renato.adama@gmail.com' || $_SESSION['usuario'] == 'renato.adama@gmail.com ' || $_SESSION['usuario'] == 'Renato.adama@gmail.com' || $_SESSION['usuario'] == 'Renato.adama@gmail.com ' ||
 					$_SESSION['usuario'] == 'juniormjrr@hotmail.com' || $_SESSION['usuario'] == 'juniormjrr@hotmail.com ' || $_SESSION['usuario'] == 'Juniormjrr@hotmail.com' || $_SESSION['usuario'] == 'Juniormjrr@hotmail.com ' ||
 					$_SESSION['usuario'] == 'jessicaborges.bastos@gmail.com' || $_SESSION['usuario'] == 'jessicaborges.bastos@gmail.com ' || $_SESSION['usuario'] == 'Jessicaborges.bastos@gmail.com' || $_SESSION['usuario'] == 'Jessicaborges.bastos@gmail.com ' ||
 					$_SESSION['usuario'] == 'leonel.passos@hotmail.com' || $_SESSION['usuario'] == 'leonel.passos@hotmail.com ' || $_SESSION['usuario'] == 'Leonel.passos@hotmail.com' || $_SESSION['usuario'] == 'Leonel.passos@hotmail.com ' ||
@@ -1397,10 +1425,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
+					$_SESSION['usuario'] == 'france_alves@hotmail.com' || $_SESSION['usuario'] == 'france_alves@hotmail.com ' || $_SESSION['usuario'] == 'France_alves@hotmail.com' || $_SESSION['usuario'] == 'France_alves@hotmail.com ' || 
+					$_SESSION['usuario'] == 'philippe_figueiredo1@hotmail.com' || $_SESSION['usuario'] == 'philippe_figueiredo1@hotmail.com ' || $_SESSION['usuario'] == 'Philippe_figueiredo1@hotmail.com' || $_SESSION['usuario'] == 'Philippe_figueiredo1@hotmail.com ' || 
 					$_SESSION['usuario'] == 'vitor09ams@gmail.com' || $_SESSION['usuario'] == 'vitor09ams@gmail.com ' || $_SESSION['usuario'] == 'Vitor09ams@gmail.com' || $_SESSION['usuario'] == 'Vitor09ams@gmail.com ' || 
 					$_SESSION['usuario'] == 'djavan19@hotmail.com' || $_SESSION['usuario'] == 'djavan19@hotmail.com ' || $_SESSION['usuario'] == 'Djavan19@hotmail.com' || $_SESSION['usuario'] == 'Djavan19@hotmail.com ' || 
 					$_SESSION['usuario'] == 'leonardo-vini@hotmail.com' || $_SESSION['usuario'] == 'leonardo-vini@hotmail.com ' || $_SESSION['usuario'] == 'Leonardo-vini@hotmail.com' || $_SESSION['usuario'] == 'Leonardo-vini@hotmail.com ' || 
-					$_SESSION['usuario'] == 'miguelfbezerra@hotmail.com' || $_SESSION['usuario'] == 'miguelfbezerra@hotmail.com ' || $_SESSION['usuario'] == 'Miguelfbezerra@hotmail.com' || $_SESSION['usuario'] == 'Miguelfbezerra@hotmail.com ' || 
+					// $_SESSION['usuario'] == 'miguelfbezerra@hotmail.com' || $_SESSION['usuario'] == 'miguelfbezerra@hotmail.com ' || $_SESSION['usuario'] == 'Miguelfbezerra@hotmail.com' || $_SESSION['usuario'] == 'Miguelfbezerra@hotmail.com ' || 
 					$_SESSION['usuario'] == 'coutoevilelaeng@gmail.com' || $_SESSION['usuario'] == 'coutoevilelaeng@gmail.com ' || $_SESSION['usuario'] == 'Coutoevilelaeng@gmail.com' || $_SESSION['usuario'] == 'Coutoevilelaeng@gmail.com ' || 
 					$_SESSION['usuario'] == 'alineqfreitass@gmail.com' || $_SESSION['usuario'] == 'alineqfreitass@gmail.com ' || $_SESSION['usuario'] == 'Alineqfreitass@gmail.com' || $_SESSION['usuario'] == 'Alineqfreitass@gmail.com ' || 
 					$_SESSION['usuario'] == 'magnorodrigues2578@gmail.com' || $_SESSION['usuario'] == 'magnorodrigues2578@gmail.com ' || $_SESSION['usuario'] == 'Magnorodrigues2578@gmail.com' || $_SESSION['usuario'] == 'Magnorodrigues2578@gmail.com ' || 
@@ -1758,6 +1788,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
+					$_SESSION['usuario'] == 'michellyribeiro82981@gmail.com' || $_SESSION['usuario'] == 'michellyribeiro82981@gmail.com ' || $_SESSION['usuario'] == 'Michellyribeiro82981@gmail.com' || $_SESSION['usuario'] == 'Michellyribeiro82981@gmail.com ' || 
 					$_SESSION['usuario'] == 'gilsoncoelho110788@gmail.com' || $_SESSION['usuario'] == 'gilsoncoelho110788@gmail.com ' || $_SESSION['usuario'] == 'Gilsoncoelho110788@gmail.com' || $_SESSION['usuario'] == 'Gilsoncoelho110788@gmail.com ' || 
 					$_SESSION['usuario'] == 'ednoro.apoitia@gmail.com' || $_SESSION['usuario'] == 'ednoro.apoitia@gmail.com ' || $_SESSION['usuario'] == 'Ednoro.apoitia@gmail.com' || $_SESSION['usuario'] == 'Ednoro.apoitia@gmail.com ' || 
 					$_SESSION['usuario'] == 'edu_rlopes@hotmail.com' || $_SESSION['usuario'] == 'edu_rlopes@hotmail.com ' || $_SESSION['usuario'] == 'Edu_rlopes@hotmail.com' || $_SESSION['usuario'] == 'Edu_rlopes@hotmail.com ' || 
@@ -1820,6 +1851,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
+					$_SESSION['usuario'] == 'jackyelisbeth@gmail.com' || $_SESSION['usuario'] == 'jackyelisbeth@gmail.com ' || $_SESSION['usuario'] == 'Jackyelisbeth@gmail.com' || $_SESSION['usuario'] == 'Jackyelisbeth@gmail.com ' ||
+					$_SESSION['usuario'] == 'brunoendic@gmail.com' || $_SESSION['usuario'] == 'brunoendic@gmail.com ' || $_SESSION['usuario'] == 'Brunoendic@gmail.com' || $_SESSION['usuario'] == 'Brunoendic@gmail.com ' ||
 					$_SESSION['usuario'] == 'hriqueeduardo@gmail.com' || $_SESSION['usuario'] == 'hriqueeduardo@gmail.com ' || $_SESSION['usuario'] == 'Hriqueeduardo@gmail.com' || $_SESSION['usuario'] == 'Hriqueeduardo@gmail.com ' ||
 					$_SESSION['usuario'] == 'winnye.lara@gmail.com' || $_SESSION['usuario'] == 'winnye.lara@gmail.com ' || $_SESSION['usuario'] == 'Winnye.lara@gmail.com' || $_SESSION['usuario'] == 'Winnye.lara@gmail.com ' ||
 					$_SESSION['usuario'] == 'cnandocosta@gmail.com' || $_SESSION['usuario'] == 'cnandocosta@gmail.com ' || $_SESSION['usuario'] == 'Cnandocosta@gmail.com' || $_SESSION['usuario'] == 'Cnandocosta@gmail.com ' ||
@@ -2088,6 +2121,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
+					$_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com ' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com ' ||
 					$_SESSION['usuario'] == 'alcimara.lima@hotmail.com' || $_SESSION['usuario'] == 'alcimara.lima@hotmail.com ' || $_SESSION['usuario'] == 'Alcimara.lima@hotmail.com' || $_SESSION['usuario'] == 'Alcimara.lima@hotmail.com ' ||
 					$_SESSION['usuario'] == 'agnescaires@gmail.com' || $_SESSION['usuario'] == 'agnescaires@gmail.com ' || $_SESSION['usuario'] == 'Agnescaires@gmail.com' || $_SESSION['usuario'] == 'Agnescaires@gmail.com ' ||
 					$_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com ' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com ' ||
@@ -2140,9 +2174,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
+					$_SESSION['usuario'] == 'armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'armandomassonfurtado@gmail.com ' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com ' ||
+					$_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com ' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com ' ||
+					$_SESSION['usuario'] == 'viana.eveline@gmail.com' || $_SESSION['usuario'] == 'viana.eveline@gmail.com ' || $_SESSION['usuario'] == 'Viana.eveline@gmail.com' || $_SESSION['usuario'] == 'Viana.eveline@gmail.com ' ||
+					$_SESSION['usuario'] == 'ethiene.moura@hotmail.com' || $_SESSION['usuario'] == 'ethiene.moura@hotmail.com ' || $_SESSION['usuario'] == 'Ethiene.moura@hotmail.com' || $_SESSION['usuario'] == 'Ethiene.moura@hotmail.com ' ||
+					$_SESSION['usuario'] == 'adrielelimaalves@gmail.com' || $_SESSION['usuario'] == 'adrielelimaalves@gmail.com ' || $_SESSION['usuario'] == 'Adrielelimaalves@gmail.com' || $_SESSION['usuario'] == 'Adrielelimaalves@gmail.com ' ||
+					$_SESSION['usuario'] == 'ewellyn.amanda2018@gmail.com' || $_SESSION['usuario'] == 'ewellyn.amanda2018@gmail.com ' || $_SESSION['usuario'] == 'Ewellyn.amanda2018@gmail.com' || $_SESSION['usuario'] == 'Ewellyn.amanda2018@gmail.com ' ||
+					$_SESSION['usuario'] == 'luaacarol16@gmail.com' || $_SESSION['usuario'] == 'luaacarol16@gmail.com ' || $_SESSION['usuario'] == 'Luaacarol16@gmail.com' || $_SESSION['usuario'] == 'Luaacarol16@gmail.com ' ||
 					$_SESSION['usuario'] == 'elmo.80@hotmail.com' || $_SESSION['usuario'] == 'elmo.80@hotmail.com ' || $_SESSION['usuario'] == 'Elmo.80@hotmail.com' || $_SESSION['usuario'] == 'Elmo.80@hotmail.com ' ||
 					$_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com ' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com ' ||
-					$_SESSION['usuario'] == 'admnielly@gmail.com' || $_SESSION['usuario'] == 'admnielly@gmail.com ' || $_SESSION['usuario'] == 'Admnielly@gmail.com' || $_SESSION['usuario'] == 'Admnielly@gmail.com ' ||
+					$_SESSION['usuario'] == 'admnielli@gmail.com' || $_SESSION['usuario'] == 'admnielli@gmail.com ' || $_SESSION['usuario'] == 'Admnielli@gmail.com' || $_SESSION['usuario'] == 'Admnielli@gmail.com ' ||
 					$_SESSION['usuario'] == 'haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'haiesa.sorretino@gmail.com ' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com ' ||
 					$_SESSION['usuario'] == 'ag.manu@hotmail.com' || $_SESSION['usuario'] == 'ag.manu@hotmail.com ' || $_SESSION['usuario'] == 'Ag.manu@hotmail.com' || $_SESSION['usuario'] == 'Ag.manu@hotmail.com ' ||
 					$_SESSION['usuario'] == 'dracorinthiana@gmail.com' || $_SESSION['usuario'] == 'dracorinthiana@gmail.com ' || $_SESSION['usuario'] == 'Dracorinthiana@gmail.com' || $_SESSION['usuario'] == 'Dracorinthiana@gmail.com ' ||

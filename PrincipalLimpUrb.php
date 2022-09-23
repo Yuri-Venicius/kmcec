@@ -1,13 +1,6 @@
 <?php
 session_start();
 include('verifica_login.php');
-include('buscaDadosBasicosUsuario.php');
-include('buscaDadosDoCurso.php');
-include('verificaAcessoAoCurso.php');
-
-$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -375,8 +368,7 @@ include('verifica_login.php');
                                     </p>
                                     <div class="collapse" id="collapseLeiOrgNeto">
                                     <div class="card card-body"> 
-                                        <p>NÃO HÁ CONTEÚDO GRAVADO DISPONÍVEL</p>
-                                        <!-- <a href="GUARDAVG_LEI_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 02/05/2022</a><p></p>  -->
+                                        <a href="LIMPURB_LEI_NETO_AULA01.php">AULA 01 </a><p></p> 
                                     </div>
                                     </div>    
                         </div>
