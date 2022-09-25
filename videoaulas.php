@@ -2226,61 +2226,7 @@
 						</div>
 					</div>
 				<?php endif; ?>
-				<?php if (
-					$_SESSION['usuario'] == 'armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'armandomassonfurtado@gmail.com ' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com ' ||
-					$_SESSION['usuario'] == 'glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'glen.ewellin@gmail.com ' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com' || $_SESSION['usuario'] == 'Glen.ewellin@gmail.com ' ||
-					$_SESSION['usuario'] == 'viana.eveline@gmail.com' || $_SESSION['usuario'] == 'viana.eveline@gmail.com ' || $_SESSION['usuario'] == 'Viana.eveline@gmail.com' || $_SESSION['usuario'] == 'Viana.eveline@gmail.com ' ||
-					$_SESSION['usuario'] == 'ethiene.moura@hotmail.com' || $_SESSION['usuario'] == 'ethiene.moura@hotmail.com ' || $_SESSION['usuario'] == 'Ethiene.moura@hotmail.com' || $_SESSION['usuario'] == 'Ethiene.moura@hotmail.com ' ||
-					$_SESSION['usuario'] == 'adrielelimaalves@gmail.com' || $_SESSION['usuario'] == 'adrielelimaalves@gmail.com ' || $_SESSION['usuario'] == 'Adrielelimaalves@gmail.com' || $_SESSION['usuario'] == 'Adrielelimaalves@gmail.com ' ||
-					$_SESSION['usuario'] == 'ewellyn.amanda2018@gmail.com' || $_SESSION['usuario'] == 'ewellyn.amanda2018@gmail.com ' || $_SESSION['usuario'] == 'Ewellyn.amanda2018@gmail.com' || $_SESSION['usuario'] == 'Ewellyn.amanda2018@gmail.com ' ||
-					$_SESSION['usuario'] == 'luaacarol16@gmail.com' || $_SESSION['usuario'] == 'luaacarol16@gmail.com ' || $_SESSION['usuario'] == 'Luaacarol16@gmail.com' || $_SESSION['usuario'] == 'Luaacarol16@gmail.com ' ||
-					$_SESSION['usuario'] == 'elmo.80@hotmail.com' || $_SESSION['usuario'] == 'elmo.80@hotmail.com ' || $_SESSION['usuario'] == 'Elmo.80@hotmail.com' || $_SESSION['usuario'] == 'Elmo.80@hotmail.com ' ||
-					$_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'brunohenriquegomes034@gmail.com ' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com' || $_SESSION['usuario'] == 'Brunohenriquegomes034@gmail.com ' ||
-					$_SESSION['usuario'] == 'admnielli@gmail.com' || $_SESSION['usuario'] == 'admnielli@gmail.com ' || $_SESSION['usuario'] == 'Admnielli@gmail.com' || $_SESSION['usuario'] == 'Admnielli@gmail.com ' ||
-					$_SESSION['usuario'] == 'haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'haiesa.sorretino@gmail.com ' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com ' ||
-					$_SESSION['usuario'] == 'ag.manu@hotmail.com' || $_SESSION['usuario'] == 'ag.manu@hotmail.com ' || $_SESSION['usuario'] == 'Ag.manu@hotmail.com' || $_SESSION['usuario'] == 'Ag.manu@hotmail.com ' ||
-					$_SESSION['usuario'] == 'dracorinthiana@gmail.com' || $_SESSION['usuario'] == 'dracorinthiana@gmail.com ' || $_SESSION['usuario'] == 'Dracorinthiana@gmail.com' || $_SESSION['usuario'] == 'Dracorinthiana@gmail.com ' ||
-					$_SESSION['usuario'] == 'oluansartori@gmail.com' || 
-					$_SESSION['usuario'] == 'flavia_ponce@hotmail.com' || $_SESSION['usuario'] == 'flavia_ponce@hotmail.com ' || $_SESSION['usuario'] == 'Flavia_ponce@hotmail.com' || $_SESSION['usuario'] == 'Flavia_ponce@hotmail.com ' ||
-					$_SESSION['usuario'] == 'lidianacuiabano@gmail.com' || $_SESSION['usuario'] == 'lidianacuiabano@gmail.com ' || $_SESSION['usuario'] == 'Lidianacuiabano@gmail.com' || $_SESSION['usuario'] == 'Lidianacuiabano@gmail.com ' ||
-					$_SESSION['usuario'] == 'elio.hahn@yahoo.com' || $_SESSION['usuario'] == 'elio.hahn@yahoo.com ' || $_SESSION['usuario'] == 'Elio.hahn@yahoo.com' || $_SESSION['usuario'] == 'Elio.hahn@yahoo.com ' ||
-					$_SESSION['usuario'] == 'matheusjunior4639@gmail.com' || $_SESSION['usuario'] == 'matheusjunior4639@gmail.com ' || $_SESSION['usuario'] == 'Matheusjunior4639@gmail.com' || $_SESSION['usuario'] == 'Matheusjunior4639@gmail.com ' ||
-					$_SESSION['usuario'] == 'larimiter@hotmail.com' || $_SESSION['usuario'] == 'larimiter@hotmail.com ' || $_SESSION['usuario'] == 'Larimiter@hotmail.com' || $_SESSION['usuario'] == 'Larimiter@hotmail.com ' || 
-					$_SESSION['usuario'] == 'anniellysouza@detran.mt.gov.br' || $_SESSION['usuario'] == 'anniellysouza@detran.mt.gov.br ' || $_SESSION['usuario'] == 'Anniellysouza@detran.mt.gov.br' || $_SESSION['usuario'] == 'Anniellysouza@detran.mt.gov.br ' || 
-					$_SESSION['usuario'] == 'anap_rondon@hotmail.com' || $_SESSION['usuario'] == 'anap_rondon@hotmail.com ' || $_SESSION['usuario'] == 'Anap_rondon@hotmail.com' || $_SESSION['usuario'] == 'Anap_rondon@hotmail.com ' || 
-					$_SESSION['usuario'] == 'kamillamelo123@hotmail.com' || $_SESSION['usuario'] == 'kamillamelo123@hotmail.com ' || $_SESSION['usuario'] == 'Kamillamelo123@hotmail.com' || $_SESSION['usuario'] == 'Kamillamelo123@hotmail.com ' || 
-					$_SESSION['usuario'] == 'Adarleniassis@gmail.com' || $_SESSION['usuario'] == 'Adarleniassis@gmail.com ' || $_SESSION['usuario'] == 'adarleniassis@gmail.com' || $_SESSION['usuario'] == 'adarleniassis@gmail.com ' || 
-					$_SESSION['usuario'] == 'marinalauratn@gmail.com' || $_SESSION['usuario'] == 'marinalauratn@gmail.com ' || $_SESSION['usuario'] == 'Marinalauratn@gmail.com' || $_SESSION['usuario'] == 'Marinalauratn@gmail.com ' ||
-					$_SESSION['usuario'] == 'dayanefranzenufmt@hotmail.com' || $_SESSION['usuario'] == 'dayanefranzenufmt@hotmail.com ' || $_SESSION['usuario'] == 'Dayanefranzenufmt@hotmail.com' || $_SESSION['usuario'] == 'Dayanefranzenufmt@hotmail.com ' ||
-					$_SESSION['usuario'] == 'elisangelalva@gmail.com' || $_SESSION['usuario'] == 'elisangelalva@gmail.com  ' || $_SESSION['usuario'] == 'Elisangelalva@gmail.com' || $_SESSION['usuario'] == 'Elisangelalva@gmail.com  ' ||
-					$_SESSION['usuario'] == 'drumondmatta@gmail.com' || $_SESSION['usuario'] == 'drumondmatta@gmail.com ' || $_SESSION['usuario'] == 'Drumondmatta@gmail.com' || $_SESSION['usuario'] == 'Drumondmatta@gmail.com ' ||
-					$_SESSION['usuario'] == 'rbd_acs@hotmail.com' || $_SESSION['usuario'] == 'rbd_acs@hotmail.com ' || $_SESSION['usuario'] == 'Rbd_acs@hotmail.com' || $_SESSION['usuario'] == 'Rbd_acs@hotmail.com ' ||
-					$_SESSION['usuario'] == 'denilzamascarello@hotmail.com' || $_SESSION['usuario'] == 'denilzamascarello@hotmail.com ' || $_SESSION['usuario'] == 'Denilzamascarello@hotmail.com' || $_SESSION['usuario'] == 'Denilzamascarello@hotmail.com ' ||
-					$_SESSION['usuario'] == 'alexandreabilio10@gmail.com' || $_SESSION['usuario'] == 'amobibi.ss@gmail.com' || $_SESSION['usuario'] == 'wisley2207@hotmail.com' || 
-					$_SESSION['usuario'] == 'temilhomem@hotmail.com' || $_SESSION['usuario'] == 'temilhomem@hotmail.com ' || $_SESSION['usuario'] == 'Temilhomem@hotmail.com' || $_SESSION['usuario'] == 'Temilhomem@hotmail.com ' ||
-					$_SESSION['usuario'] == 'ingridacostta@gmail.com' || $_SESSION['usuario'] == 'ingridacostta@gmail.com ' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com ' ||
-					$_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com ' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com ' ||
-					$_SESSION['usuario'] == 'larissafael171194@gmail.com' || $_SESSION['usuario'] == 'larissafael171194@gmail.com ' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com ' ||
-					$_SESSION['usuario'] == 'mariana.gfonseca@hotmail.com' || $_SESSION['usuario'] == 'mariana.gfonseca@hotmail.com ' || $_SESSION['usuario'] == 'Mariana.gfonseca@hotmail.com' || $_SESSION['usuario'] == 'Mariana.gfonseca@hotmail.com ' ||
-					$_SESSION['usuario'] == 'agnescaires@gmail.com' || $_SESSION['usuario'] == 'agnescaires@gmail.com ' || $_SESSION['usuario'] == 'Agnescaires@gmail.com' || $_SESSION['usuario'] == 'Agnescaires@gmail.com ' ||
-					$_SESSION['usuario'] == 'fucyankee@gmail.com' || $_SESSION['usuario'] == 'fucyankee@gmail.com ' || $_SESSION['usuario'] == 'Fucyankee@gmail.com' || $_SESSION['usuario'] == 'Fucyankee@gmail.com ' ||
-					$_SESSION['usuario'] == 'rodmagalhaes18@gmail.com' || $_SESSION['usuario'] == 'rodmagalhaes18@gmail.com ' || $_SESSION['usuario'] == 'Rodmagalhaes18@gmail.com' || $_SESSION['usuario'] == 'Rodmagalhaes18@gmail.com ' ||
-					$_SESSION['usuario'] == 'adriellysilva123456h@gmail.com' || $_SESSION['usuario'] == 'adriellysilva123456h@gmail.com ' || $_SESSION['usuario'] == 'Adriellysilva123456h@gmail.com' || $_SESSION['usuario'] == 'Adriellysilva123456h@gmail.com ' ||
-					$_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com' ) : ?>
-					<div class="col-sm-6">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">QUEBRANDO A BANCA DPE-MT 22222222</h5>
-								<p class="card-text">Curso da Turma avançada para o concurso da DPE-MT</p>
-								</p>
-								<a href="PrincipaDpeRetaFinal.php" class="btn btn-primary">Acessar</a>
-								<!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-							</div>
-						</div>
-					</div>
-				<?php endif; ?>
-
-
+				
 
 			</div>
 		</div>
