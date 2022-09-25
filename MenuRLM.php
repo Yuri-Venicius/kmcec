@@ -57,10 +57,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
                 </li>
                 <li>
-                    <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
+                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Videoaulas</a>
                 </li>
                 <p></p>
-                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+                <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
             <p>&copy; 2020 | KM Cursos & Concursos<p>

@@ -74,10 +74,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <?php endif ?>
                 </li>
                 <li>
-                    <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
+                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Videoaulas</a>
                 </li>
                 <p></p>
-                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+                <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
             <p>
