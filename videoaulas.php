@@ -113,7 +113,7 @@
 			</nav>
 
 			<h2>Vídeo Aulas</h2>
-			<p>Aqui ficam listadas suas vídeos aulas disponíveis, basta clicar em Acessar e assistir.</p>
+			<p>Aqui ficam listadas suas vídeos aulas disponíveis.</p>
 
 
 			<div class="row">
@@ -2226,8 +2226,7 @@
 						</div>
 					</div>
 				<?php endif; ?>
-
-
+				
 
 			</div>
 		</div>
