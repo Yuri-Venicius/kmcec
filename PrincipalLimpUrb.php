@@ -418,6 +418,7 @@
                                         <a href="LIMPURB_DIR_CLEIDE_AULA04.php">AULA 04 </a><p></p> 
                                         <a href="LIMPURB_DIR_CLEIDE_AULA05.php">AULA 05 </a><p></p> 
                                         <a href="LIMPURB_DIR_CLEIDE_AULA06.php">AULA 06 </a><p></p> 
+                                        <a href="LIMPURB_DIR_CLEIDE_AULA07.php">AULA 07 - EXTRA </a><p></p> 
                                     </div>
                                     </div>    
                         </div>

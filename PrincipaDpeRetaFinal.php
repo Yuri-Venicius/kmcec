@@ -386,8 +386,8 @@
                                     </p>
                                     <div class="collapse" id="collapseArquivologia">
                                     <div class="card card-body"> 
-                                        <p>NÃO HÁ CONTEÚDO GRAVADO DISPONÍVEL</p>
-                                        <!-- <a href="DPE_FINAL_ARQUIVOLOGIA_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 13/08/2022</a><p></p>  -->
+                                        <a href="DPE_FINAL_ARQUIVOLOGIA_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 22/09/2022</a><p></p> 
+                                        <a href="DPE_FINAL_ARQUIVOLOGIA_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 23/09/2022</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
