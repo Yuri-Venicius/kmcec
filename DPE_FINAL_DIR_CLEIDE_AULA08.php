@@ -63,7 +63,7 @@
                 </li>
                 <li>
                     <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
-                        <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
+                        <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
                 <li>
