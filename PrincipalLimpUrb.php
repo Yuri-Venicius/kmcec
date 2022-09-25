@@ -38,9 +38,9 @@
 
 <body>
 
-	<div class="wrapper">
-		<!-- Sidebar  -->
-		<nav id="sidebar">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
             <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
