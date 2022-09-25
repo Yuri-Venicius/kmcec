@@ -60,7 +60,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <a href="./videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
                 </li>
                 <p></p>
-                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+                <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
             <p>&copy; 2020 | KM Cursos & Concursos<p>
