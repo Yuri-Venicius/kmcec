@@ -15,7 +15,7 @@ function enviaEmailPeloServer($conexao, $usuario, $curso){
 
 	Seus acessos iniciais são:
 
-	KM Online: https://kmconcursos.com.br/online/
+	KM Online: https://kmconcursos.com.br/kmonline
 
 	Login: ' . $dadosUsuario['usuario'] . '
 
