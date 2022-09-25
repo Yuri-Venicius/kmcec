@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include('conexao.php');
 include('buscaDadosDoCurso.php');
 include('enviaEmailPeloServer.php');
@@ -33,7 +33,7 @@ $emailUsuario = $array['email'];
             die();
         
         }else{
-            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso) VALUES ('$idUsuario', '$codCurso', now())";
+            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, criadoPor) VALUES ('$idUsuario', '$codCurso', now(), '{$_SESSION['usuario']}')";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
