@@ -47,12 +47,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <ul class="list-unstyled components">
 
-                <p>Bem-Vindo, <?php echo $_SESSION['usuario']; ?></p>
+                <p><?php
+                    if ($usuarioLogado['nome'] == '' || $usuarioLogado['nome'] == 'NULL') {
+                        print("Olá, " . $usuarioLogado['usuario']);
+                    } else {
+                        print("Olá, " . $usuarioLogado['nome']);
+                    }
+                    ?></p>
                 <li>
-                    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                    <a href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                 </li>
                 <li>
-                    <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
+                    <a href="perfil.php"><i class="bi bi-person-circle"></i> Perfil</a>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="novoUsuario.php"><i class="bi bi-person-plus-fill"></i> Cadastros</a>
+                    <?php endif ?>
+                </li>
+                <li>
+                    <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                        <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a>
+                    <?php endif ?>
                 </li>
                 <li>
                     <a href="videoaulas.php"><i class="fas fa-book"></i> Cursos</a>
@@ -61,8 +77,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
             </ul>
             </li>
-            <p>&copy; 2020 | KM Cursos & Concursos
             <p>
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> KM Cursos & Concursos
+            </p>
         </nav>
 
 
@@ -74,8 +93,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
-                        <span>Menu</span>
-
                     </button>
 
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +102,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.php">KM Online</a>
+                                <a nav-link href="https://kmconcursos.com.br/index.php/shop/">
+                                    <button type="button" class="btn btn-warning">Loja KM</button>
+                                </a>
                             </li>
 
                         </ul>
