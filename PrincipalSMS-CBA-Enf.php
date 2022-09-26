@@ -140,7 +140,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     </div>
                     <p></p>
-                </div>
 
                 <div class="card">
                     <div class="card-body">
