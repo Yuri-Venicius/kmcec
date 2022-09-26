@@ -1158,6 +1158,138 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
+                <?php
+                $codCurso = 2632;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - BÁSICO TODOS OS CARGOS</h5>
+                                <p class="card-text">Curso preparatório para Secretaria Municipal de Saúde de Cuiabá [Online]</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSMS-CBA-Basico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2648;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - TÉCNICO DE ENFERMAGEM</h5>
+                                <p class="card-text">Curso preparatório para Secretaria Municipal de Saúde de Cuiabá [Online] - Técnico de Enfermagem</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSMS-CBA-TecEnf.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2650;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - ENFERMAGEM</h5>
+                                <p class="card-text">Curso ONLINE preparatório para a Secretaria Municipal Saúde de Cuiabá - MT para os cargos de Enfermagem</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSMS-CBA-Enf.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2652;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - FARMACÊUTICO</h5>
+                                <p class="card-text">Curso ONLINE preparatório para a Secretaria Municipal de Saúde de Cuiabá - MT, para os cargos de Farmacêutico.</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSMS-CBA-Farmaceutico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2654;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - TÉCNICO ADMINISTRATIVO</h5>
+                                <p class="card-text">Curso ONLINE preparatório para a Secretaria Municipal de Saúde de Cuiabá - MT, para os cargos de Técnico Administrativo.</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSMS-CBA-TecAdm.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2658;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PREPARATÓRIO PARA O CONCURSO DA PC-GO [Online]</h5>
+                                <p class="card-text">Curso ONLINE preparatório para o concurso da Polícia Civil de Goiás, curso para todos os cargos.</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalPC-GO.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
                 <!-- ANTIGAS A SEREM ATUALIZADAS COM NOVA VERIFICAÇÃO  -->
 
 
