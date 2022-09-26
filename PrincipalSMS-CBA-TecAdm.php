@@ -121,8 +121,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 download do material de apoio do bloco, basta clicar em "Materiais" que o Download irá começar.</p>
             <div class="row">
 
-            <div class="col-sm-6">
-                <div class="card">
+                <div class="col-sm-6">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">CONTEÚDO BÔNUS</h5>
                             <p class="card-text">
@@ -133,7 +133,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseConteudoBonus">
                                     <div class="card card-body"> 
-                                        <a href="PrincipalSES-MT">CONTEÚDO BÔNUS - SES-MT</a><p></p> 
+                                        <a href="PrincipalSES-MT.php">CONTEÚDO BÔNUS - SES-MT</a><p></p> 
                                     </div>
                                     </div>
                         </div>
@@ -375,8 +375,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                     </div><p></p>
                 </div>
-
-        </div>
+            </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
