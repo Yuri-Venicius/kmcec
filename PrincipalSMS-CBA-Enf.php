@@ -385,8 +385,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
-                    <p></p>
                 </div>
+                <p></p>
             </div>
 
             <!-- jQuery CDN - Slim version (=without AJAX) -->
