@@ -140,7 +140,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     </div>
                     <p></p>
-
+                <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">ESPECÍFICO ENFERMAGEM</h5>
@@ -158,7 +158,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 </div>
                 <p></p>
+                </div>
 
+                <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
@@ -176,6 +178,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 </div>
                 <p></p>
+                </div>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -194,8 +197,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -214,8 +217,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -233,8 +236,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -252,8 +255,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -271,8 +274,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -290,8 +293,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -309,8 +312,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -328,8 +331,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -347,8 +350,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -366,8 +369,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
 
                 <div class="col-sm-6">
                     <div class="card">
@@ -385,8 +388,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </div>
                         </div>
                     </div>
+                    <p></p>
                 </div>
-                <p></p>
             </div>
 
             <!-- jQuery CDN - Slim version (=without AJAX) -->
