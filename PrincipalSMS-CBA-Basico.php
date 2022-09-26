@@ -133,7 +133,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseConteudoBonus">
                                 <div class="card card-body">
-                                    <a href="PrincipalSES-MT">CONTEÚDO BÔNUS - SES-MT</a>
+                                    <a href="PrincipalSES-MT.php">CONTEÚDO BÔNUS - SES-MT</a>
                                     <p></p>
                                 </div>
                             </div>
