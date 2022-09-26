@@ -138,8 +138,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </div>
                             </div>
                         </div>
-                        <p></p>
-                    </div>
+                    </div><p></p>
+                </div>
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -156,8 +156,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <p></p>
+                        </div><p></p>
                     </div>
 
                     <div class="col-sm-6">
