@@ -6,7 +6,7 @@ include('enviaEmailPeloServer.php');
 $usuario = $_POST['usuario'];
 $senha = MD5($_POST['senha']);
 $nome = $_POST['nome'];
-$sobrenome = $_POST['senha'];
+$sobrenome = $_POST['sobrenome'];
 $cpf = $_POST['cpf'];
 $email = $_POST['email'];
 $contato = $_POST['contato'];
