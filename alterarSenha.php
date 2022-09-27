@@ -14,7 +14,7 @@ $select = mysqli_query($conexao, $query_select);
 $result = mysqli_fetch_array($select);
 $temp = $result['senha'];
 
-if($senhaAtual != $temp){
+if($senhaAtual){
     echo"<script language='javascript' type='text/javascript'>
         alert('A sua SENHA ATUAL esta incorreta, digite-a novamente!');
         window.location.href='perfil.php';</script>";
