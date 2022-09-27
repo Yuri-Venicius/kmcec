@@ -140,7 +140,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <input type="text" class="form-control" name="novaSenha" id="novaSenha">
                     </div>
                 </div>
-                <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Alterar</button><p></p>
+                <button type="submit" value="AlterarSenha" id="alterarSenha" class="btn btn-primary">Alterar</button><p></p>
             </form>
         </div>
     </div>

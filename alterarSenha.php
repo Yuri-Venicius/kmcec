@@ -9,7 +9,7 @@ $usuarioAtual = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $novaSenha = MD5($_POST['novaSenha']);
 $senhaAtual = MD5($_POST['senhaAtual']);
 
-$query_select = "SELECT * FROM usuarios WHERE usuario = {$_SESSION['usuario']}";
+$query_select = "SELECT senha FROM usuarios WHERE usuario = {$_SESSION['usuario']}";
 $select = mysqli_query($conexao, $query_select);
 $result = mysqli_fetch_array($select);
 $temp = $result['senha'];
