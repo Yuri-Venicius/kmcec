@@ -110,14 +110,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <h2>Meus Dados</h2>
             <form>
                 <div class="form-row">
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-6">
                         <label for="nome">Nome</label>
                         <input type="text" readonly class="form-control-plaintext"  name="nome" id="nome" placeholder="<?php print($usuarioLogado['nome']." ". $usuarioLogado['sobrenome']) ?>">
                     </div>
-                    <div class="form-group col-md-3">
+                    <!-- <div class="form-group col-md-3">
                         <label for="cpf">CPF</label>
                         <input type="text" readonly class="form-control-plaintext"  name="cpf" id="cpf" placeholder="<?php print(substr($usuarioLogado['cpf'], -11, 3).".".substr($usuarioLogado['cpf'], -8, 3).".".substr($usuarioLogado['cpf'], -5, 3)."-".substr($usuarioLogado['cpf'], -2, 2)) ?>">
-                    </div>
+                    </div> -->
                     <div class="form-group col-md-6">
                         <label for="email">E-mail</label>
                         <input type="text" readonly class="form-control-plaintext"  name="email" id="email" placeholder="<?php print($usuarioLogado['email']) ?>">
@@ -128,12 +128,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 </div>
             </form>
-            <!-- <h2>Alterar senha de acesso</h2>
-            <form method="POST" action="alteraDadosUsuario.php">
+            <h2>Alterar senha de acesso</h2>
+            <form method="POST" action="alterarSenha.php">
                 <div class="form-row">
                     <div class="form-group col-md-4">
-                        <label for="senha">Senha atual</label>
-                        <input type="text" class="form-control" name="senha" id="senha">
+                        <label for="senhaAtual">Senha atual</label>
+                        <input type="text" class="form-control" name="senhaAtual" id="senhaAtual">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="novaSenha">Nova Senha</label>
@@ -145,7 +145,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 </div>
                 <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Alterar</button><p></p>
-            </form> -->
+            </form>
         </div>
     </div>
 
