@@ -16,7 +16,7 @@ $result = mysqli_fetch_array($select);
 if($senhaAtual != $result['senha'] || $senhaAtual == ''){
     echo"<script language='javascript' type='text/javascript'>
         alert('A sua SENHA ATUAL esta incorreta, digite-a novamente!');
-        window.location.href='cadastroUsuarioCurso.php';</script>";
+        window.location.href='perfil.php';</script>";
 
 }else{
         $query = "UPDATE usuarios SET senha = '$novaSenha' WHERE usuario='{$_SESSION['usuario']}' and $usuario = '{$usuarioAtual['usuario']}'";
