@@ -31,7 +31,7 @@ $nomeUser = $array['nome'];
             die();
         
         }else{
-            $query = "INSERT INTO usuarios(usuario, senha, nome, sobrenome, cpf, email, contato) VALUES ('$usuario','$senha', '$nome', '$sobrenome', '$cpf', '$email', '$contato')";
+            $query = "INSERT INTO usuarios(usuario, senha, nome, cpf, email, contato, sobrenome) VALUES ('$usuario','$senha', '$nome', '$cpf', '$email', '$contato', '$sobrenome')";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
