@@ -38,9 +38,10 @@ $emailUsuario = $array['email'];
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
-                enviaEmailPeloServer($conexao, $array['usuario'], $codCurso);
+                ($nomeUsuario == null) ? $var = $logarray : $var = $nomeUsuario;
+                ($array['email'] == null) ? enviaEmailPeloServer($conexao, $logarray, $codCurso) : enviaEmailPeloServer($conexao, $array['usuario'], $codCurso);
                 echo"<script language='javascript' type='text/javascript'>
-                    alert('Usuário $nomeUsuario cadastrado em: {$nomeCurso['nomeCurso']} com sucesso!');
+                    alert('Usuário $var cadastrado em: {$nomeCurso['nomeCurso']} com sucesso!');
                     window.location.href='novoUsuario.php'</script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
