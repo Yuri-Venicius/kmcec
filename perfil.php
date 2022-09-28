@@ -128,7 +128,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 </div>
             </form>
-            <!-- <h2>Alterar senha de acesso</h2>
+            <h2>Alterar senha de acesso</h2>
             <form method="POST" action="alterarSenha.php">
                 <div class="form-row">
                     <div class="form-group col-md-4">
@@ -140,8 +140,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <input type="text" class="form-control" name="novaSenha" id="novaSenha">
                     </div>
                 </div>
-                <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Alterar</button><p></p>
-            </form> -->
+                <button type="submit" value="AlterarSenha" id="alterarSenha" class="btn btn-primary">Alterar</button><p></p>
+            </form>
         </div>
     </div>
 
