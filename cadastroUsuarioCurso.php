@@ -8,7 +8,7 @@ $cpfParaCurso = $_POST['cpfParaCurso'];
 $cpfComoSenha = MD5($_POST['cpfParaCurso']);
 $codCurso = $_POST['codCurso'];
 
-$query_select = "SELECT id, usuario, nome FROM usuarios WHERE cpf = '$cpfParaCurso' or senha = '$cpfComoCurso'";
+$query_select = "SELECT id, usuario, nome FROM usuarios WHERE cpf = '$cpfParaCurso' or senha = '$cpfComoSenha'";
 $select = mysqli_query($conexao, $query_select);
 $array = mysqli_fetch_array($select);
 $logarray = $array['usuario'];
