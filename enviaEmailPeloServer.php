@@ -8,16 +8,19 @@ include_once('buscaDadosDoCurso.php');
 function enviaEmailPeloServer($conexao, $usuario, $curso){
 	$dadosUsuario = buscaDadosBasicosUsuario($conexao, $usuario);
 	$cursoCadastrado = buscaDadosDoCurso($conexao, $curso);
+	($dadosUsuario['email'] == null) ? $varEmail = $usuario : $varEmail = $dadosUsuario['email']; 
 
-	$to			= $dadosUsuario['email'];
+	$to			= $varEmail;
 	$subject	= 'KM C&C - SEU ACESSO AO CURSO: ' . $cursoCadastrado['nomeCurso'];
-	$message	= 'Olá '. $dadosUsuario['nome'] . ', venho lhe dar as boas vindas ao Curso: '.$cursoCadastrado['nomeCurso'].'
+	$message	= 
+	
+	'Olá '. $dadosUsuario['nome'] . ', venho lhe dar as boas vindas ao Curso: '.$cursoCadastrado['nomeCurso'].'
 
 	Seus acessos iniciais são:
 
 	KM Online: https://kmconcursos.com.br/kmonline
 
-	Login: ' . $dadosUsuario['usuario'] . '
+	Login: ' . $varEmail . '
 
 	Senha: Seu CPF, sem traços, pontos ou espaços.
 
