@@ -7,6 +7,12 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+
+filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -139,12 +145,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <input type="text" class="form-control" name="contato" id="contato">
                         </div>
                         <div class="form-group col-md-3">
-                            <label for="usuario">Usuário [email]</label>
-                            <input type="text" class="form-control" name="usuario" id="usuario">
+                            <label for="usuario">Usuário [email]*</label>
+                            <input type="text" class="form-control" name="usuario" id="usuario" required>
                         </div>
                         <div class="form-group col-md-3">
-                            <label for="senha">Senha [CPF]</label>
-                            <input type="text" class="form-control" name="senha" id="senha">
+                            <label for="senha">Senha [CPF]*</label>
+                            <input type="number" min="1" max="11" class="form-control" name="senha" id="senha" required>
                         </div>
                     </div>
 
@@ -159,7 +165,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
                     <div class="col-md-3">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="text" class="form-control" name="cpfParaCurso" id="cpfParaCurso">
+                        <input type="number" class="form-control" name="cpf" id="cpfParaCurso">
                     </div>
                     <div class="col-md-9">
                         <label for="codCurso" class="form-label">Curso</label>
