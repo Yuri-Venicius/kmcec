@@ -7,6 +7,7 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -115,7 +116,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <h2>Cadastro de novo usuário</h2>
             <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
 
-            <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+            <?php 
+
+            if ($verificaAdm['nivelAcesso'] == '1') : ?>
                 <form method="POST" action="cadastroUsuario.php">
                     <div class="form-row">
                         <div class="form-group col-md-3">
@@ -140,11 +143,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="usuario">Usuário [email]</label>
-                            <input type="text" class="form-control" name="usuario" id="usuario">
+                            <input type="text" class="form-control" name="usuario" id="usuario" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="senha">Senha [CPF]</label>
-                            <input type="text" class="form-control" name="senha" id="senha">
+                            <input type="number" class="form-control" name="senha" id="senha" required>
                         </div>
                     </div>
 
@@ -159,7 +162,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
                     <div class="col-md-3">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="text" class="form-control" name="cpfParaCurso" id="cpfParaCurso">
+                        <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
                     <div class="col-md-9">
                         <label for="codCurso" class="form-label">Curso</label>
