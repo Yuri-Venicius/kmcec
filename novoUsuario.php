@@ -150,7 +150,7 @@ filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="senha">Senha [CPF]*</label>
-                            <input type="number" min="1" max="11" class="form-control" name="senha" id="senha" required>
+                            <input type="number" class="form-control" name="senha" id="senha" required>
                         </div>
                     </div>
 
