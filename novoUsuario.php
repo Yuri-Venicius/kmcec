@@ -162,7 +162,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
                     <div class="col-md-3">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="number" class="form-control" name="cpf" id="cpfParaCurso" required>
+                        <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
                     <div class="col-md-9">
                         <label for="codCurso" class="form-label">Curso</label>
