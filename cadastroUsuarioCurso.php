@@ -22,7 +22,7 @@ $emailUsuario = $array['email'];
 
     if($logarray == "" || $logarray == null){
         echo"<script language='javascript' type='text/javascript'>
-            alert('O Campo curso precisa ser preenchido');
+            alert('Este usuário não esta matriculado!');
             window.location.href='novoUsuario.php';</script>";
 
     }else{
