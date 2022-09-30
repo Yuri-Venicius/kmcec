@@ -131,7 +131,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="cpf">CPF</label>
-                            <input type="text" class="form-control" name="cpf" id="cpf">
+                            <input type="number" class="form-control" name="cpf" id="cpf">
                         </div>
                         <div class="form-group col-md-3">
                             <label for="email">E-mail</label>
