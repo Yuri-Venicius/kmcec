@@ -8,10 +8,6 @@ include('verificaAcessoAoCurso.php');
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
-filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
-filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
-
 
 ?>
 <!DOCTYPE html>
@@ -121,7 +117,11 @@ filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
             <h2>Cadastro de novo usuário</h2>
             <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
 
-            <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+            <?php 
+            filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+            filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+            filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
+            if ($verificaAdm['nivelAcesso'] == '1') : ?>
                 <form method="POST" action="cadastroUsuario.php">
                     <div class="form-row">
                         <div class="form-group col-md-3">
@@ -165,7 +165,7 @@ filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
                     <div class="col-md-3">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="number" class="form-control" name="cpf" id="cpfParaCurso">
+                        <input type="number" class="form-control" name="cpf" id="cpfParaCurso" required>
                     </div>
                     <div class="col-md-9">
                         <label for="codCurso" class="form-label">Curso</label>
