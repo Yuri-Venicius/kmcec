@@ -8,7 +8,9 @@ include('verificaAcessoAoCurso.php');
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
-
+filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
 ?>
 <!DOCTYPE html>
 <html>
@@ -118,9 +120,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
 
             <?php 
-            filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-            filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
-            filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
+
             if ($verificaAdm['nivelAcesso'] == '1') : ?>
                 <form method="POST" action="cadastroUsuario.php">
                     <div class="form-row">
@@ -146,7 +146,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="usuario">Usuário [email]*</label>
-                            <input type="text" class="form-control" name="usuario" id="usuario" required>
+                            <input type="text" class="form-control" name="email" id="usuario" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="senha">Senha [CPF]*</label>
