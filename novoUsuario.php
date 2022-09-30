@@ -8,6 +8,7 @@ include('verificaAcessoAoCurso.php');
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
+filter_input(INPUT_POST, 'usuario', FILTER_SANITIZE_EMAIL);
 filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
@@ -146,7 +147,7 @@ filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="usuario">Usuário [email]*</label>
-                            <input type="text" class="form-control" name="email" id="usuario" required>
+                            <input type="text" class="form-control" name="usuario" id="usuario" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="senha">Senha [CPF]*</label>
