@@ -1312,7 +1312,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 				<?php endif; ?>
 
 				<?php if (
-					$_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com ' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com ' ||
+					// $_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'viniciusdaniel.s@hotmail.com ' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com' || $_SESSION['usuario'] == 'Viniciusdaniel.s@hotmail.com ' ||
 					$_SESSION['usuario'] == 'jessica-amorim912@hotmail.com' || $_SESSION['usuario'] == 'jessica-amorim912@hotmail.com ' || $_SESSION['usuario'] == 'Jessica-amorim912@hotmail.com' || $_SESSION['usuario'] == 'Jessica-amorim912@hotmail.com ' ||
 					$_SESSION['usuario'] == 'amanda_infinito@hotmail.com' || $_SESSION['usuario'] == 'amanda_infinito@hotmail.com ' || $_SESSION['usuario'] == 'Amanda_infinito@hotmail.com' || $_SESSION['usuario'] == 'Amanda_infinito@hotmail.com ' ||
 					$_SESSION['usuario'] == 'renato.adama@gmail.com' || $_SESSION['usuario'] == 'renato.adama@gmail.com ' || $_SESSION['usuario'] == 'Renato.adama@gmail.com' || $_SESSION['usuario'] == 'Renato.adama@gmail.com ' ||
