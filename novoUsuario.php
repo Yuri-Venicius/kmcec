@@ -143,7 +143,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="usuario">Usuário [email]</label>
-                            <input type="text" class="form-control is-valid" name="usuario" id="usuario" required>
+                            <input type="text" class="form-control" name="usuario" id="usuario" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="senha">Senha [CPF]</label>
@@ -178,7 +178,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-12">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
                                 Confirmar o cadastro
                             </label>
