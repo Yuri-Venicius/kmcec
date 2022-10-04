@@ -220,7 +220,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDireitoPenal">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_DIR_PENAL_KLEBER_AULA01.php">AULA 01 - GRAVAÇÃO 06/01/2022</a><p></p> -->
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +366,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">REALIDADE ÉTNICA, POLÍTICA E ECONÔMICA DO ESTADO DE GOIÁS - MICHELE DONEGÁ</h5>
+                                <h5 class="card-title">LEGISLAÇÃO PENAL ESPECIAL - MICHELE DONEGÁ</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegEspMichele" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -375,7 +375,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLegEspMichele">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 12/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 28/09/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
