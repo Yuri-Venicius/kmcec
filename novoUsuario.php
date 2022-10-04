@@ -164,7 +164,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
                         <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-3">
+                        <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
+                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control">
+                            <option selected>Selecione a modalidade</option>
+                            <option value="ONLINE"> Aluno ONLINE</option>
+                            <option value="PRESENCIAL"> Aluno PRESENCIAL</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
                         <label for="codCurso" class="form-label">Curso</label>
                         <select name="codCurso" id="codCurso" class="form-control">
                             <option selected>Selecione o curso</option>
@@ -176,27 +184,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <?php } ?>
                         </select>
                     </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Aluno ONLINE
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Aluno PRESENCIAL
-                            </label>
-                        </div>
-                    </div>
                     <div class="col-4">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
-                                Confirmar o cadastro
+                               Eu chequei os dados e CONFIRMO o cadastro do aluno.
                             </label>
                         </div>
                     </div>
