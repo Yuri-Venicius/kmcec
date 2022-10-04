@@ -164,12 +164,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
                         <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
                         <select name="modalidadeAluno" id="modalidadeAluno" class="form-control">
-                            <option selected>Selecione a modalidade</option>
-                            <option value="ONLINE"> Aluno ONLINE</option>
-                            <option value="PRESENCIAL"> Aluno PRESENCIAL</option>
+                            <option selected>Selecione</option>
+                            <option value="ONLINE">Aluno ONLINE</option>
+                            <option value="PRESENCIAL">Aluno PRESENCIAL</option>
                         </select>
                     </div>
                     <div class="col-md-8">
@@ -183,7 +183,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
                             <?php } ?>
                         </select>
-                    </div>
+                    </div><p></p>
                     <div class="col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck" required>
