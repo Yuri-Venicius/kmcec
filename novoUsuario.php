@@ -166,15 +166,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-md-3">
                         <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
-                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control">
+                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control" required>
                             <option selected>Selecione</option>
                             <option value="ONLINE">Aluno ONLINE</option>
                             <option value="PRESENCIAL">Aluno PRESENCIAL</option>
                         </select>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-6">
                         <label for="codCurso" class="form-label">Curso</label>
-                        <select name="codCurso" id="codCurso" class="form-control">
+                        <select name="codCurso" id="codCurso" class="form-control" required>
                             <option selected>Selecione o curso</option>
                             <?php $query = "SELECT * from curso";
                             $select = mysqli_query($conexao, $query);
