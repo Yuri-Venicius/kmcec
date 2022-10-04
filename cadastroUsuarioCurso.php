@@ -35,7 +35,7 @@ $emailUsuario = $array['email'];
             die();
         
         }else{
-            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, criadoPor, modalidadeAluno) VALUES ('$idUsuario', '$codCurso', now(), '{$_SESSION['usuario']}', '$modalidadeAluno')";
+            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, statusAcesso, criadoPor, modalidadeAluno) VALUES ('$idUsuario', '$codCurso', now(), 'ATIVO', '{$_SESSION['usuario']}', '$modalidadeAluno')";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){

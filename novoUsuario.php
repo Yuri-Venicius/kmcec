@@ -160,11 +160,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
 
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
                         <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
                         <select name="modalidadeAluno" id="modalidadeAluno" class="form-control">
                             <option selected>Selecione a modalidade</option>
@@ -172,7 +172,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <option value="PRESENCIAL"> Aluno PRESENCIAL</option>
                         </select>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-8">
                         <label for="codCurso" class="form-label">Curso</label>
                         <select name="codCurso" id="codCurso" class="form-control">
                             <option selected>Selecione o curso</option>
@@ -184,7 +184,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <?php } ?>
                         </select>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
