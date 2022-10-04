@@ -1290,6 +1290,29 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
+                <?php
+                $codCurso = 2637;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PREPARATÓRIO PARA O CONCURSO DO INSS [Online]</h5>
+                                <p class="card-text">Curso ONLINE preparatório para o concurso do INSS, cargo Técnico do Seguro Social do INSS.</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalINSS.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+
                 <!-- ANTIGAS A SEREM ATUALIZADAS COM NOVA VERIFICAÇÃO  -->
 
 
