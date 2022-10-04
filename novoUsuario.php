@@ -116,7 +116,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <h2>Cadastro de novo usuário</h2>
             <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
 
-            <?php 
+            <?php
 
             if ($verificaAdm['nivelAcesso'] == '1') : ?>
                 <form method="POST" action="cadastroUsuario.php">
@@ -160,13 +160,21 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
 
                 <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
                         <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-3">
+                        <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
+                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control" required>
+                            <option selected>Selecione</option>
+                            <option value="ONLINE">Aluno ONLINE</option>
+                            <option value="PRESENCIAL">Aluno PRESENCIAL</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
                         <label for="codCurso" class="form-label">Curso</label>
-                        <select name="codCurso" id="codCurso" class="form-select">
+                        <select name="codCurso" id="codCurso" class="form-control" required>
                             <option selected>Selecione o curso</option>
                             <?php $query = "SELECT * from curso";
                             $select = mysqli_query($conexao, $query);
@@ -175,12 +183,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
                             <?php } ?>
                         </select>
-                    </div>
-                    <div class="col-12">
+                    </div><p></p>
+                    <div class="col-6">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
-                                Confirmar o cadastro
+                               Eu chequei os dados e CONFIRMO o cadastro do aluno.
                             </label>
                         </div>
                     </div>
@@ -188,7 +196,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <button type="submit" value="CadastrarAlunoCurso" id="cadastrarAlunoCurso" class="btn btn-primary">Cadastrar no Curso</button>
                     </div>
                 </form>
-
             <?php endif; ?>
 
 
