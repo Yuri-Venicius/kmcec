@@ -7,6 +7,7 @@ include('enviaEmailPeloServer.php');
 $cpfParaCurso = $_POST['cpfParaCurso'];
 $cpfComoSenha = MD5($_POST['cpfParaCurso']);
 $codCurso = $_POST['codCurso'];
+$modalidadeAluno = $_POST['modalidadeAluno'];
 
 $query_select = "SELECT id, usuario, nome FROM usuarios WHERE cpf = '$cpfParaCurso' or senha = '$cpfComoSenha'";
 $select = mysqli_query($conexao, $query_select);
@@ -34,7 +35,7 @@ $emailUsuario = $array['email'];
             die();
         
         }else{
-            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, criadoPor) VALUES ('$idUsuario', '$codCurso', now(), '{$_SESSION['usuario']}')";
+            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, statusAcesso, criadoPor, modalidadeAluno) VALUES ('$idUsuario', '$codCurso', now(), 'ATIVO', '{$_SESSION['usuario']}', '$modalidadeAluno')";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
