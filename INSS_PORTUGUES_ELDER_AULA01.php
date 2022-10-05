@@ -89,19 +89,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
             <?php
-            $codCurso = 2658;
+            $codCurso = 2637;
             $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
             if (
                 $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
             ) : ?>
             
 
-                <h2>CARREIRAS POLICIAIS ONLINE PC GOIÁS - RLM | PROFESSOR IGOR BRASIL</h2><h3>AULA 02</h3>
+                <h2>INSS - PORTUGUÊS | PROFESSOR ELDER DENCATI</h2><h3>AULA 01</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_RLM_IGOR_AULA01.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_RLM_IGOR_AULA03.php">Próximo</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA02.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/xzexpq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/b73n16" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
