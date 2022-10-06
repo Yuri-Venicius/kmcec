@@ -131,6 +131,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
+                                <h5 class="card-title">CONTEÚDO BÔNUS - ISOLADAS</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConteudoBonus" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS - CONTEÚDO BÔNUS - ISOLADAS
+                                    </button>
+                                    <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1KocBo-tifzB3NY_0qpOroBPaTtwaSBKo?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
+                                </p>
+                                <div class="collapse" id="collapseConteudoBonus">
+                                    <div class="card card-body">
+                                        <a href="PrincipalIsoladasKM.php">CONTEÚDO BÔNUS - ISOLADAS DO KM</a>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
                                 <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHelio" aria-expanded="false" aria-controls="collapseExample">
@@ -160,8 +181,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesElder">
                                     <div class="card card-body">
-                                        <a href="PC-GO_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 22/09/2022</a><p></p> 
-                                        <a href="PC-GO_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a><p></p> 
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 22/09/2022</a>
+                                        <p></p>
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +200,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesGouveia" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1H4AnfuykdfqUCHzeVpzWwa9Ef7xbmAuF?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1H4AnfuykdfqUCHzeVpzWwa9Ef7xbmAuF?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
@@ -197,11 +220,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDireitoConstitucional" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1yR5B5mMcgTBI6ROZEnLGxTD7wyq-LueO?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1yR5B5mMcgTBI6ROZEnLGxTD7wyq-LueO?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseDireitoConstitucional">
                                     <div class="card card-body">
-                                        <a href="PC-GO_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 30/09/2022</a><p></p>
+                                        <a href="PC-GO_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 30/09/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -216,11 +240,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDireitoPenal" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1d7c8vVn6f4K8Z8DtjivXxmVgL0PWqJyB?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1d7c8vVn6f4K8Z8DtjivXxmVgL0PWqJyB?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseDireitoPenal">
                                     <div class="card card-body">
-                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a><p></p>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -235,13 +260,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlm" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1HxUpQ6n8SF97mEXsr3Ydg7WxFCSk410D?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1HxUpQ6n8SF97mEXsr3Ydg7WxFCSk410D?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseRlm">
                                     <div class="card card-body">
-                                        <a href="PC-GO_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/09/2022</a><p></p>
-                                        <a href="PC-GO_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a><p></p>
-                                        <a href="PC-GO_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 03/10/2022</a><p></p>
+                                        <a href="PC-GO_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/09/2022</a>
+                                        <p></p>
+                                        <a href="PC-GO_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
+                                        <p></p>
+                                        <a href="PC-GO_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 03/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -256,12 +284,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAdmCleide" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1V-Uu2g51XXqVtakFE3MrDCdo8LoyMJsl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1V-Uu2g51XXqVtakFE3MrDCdo8LoyMJsl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseDirAdmCleide">
                                     <div class="card card-body">
-                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 20/09/22</a><p></p>
-                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 21/09/22</a><p></p>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 20/09/22</a>
+                                        <p></p>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 21/09/22</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +306,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCppMarciano" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/190NhH6Y9FUbjoDrjcvd-1cCFdQlmSzYj?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/190NhH6Y9FUbjoDrjcvd-1cCFdQlmSzYj?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseCppMarciano">
                                     <div class="card card-body">
@@ -295,7 +325,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistoriaGenesis" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1s_rBPJwXZTVGSTP8UiEuddEE5eGDIpAr?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1s_rBPJwXZTVGSTP8UiEuddEE5eGDIpAr?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseHistoriaGenesis">
                                     <div class="card card-body">
@@ -314,7 +344,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMarcelo" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k71ls0DwrTleJTc0Dcdyf5mvvT_7BGtA?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k71ls0DwrTleJTc0Dcdyf5mvvT_7BGtA?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseGeografiaMarcelo">
                                     <div class="card card-body">
@@ -372,11 +402,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegEspMichele" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1irzxz8HdDY78xykbsymsciWn5dn3zws4?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1irzxz8HdDY78xykbsymsciWn5dn3zws4?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseLegEspMichele">
                                     <div class="card card-body">
-                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 28/09/2022</a><p></p> 
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 28/09/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -391,7 +422,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCrimDavoli" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1jzEsi5G2VFXkAX9nPXyBW4GzuGkF_S3X?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1jzEsi5G2VFXkAX9nPXyBW4GzuGkF_S3X?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseCrimDavoli">
                                     <div class="card card-body">
