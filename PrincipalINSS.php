@@ -221,7 +221,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDireitoConstitucional">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 07/01/2022</a><p></p> -->
+                                        <a href="INSS_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
