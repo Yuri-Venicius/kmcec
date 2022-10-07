@@ -344,11 +344,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegCleide" aria-expanded="false" aria-controls="collapseExample">
                                 <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                             </button>
-                            <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/10htz7zmI6gIrhK2pmoaNArDOj8yfDFup?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1tRX-v5ZNFsJgzqxzHK-VPfIG6jGFgAQU?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
                             </p>
                             <div class="collapse" id="collapseLegCleide">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_GESTAO_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 18/03/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 05/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
