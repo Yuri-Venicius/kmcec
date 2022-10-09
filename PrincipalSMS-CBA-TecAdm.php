@@ -215,7 +215,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePortuguesGouveia">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 01/04/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 06/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePortuguesElder">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE_SES_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 21/03/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 07/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
