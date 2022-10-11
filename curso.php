@@ -113,89 +113,118 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>Cadastro de novo usuário</h2>
-            <p>Esta área é exclusiva para cadastro de novo usuário na plataforma</p>
+            <h2>Criar um novo Curso</h2>
+            <p>Esta área é exclusiva para criar um novo curso na Plataforma (isso não afeta o site de vendas)</p>
 
             <?php
 
             if ($verificaAdm['nivelAcesso'] == '1') : ?>
-                <form method="POST" id="formularioCadastroUsuario" action="cadastroUsuario.php">
+                <form method="POST" id="formCriaNovoCurso" action="novoCurso.php">
                     <div class="form-row">
                         <div class="form-group col-md-3">
-                            <label for="nome">Nome</label>
-                            <input type="text" class="form-control" name="nome" id="nome">
+                            <label for="nome">Código do Curso</label>
+                            <input type="number" placeholder="Insira o mesmo do site KM" class="form-control" name="idCurso" id="idCurso" required>
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="sobrenome">Sobrenome</label>
-                            <input type="text" class="form-control" name="sobrenome" id="sobrenome">
+                        <div class="form-group col-md-9">
+                            <label for="nome">Link do Curso no Site KM</label>
+                            <input type="text" placeholder="Insira o link do curso do site de vendas da KM" class="form-control" name="linkDoCursoNoSiteKM" id="linkDoCursoNoSiteKM " required>
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="cpf">CPF</label>
-                            <input type="number" class="form-control" name="cpf" id="cpf">
+                        <div class="form-group col-md-12">
+                            <label for="nome">Nome do curso</label>
+                            <input type="text" class="form-control" name="nomeCurso" id="nomeCurso" required>
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="email">E-mail</label>
-                            <input type="text" class="form-control" name="email" id="email">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="contato">Contato</label>
-                            <input type="text" class="form-control" name="contato" id="contato">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="usuario">Usuário [email]</label>
-                            <input type="text" class="form-control" name="usuario" id="usuario" required>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="senha">Senha [CPF]</label>
-                            <input type="number" class="form-control" name="senha" id="senha" required>
+                        <div class="form-group col-md-12">
+                            <label for="sobrenome">Descrição do Curso</label>
+                            <textarea class="form-control" name="descricao" id="descricao" rows="4"></textarea>
                         </div>
                     </div>
-
-                    <button type="submit" value="Cadastrar" id="botaoCadastrarUsuario" class="btn btn-primary">Cadastrar Usuário</button>
-                    <button type="submit" value="AlterarDados" id="botaoAlterarDadosUsuario" class="btn btn-warning">Alterar dados do Usuário</button>
+                    <button type="submit" value="CriarNovoCurso" id="botaoCriarCursoNovo" class="btn btn-primary">Criar Curso</button>
                     <p></p>
                 </form>
 
-                <h2>Cadastro de usuário em um curso</h2>
-                <p>Esta área é exclusiva para cadastro de um usuário existente em um curso</p>
-                <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
-
-                <form class="row g-3" id="formularioCadastroUsuarioCurso" method="POST" action="cadastroUsuarioCurso.php">
-                    <div class="col-md-2">
-                        <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
-                    </div>
-                    <div class="col-md-3">
-                        <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
-                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control" required>
-                            <option selected>Selecione</option>
-                            <option value="ONLINE">Aluno ONLINE</option>
-                            <option value="PRESENCIAL">Aluno PRESENCIAL</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
+                <h2>Adicionar nova aula ao curso</h2>
+                <p>Esta área é exclusiva para inserir uma nova aula em um curso EXISTENTE</p>
+                <p>Nota: É necessário que o curso já esteja criado na plaforma</p>
+                
+                <form class="row g-12'" id="formularioCadastroAulaNovaEmCursoExistente" method="POST" action="novaAulaPorCurso.php">
+                    <div class="col-md-4">
                         <label for="codCurso" class="form-label">Curso</label>
                         <select name="codCurso" id="codCurso" class="form-control" required>
                             <option selected>Selecione o curso</option>
                             <?php $query = "SELECT * from curso";
                             $select = mysqli_query($conexao, $query);
-
+    
                             while ($result = mysqli_fetch_assoc($select)) { ?>
                                 <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
                             <?php } ?>
                         </select>
                     </div>
+                    <div class="col-md-4">
+                        <label for="professorDaAula" class="form-label">Professor da Aula</label>
+                        <input type="text" class="form-control" name="professorDaAula" id="professorDaAula" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="materiaDaAula" class="form-label">Matéria da Aula</label>
+                        <select name="materiaDaAula" id="materiaDaAula" class="form-control" required>
+                            <option selected>Selecione</option>
+                            <option value="ONLINE">Aluno ONLINE</option>
+                            <option value="PRESENCIAL">Aluno PRESENCIAL</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="tituloDaAula" class="form-label">Título da Aula</label>
+                        <input placeholder="Título da aula" type="text" class="form-control" name="tituloDaAula" id="tituloDaAula" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="descricaoDaAula" class="form-label">Descrição da Aula</label>
+                        <textarea class="form-control" name="descricaoDaAula" id="descricaoDaAula" rows="4"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="duracaoDaAula" class="form-label">Duração da Aula</label>
+                        <input placeholder="Duração em minutos" type="number" class="form-control" name="duracaoDaAula" id="duracaoDaAula">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="dataDaGravacao" class="form-label">URL da aula no servidor</label>
+                        <input placeholder="Cole aqui a URL da aula no servidor" type="number" class="form-control" name="urlNoServidor" id="urlNoServidor" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="dataDaGravacao" class="form-label">Data da Gravação da Aula</label>
+                        <input placeholder="Insira a data em que a aula foi gravada" type="date" class="form-control" name="dataDaGravacao" id="dataDaGravacao" required>
+                    </div>
                     <p></p>
-                    <div class="col-6">
+                    <div class="col-12">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
-                                Eu chequei os dados e CONFIRMO o cadastro do aluno.
+                                Marque para enviar e-mail notificando os alunos do curso!
                             </label>
                         </div>
                     </div>
+                    <p></p>
                     <div class="col-12">
-                        <button type="submit" value="CadastrarAlunoCurso" id="cadastrarAlunoCurso" class="btn btn-primary">Cadastrar no Curso</button>
+                        <button type="submit" value="CadastrarNovaAulaEmCursoExistente" id="cadastrarNovaAulaEmCursoExistente" class="btn btn-primary">Criar nova aula</button>
+                    </div>
+                </form>
+
+                <form class="row g-12'" id="formularioEnviaEmailDeAulaNova" method="POST" action="enviaEmailDeAulaNova.php">
+                    <div class="col-md-12">
+                        <label for="codCurso" class="form-label">Curso</label>
+                        <select name="codCurso" id="codCurso" class="form-control" required>
+                            <option selected>Selecione o curso</option>
+                            <?php $query = "SELECT * from curso";
+                            $select = mysqli_query($conexao, $query);
+    
+                            while ($result = mysqli_fetch_assoc($select)) { ?>
+                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="aulaNovaPostada" class="form-label">Descrição do conteúdo postado</label>
+                        <textarea class="form-control" name="aulaNovaPostada" id="aulaNovaPostada" rows="4"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" value="EnviarEmailParaAlunosCadastrados" id="enviarEmailParaAlunosCadastrados" class="btn btn-primary">Enviar mensagem</button>
                     </div>
                 </form>
             <?php endif; ?>

@@ -1,5 +1,5 @@
 <?php
-session_start();
+    session_start();
 include('verifica_login.php');
 include('buscaDadosBasicosUsuario.php');
 include('buscaDadosDoCurso.php');
@@ -7,16 +7,17 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-?>
-<!DOCTYPE html>
-<html>
+    ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!DOCTYPE html>
+    <html>
 
-    <title>KM Online</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>KM Online</title>
     <link rel="icon" type="image/png" href="./assets/brand.png" />
 
     <!-- Bootstrap CSS CDN -->
@@ -34,13 +35,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
             <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
@@ -85,90 +86,36 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             </p>
         </nav>
 
-        <!-- Page Content  -->
-        <div id="content">
+            <!-- Page Content  -->
+            <div id="content">
+            <?php
+            $codCurso = 2658;
+            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+            if (
+                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
+            ) : ?>
+            
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+                <h2>CARREIRAS POLICIAIS ONLINE PC GOIÁS - DIREITO ADMINISTRATIVO | PROFESSORA CLEIDE REGINA</h2><h3>AULA 02</h3>
+                <div>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_DIR_ADM_CLEIDE_AULA01.php">Anterior</a>
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                    </button>
-
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a nav-link href="https://kmconcursos.com.br/index.php/shop/">
-                                    <button type="button" class="btn btn-warning">Loja KM</button>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <h2>Acessos de usuários por curso</h2>
-            <p>Esta área lista os usuários com acesso ativo/inativo por curso</p>
-
-            <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
-
-                <div class="col-md-12">
-                    <label for="codCurso" class="form-label">Curso</label>
-                    <select name="codCurso" id="codCurso" class="form-select">
-                        <option selected>Selecione o curso</option>
-                        <?php   $query = "SELECT * from curso";
-                                $select = mysqli_query($conexao,$query);
-                                
-                                while   ($result = mysqli_fetch_assoc($select)){ ?>
-                                    <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
-                          <?php } ?>
-                    </select>
-                    <button style="margin-left: 5px;" type="submit" value="" id="" class="btn btn-primary">Listar acessos</button>
+                <p></p>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/zowe14" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
-                
-                <div class="col-md-12">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nome</th>
-                                <th scope="col">Usuário</th>
-                                <th scope="col">Data Cadastro</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Opções de acesso</th>
-                                <th scope="col"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                        <?php   $query1 = "SELECT * FROM acessousuariocurso";
-                                $querySelect = mysqli_query($conexao, $query1);
-
-                                while ($resulta = mysqli_fetch_assoc($querySelect)) { ?>
-                                    <tr>
-                                    <th scope="row"><?= $resulta['idUsuario'] ?></th>
-                                    <td> Nome </td>
-                                    <td> Usuario </td>
-                                    <td><?= $resulta['dtCriacaoAcesso'] ?></td>
-                                    <td><?= $resulta['statusAcesso'] ?></td>
-                                    <td><button type="button" class="btn btn-warning">Renovar</button></td>
-                                    <td><button type="button" class="btn btn-danger">Cancelar</button></td>
-                                    </tr>
-                                <?php } ?>
-                        </tbody>
-                    </table>
+                <div class="col-sm-6" style="margin: center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>
+                        </div>
+                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;">COMO ACELERAR O VÍDEO?</h5></p>
+                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no celular: Basta clicar na opção engrenagem e escolher a velocidade desejada<H5></p>
+                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
+                    </div>
                 </div>
-
-            <?php endif; ?>
-
-
-        </div>
+                <?php endif; ?>
+            </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -180,18 +127,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });
 
-                $('#sidebarCollapse').on('click', function() {
+                $('#sidebarCollapse').on('click', function () {
                     $('#sidebar, #content').toggleClass('active');
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
             });
         </script>
-</body>
+    </body>
 
-</html>
+    </html>

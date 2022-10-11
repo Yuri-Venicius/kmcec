@@ -110,7 +110,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <h2>Meus Dados</h2>
             <form>
                 <div class="form-row">
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-6">
                         <label for="nome">Nome</label>
                         <input type="text" readonly class="form-control-plaintext"  name="nome" id="nome" placeholder="<?php print($usuarioLogado['nome']." ". $usuarioLogado['sobrenome']) ?>">
                     </div>
@@ -129,22 +129,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </form>
             <!-- <h2>Alterar senha de acesso</h2>
-            <form method="POST" action="alteraDadosUsuario.php">
+            <form method="POST" action="alterarSenha.php">
                 <div class="form-row">
                     <div class="form-group col-md-4">
-                        <label for="senha">Senha atual</label>
-                        <input type="text" class="form-control" name="senha" id="senha">
+                        <label for="senhaAtual">Senha atual</label>
+                        <input type="text" class="form-control" name="senhaAtual" id="senhaAtual">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="novaSenha">Nova Senha</label>
                         <input type="text" class="form-control" name="novaSenha" id="novaSenha">
                     </div>
-                    <div class="form-group col-md-4">
-                        <label for="confirmarNovaSenha">Confirmar Nova Senha</label>
-                        <input type="text" class="form-control" name="confirmarNovaSenha" id="novaSenha">
-                    </div>
                 </div>
-                <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Alterar</button><p></p>
+                <button type="submit" value="AlterarSenha" id="alterarSenha" class="btn btn-primary">Alterar</button><p></p>
             </form> -->
         </div>
     </div>
