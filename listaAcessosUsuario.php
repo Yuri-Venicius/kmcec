@@ -128,9 +128,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
                           <?php } ?>
                     </select>
-                    <button style="margin-left: 5px;" type="submit" value="" id="" class="btn btn-primary">Listar</button>
+                    <button style="margin-left: 5px;" type="submit" value="" id="" class="btn btn-primary">Listar acessos</button>
                 </div>
                 <p></p>
+                
                 <div class="col-md-12">
                     <table class="table">
                         <thead>
@@ -146,16 +147,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </thead>
                         <tbody>
 
-                        <?php   $query1 = "SELECT * FROM usuarios";
+                        <?php   $query1 = "SELECT * FROM acessousuariocurso";
                                 $querySelect = mysqli_query($conexao, $query1);
 
                                 while ($resulta = mysqli_fetch_assoc($querySelect)) { ?>
                                     <tr>
-                                    <th scope="row"><?= $resulta['id'] ?></th>
-                                    <td><?= $resulta['nome'] ?></td>
-                                    <td><?= $resulta['usuario'] ?></td>
-                                    <td><?= $resulta['cpf'] ?></td>
-                                    <td>ATIVO</td>
+                                    <th scope="row"><?= $resulta['idUsuario'] ?></th>
+                                    <td> Nome </td>
+                                    <td> Usuario </td>
+                                    <td><?= $resulta['dtCriacaoAcesso'] ?></td>
+                                    <td><?= $resulta['statusAcesso'] ?></td>
                                     <td><button type="button" class="btn btn-warning">Renovar</button></td>
                                     <td><button type="button" class="btn btn-danger">Cancelar</button></td>
                                     </tr>
