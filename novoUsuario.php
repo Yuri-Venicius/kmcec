@@ -119,7 +119,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <?php
 
             if ($verificaAdm['nivelAcesso'] == '1') : ?>
-                <form method="POST" action="cadastroUsuario.php">
+                <form method="POST" id="formularioCadastroUsuario" action="cadastroUsuario.php">
                     <div class="form-row">
                         <div class="form-group col-md-3">
                             <label for="nome">Nome</label>
@@ -152,6 +152,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
 
                     <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Cadastrar Usuário</button>
+                    <button type="submit" value="AlterarDados" id="alterar" class="btn btn-warning">Alterar dados do Usuário</button>
                     <p></p>
                 </form>
 
@@ -159,7 +160,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <p>Esta área é exclusiva para cadastro de um usuário existente em um curso</p>
                 <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
 
-                <form class="row g-3" method="POST" action="cadastroUsuarioCurso.php">
+                <form class="row g-3" id="formularioCadastroUsuarioCurso" method="POST" action="cadastroUsuarioCurso.php">
                     <div class="col-md-2">
                         <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
                         <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
@@ -183,12 +184,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
                             <?php } ?>
                         </select>
-                    </div><p></p>
+                    </div>
+                    <p></p>
                     <div class="col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
-                               Eu chequei os dados e CONFIRMO o cadastro do aluno.
+                                Eu chequei os dados e CONFIRMO o cadastro do aluno.
                             </label>
                         </div>
                     </div>
@@ -209,6 +211,19 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <!-- jQuery Custom Scroller CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script>
+            $("#btnenviar1, #btnenviar2").click(function() {
+                //Recebe o id do botão clicado
+                var id = $(this).attr('id');
+                //Verifica qual foi o botão clicado através do id do mesmo e seta o action correspondente
+                if (id == 'cadastrar') {
+                    $('#formulariCadastroUsuario').attr('action', 'cadastroUsuario.php');
+                } else{
+                    $('#formulariCadastroUsuario').attr('action', 'alteraDadosUsuario.php');
+                }
+            });
+        </script>
 
         <script type="text/javascript">
             $(document).ready(function() {
