@@ -218,9 +218,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 var id = $(this).attr('id');
                 //Verifica qual foi o botão clicado através do id do mesmo e seta o action correspondente
                 if (id == 'cadastrar') {
-                    $('#formulariCadastroUsuario').attr('action', 'cadastroUsuario.php');
+                    $('#formularioCadastroUsuario').attr('action', 'cadastroUsuario.php');
                 } else{
-                    $('#formulariCadastroUsuario').attr('action', 'alteraDadosUsuario.php');
+                    $('#formularioCadastroUsuario').attr('action', 'alteraDadosUsuario.php');
                 }
             });
         </script>
