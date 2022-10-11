@@ -216,7 +216,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapsePortuguesElder">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 07/10/2022</a><p></p> 
-                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 08/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
