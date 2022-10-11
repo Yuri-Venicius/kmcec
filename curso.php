@@ -205,6 +205,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <button type="submit" value="CadastrarNovaAulaEmCursoExistente" id="cadastrarNovaAulaEmCursoExistente" class="btn btn-primary">Criar nova aula</button>
                     </div>
                 </form>
+
+                <form class="row g-12'" id="formularioEnviaEmailDeAulaNova" method="POST" action="enviaEmailDeAulaNova.php">
+                    <div class="col-md-12">
+                        <label for="codCurso" class="form-label">Curso</label>
+                        <select name="codCurso" id="codCurso" class="form-control" required>
+                            <option selected>Selecione o curso</option>
+                            <?php $query = "SELECT * from curso";
+                            $select = mysqli_query($conexao, $query);
+    
+                            while ($result = mysqli_fetch_assoc($select)) { ?>
+                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="aulaNovaPostada" class="form-label">Descrição do conteúdo postado</label>
+                        <textarea class="form-control" name="aulaNovaPostada" id="aulaNovaPostada" rows="4"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" value="EnviarEmailParaAlunosCadastrados" id="enviarEmailParaAlunosCadastrados" class="btn btn-primary">Enviar mensagem</button>
+                    </div>
+                </form>
             <?php endif; ?>
 
 
