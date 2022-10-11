@@ -191,8 +191,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <label for="dataDaGravacao" class="form-label">Data da Gravação da Aula</label>
                         <input placeholder="Insira a data em que a aula foi gravada" type="date" class="form-control" name="dataDaGravacao" id="dataDaGravacao" required>
                     </div>
-
-
+                    <p></p>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck">
+                                Marque para enviar e-mail notificando os alunos do curso!
+                            </label>
+                        </div>
+                    </div>
+                    <p></p>
                     <div class="col-12">
                         <button type="submit" value="CadastrarNovaAulaEmCursoExistente" id="cadastrarNovaAulaEmCursoExistente" class="btn btn-primary">Criar nova aula</button>
                     </div>
