@@ -129,12 +129,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <label for="nome">Nome do curso</label>
                             <input type="text" class="form-control" name="nomeCurso" id="nomeCurso" required>
                         </div>
-                        <div class="form-group col-md-3">
+                        <div class="form-group col-md-12">
                             <label for="sobrenome">Descrição do Curso</label>
-                            <textarea class="form-control" name="descricao" id="descricao" rows="4">
+                            <textarea class="form-control" name="descricao" id="descricao" rows="4"></textarea>
                         </div>
                     </div>
-                    <button type="submit" value="CriarNovoCurso" id="botaoCriarCursoNovo" class="btn btn-primary">Cadastrar Usuário</button>
+                    <button type="submit" value="CriarNovoCurso" id="botaoCriarCursoNovo" class="btn btn-primary">Criar Curso</button>
                     <p></p>
                 </form>
 
