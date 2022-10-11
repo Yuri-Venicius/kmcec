@@ -151,8 +151,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     </div>
 
-                    <button type="submit" value="Cadastrar" id="cadastrar" class="btn btn-primary">Cadastrar Usuário</button>
-                    <button type="submit" value="AlterarDados" id="alterar" class="btn btn-warning">Alterar dados do Usuário</button>
+                    <button type="submit" value="Cadastrar" id="botaoCadastrarUsuario" class="btn btn-primary">Cadastrar Usuário</button>
+                    <button type="submit" value="AlterarDados" id="botaoAlterarDadosUsuario" class="btn btn-warning">Alterar dados do Usuário</button>
                     <p></p>
                 </form>
 
@@ -213,7 +213,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script>
-            $("#btnenviar1, #btnenviar2").click(function() {
+            $("#botaoCadastrarUsuario, #botaoAlterarDadosUsuario").click(function() {
                 //Recebe o id do botão clicado
                 var id = $(this).attr('id');
                 //Verifica qual foi o botão clicado através do id do mesmo e seta o action correspondente
