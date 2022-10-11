@@ -126,6 +126,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <input type="number" placeholder="Insira o mesmo do site KM" class="form-control" name="idCurso" id="idCurso" required>
                         </div>
                         <div class="form-group col-md-9">
+                            <label for="nome">Link do Curso no Site KM</label>
+                            <input type="text" placeholder="Insira o link do curso do site de vendas da KM" class="form-control" name="linkDoCursoNoSiteKM" id="linkDoCursoNoSiteKM " required>
+                        </div>
+                        <div class="form-group col-md-12">
                             <label for="nome">Nome do curso</label>
                             <input type="text" class="form-control" name="nomeCurso" id="nomeCurso" required>
                         </div>
@@ -138,24 +142,24 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <p></p>
                 </form>
 
-                <h2>Cadastro de usuário em um curso</h2>
-                <p>Esta área é exclusiva para cadastro de um usuário existente em um curso</p>
-                <p>Nota: É necessário que o usuário já esteja cadastrado na plaforma</p>
+                <h2>Adicionar nova aula ao curso</h2>
+                <p>Esta área é exclusiva para inserir uma nova aula em um curso EXISTENTE</p>
+                <p>Nota: É necessário que o curso já esteja criado na plaforma</p>
 
-                <form class="row g-3" id="formularioCadastroUsuarioCurso" method="POST" action="cadastroUsuarioCurso.php">
-                    <div class="col-md-2">
-                        <label for="cpfParaCurso" class="form-label">CPF do Usuário</label>
-                        <input type="number" class="form-control" name="cpfParaCurso" id="cpfParaCurso" required>
+                <form class="row g-12'" id="formularioCadastroAulaNovaEmCursoExistente" method="POST" action="novaAulaPorCurso.php">
+                    <div class="col-md-4">
+                        <label for="professorDaAula" class="form-label">Professor da Aula</label>
+                        <input type="text" class="form-control" name="professorDaAula" id="professorDaAula" required>
                     </div>
-                    <div class="col-md-3">
-                        <label for="modalidadeAluno" class="form-label">Modalidade Aluno</label>
-                        <select name="modalidadeAluno" id="modalidadeAluno" class="form-control" required>
+                    <div class="col-md-4">
+                        <label for="materiaDaAula" class="form-label">Matéria da Aula</label>
+                        <select name="materiaDaAula" id="materiaDaAula" class="form-control" required>
                             <option selected>Selecione</option>
                             <option value="ONLINE">Aluno ONLINE</option>
                             <option value="PRESENCIAL">Aluno PRESENCIAL</option>
                         </select>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <label for="codCurso" class="form-label">Curso</label>
                         <select name="codCurso" id="codCurso" class="form-control" required>
                             <option selected>Selecione o curso</option>
@@ -167,17 +171,30 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <?php } ?>
                         </select>
                     </div>
-                    <p></p>
-                    <div class="col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                            <label class="form-check-label" for="gridCheck">
-                                Eu chequei os dados e CONFIRMO o cadastro do aluno.
-                            </label>
-                        </div>
+                    <div class="col-md-12">
+                        <label for="tituloDaAula" class="form-label">Título da Aula</label>
+                        <input placeholder="Título da aula" type="text" class="form-control" name="tituloDaAula" id="tituloDaAula" required>
                     </div>
+                    <div class="col-md-12">
+                        <label for="descricaoDaAula" class="form-label">Descrição da Aula</label>
+                        <textarea class="form-control" name="descricaoDaAula" id="descricaoDaAula" rows="4"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="duracaoDaAula" class="form-label">Duração da Aula</label>
+                        <input placeholder="Duração em minutos" type="number" class="form-control" name="duracaoDaAula" id="duracaoDaAula">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="dataDaGravacao" class="form-label">URL da aula no servidor</label>
+                        <input placeholder="Cole aqui a URL da aula no servidor" type="number" class="form-control" name="urlNoServidor" id="urlNoServidor" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="dataDaGravacao" class="form-label">Data da Gravação da Aula</label>
+                        <input placeholder="Insira a data em que a aula foi gravada" type="date" class="form-control" name="dataDaGravacao" id="dataDaGravacao" required>
+                    </div>
+
+
                     <div class="col-12">
-                        <button type="submit" value="CadastrarAlunoCurso" id="cadastrarAlunoCurso" class="btn btn-primary">Cadastrar no Curso</button>
+                        <button type="submit" value="CadastrarNovaAulaEmCursoExistente" id="cadastrarNovaAulaEmCursoExistente" class="btn btn-primary">Criar nova aula</button>
                     </div>
                 </form>
             <?php endif; ?>
