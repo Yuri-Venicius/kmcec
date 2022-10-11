@@ -145,8 +145,20 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <h2>Adicionar nova aula ao curso</h2>
                 <p>Esta área é exclusiva para inserir uma nova aula em um curso EXISTENTE</p>
                 <p>Nota: É necessário que o curso já esteja criado na plaforma</p>
-
+                
                 <form class="row g-12'" id="formularioCadastroAulaNovaEmCursoExistente" method="POST" action="novaAulaPorCurso.php">
+                    <div class="col-md-4">
+                        <label for="codCurso" class="form-label">Curso</label>
+                        <select name="codCurso" id="codCurso" class="form-control" required>
+                            <option selected>Selecione o curso</option>
+                            <?php $query = "SELECT * from curso";
+                            $select = mysqli_query($conexao, $query);
+    
+                            while ($result = mysqli_fetch_assoc($select)) { ?>
+                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
                     <div class="col-md-4">
                         <label for="professorDaAula" class="form-label">Professor da Aula</label>
                         <input type="text" class="form-control" name="professorDaAula" id="professorDaAula" required>
@@ -157,18 +169,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <option selected>Selecione</option>
                             <option value="ONLINE">Aluno ONLINE</option>
                             <option value="PRESENCIAL">Aluno PRESENCIAL</option>
-                        </select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="codCurso" class="form-label">Curso</label>
-                        <select name="codCurso" id="codCurso" class="form-control" required>
-                            <option selected>Selecione o curso</option>
-                            <?php $query = "SELECT * from curso";
-                            $select = mysqli_query($conexao, $query);
-
-                            while ($result = mysqli_fetch_assoc($select)) { ?>
-                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
-                            <?php } ?>
                         </select>
                     </div>
                     <div class="col-md-12">
