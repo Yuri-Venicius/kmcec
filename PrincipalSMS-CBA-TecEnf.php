@@ -171,7 +171,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspecifico" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1KocBo-tifzB3NY_0qpOroBPaTtwaSBKo?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/12Oz7hJwWBClE1g7uN9kyAGEmkp7he_Qy?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
                             </p>
                             <div class="collapse" id="collapseEspecifico">
                                 <div class="card card-body">
@@ -311,7 +311,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseInformaticaJoao">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 25/03/2022</a><p></p> -->
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 10/10/2022</a><p></p>
                                 </div>
                             </div>
                         </div>
