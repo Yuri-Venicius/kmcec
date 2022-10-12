@@ -2220,7 +2220,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 							</div>
 						</div>
 					</div>
-				<?php endif; ?>
+			<?php endif; ?>
 
 				<?php if (
 					$_SESSION['usuario'] == 'armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'armandomassonfurtado@gmail.com ' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com' || $_SESSION['usuario'] == 'Armandomassonfurtado@gmail.com ' ||
