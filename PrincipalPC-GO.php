@@ -246,6 +246,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDireitoPenal">
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 11/10/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
