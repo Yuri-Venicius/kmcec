@@ -203,7 +203,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p>  -->
+                                        <a href="INSS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 15/10/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
