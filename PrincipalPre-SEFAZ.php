@@ -224,6 +224,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 15/06/2022</a><p></p>
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA02.php">AULA 02 - GRAVAÇÃO 26/07/2022</a><p></p>
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA03.php">AULA 03 - GRAVAÇÃO 27/07/2022</a><p></p>
+                                        <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA04.php">AULA 04 - GRAVAÇÃO 01/09/2022</a><p></p>
                                     </div>
                                     </div>
                         </div>
@@ -333,6 +334,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA08.php">AULA 08 - GRAVAÇÃO 09/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA09.php">AULA 09 - GRAVAÇÃO 12/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">AULA 10 - GRAVAÇÃO 18/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA11.php">AULA 11 - GRAVAÇÃO 08/09/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>
@@ -432,6 +434,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 16/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 19/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA03.php">AULA 03 - GRAVAÇÃO 22/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA04.php">AULA 04 - GRAVAÇÃO 22/08/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>
