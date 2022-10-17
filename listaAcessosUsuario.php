@@ -121,17 +121,17 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <label for="codCurso" class="form-label">Curso</label>
                     <select name="codCurso" id="codCurso" class="form-select">
                         <option selected>Selecione o curso</option>
-                        <?php   $query = "SELECT * from curso";
-                                $select = mysqli_query($conexao,$query);
-                                
-                                while   ($result = mysqli_fetch_assoc($select)){ ?>
-                                    <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
-                          <?php } ?>
+                        <?php $query = "SELECT * from curso";
+                        $select = mysqli_query($conexao, $query);
+
+                        while ($result = mysqli_fetch_assoc($select)) { ?>
+                            <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                        <?php } ?>
                     </select>
-                    <button style="margin-left: 5px;" type="submit" value="" id="" class="btn btn-primary">Listar acessos</button>
+                    <button style="margin-left: 5px;" type="submit" value="ListarAcessosPorCurso" id="botaoListarAcessosPorCurso" class="btn btn-primary">Listar acessos</button>
                 </div>
                 <p></p>
-                
+
                 <div class="col-md-12">
                     <table class="table">
                         <thead>
@@ -146,21 +146,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </tr>
                         </thead>
                         <tbody>
-
-                        <?php   $query1 = "SELECT * FROM acessousuariocurso";
-                                $querySelect = mysqli_query($conexao, $query1);
-
-                                while ($resulta = mysqli_fetch_assoc($querySelect)) { ?>
-                                    <tr>
-                                    <th scope="row"><?= $resulta['idUsuario'] ?></th>
-                                    <td> Nome </td>
-                                    <td> Usuario </td>
-                                    <td><?= $resulta['dtCriacaoAcesso'] ?></td>
-                                    <td><?= $resulta['statusAcesso'] ?></td>
-                                    <td><button type="button" class="btn btn-warning">Renovar</button></td>
-                                    <td><button type="button" class="btn btn-danger">Cancelar</button></td>
-                                    </tr>
-                                <?php } ?>
                         </tbody>
                     </table>
                 </div>
@@ -191,6 +176,30 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
             });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                )
+            };
+
+            function preencheTabela() {
+                $.ajax({
+                    dataType: 'json',
+                    url: 'preencheTabelaComDadosDoBD.php',
+                    success: function(data){
+                        for(var i = 0; data.length > i; i++){
+                            $('#Acessos').append('<tr><td>' + data[i].idUsuario) + '</td><td>'
+                            +data[i].nomeUsuario+'</td><td>'+data[i].dataDeCadastro+'</td><td>'
+                            +data[i].statusDoAcesso+'</td><td>'
+                            +'<button type="submit" value="CancelarAcessosDoUsuario" id="botaoCancelarAcessoDoUsuario" class="btn btn-danger">Cancelar Acesso</button>'+
+                            '</td><td>'
+                            +'<button type="submit" value="RenovarAcessosDoUsuario" id="botaoRenovarAcessoDoUsuario" class="btn btn-warning">Renovar Acesso</button>'+
+                            '</td></tr>';
+                        }
+                    }
+                })
+                }
         </script>
 </body>
 
