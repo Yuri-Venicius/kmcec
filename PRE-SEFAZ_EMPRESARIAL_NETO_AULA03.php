@@ -1,6 +1,12 @@
-<?php
+va<?php
     session_start();
-    include('verifica_login.php');
+include('verifica_login.php');
+include('buscaDadosBasicosUsuario.php');
+include('buscaDadosDoCurso.php');
+include('verificaAcessoAoCurso.php');
+
+$usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
+$verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     ?>
 
     <!DOCTYPE html>
@@ -85,18 +91,18 @@
 
             
 
-                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - LEGISLAÇÃO TRIBUTÁRIA ESTADUAL| PROFESSOR ANDRÉ FANTONI</h2><h3>AULA 11</h3>
+                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - DIR. EMPRESARIAL| PROFESSOR JOSÉ NETO</h2><h3>AULA 03</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA12.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA02.php">Anterior</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA04.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/55yges" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/plk9fq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>
+                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>s
                         </div>
                         <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;">COMO ACELERAR O VÍDEO?</h5></p>
                         <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no celular: Basta clicar na opção engrenagem e escolher a velocidade desejada<H5></p>

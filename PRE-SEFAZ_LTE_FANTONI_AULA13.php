@@ -85,12 +85,12 @@
 
             
 
-                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - LEGISLAÇÃO TRIBUTÁRIA ESTADUAL| PROFESSOR ANDRÉ FANTONI</h2><h3>AULA 11</h3>
+                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - LEGISLAÇÃO TRIBUTÁRIA ESTADUAL| PROFESSOR ANDRÉ FANTONI</h2><h3>AULA 13</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA12.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA12.php">Anterior</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_LTE_FANTONI_AULA14.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/55yges" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/ztsrl4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
