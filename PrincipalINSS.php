@@ -203,7 +203,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
-                                        <a href="INSS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 15/10/2022</a><p></p> 
+                                        <a href="INSS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 13/10/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
+                                <h5 class="card-title">NOÇÕES DE INFORMÁTICA - SILVIO BONONI</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaSilvio" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
@@ -311,7 +311,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <h5 class="card-title">NOÇÕES DE INFORMÁTICA - JOÃO CLEBER</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
@@ -319,7 +319,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseInformaticaJoao">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 18/01/2022</a><p></p> -->
+                                        <a href="INSS_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 14/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
