@@ -91,12 +91,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>INSS - PORTUGUÊS | PROFESSOR ELDER DENCATI</h2><h3>AULA 02</h3>
+                <h2>INSS - PORTUGUÊS | PROFESSOR ELDER DENCATI</h2><h3>AULA 03</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA01.php">Anterio</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA03.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA02.php">Anterio</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA04.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/y9mwb3" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/x4gpc2" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">

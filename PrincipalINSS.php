@@ -183,6 +183,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="INSS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 03/10/2022</a>
                                         <a href="INSS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 08/10/2022</a>
+                                        <a href="INSS_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 17/10/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -303,7 +304,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <!-- <a href="POS-PJC_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p> -->
                                     </div>
                                 </div>
-                            </div>
+                            </div>  
                         </div>
                         <p></p>
                     </div>
@@ -320,6 +321,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseInformaticaJoao">
                                     <div class="card card-body">
                                         <a href="INSS_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 14/10/2022</a><p></p>
+                                        <a href="INSS_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 18/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>

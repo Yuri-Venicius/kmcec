@@ -88,15 +88,20 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <!-- Page Content  -->
             <div id="content">
-
+            <?php
+            $codCurso = 2637;
+            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+            if (
+                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
+            ) : ?>
             
 
-                <h2>INSS - PORTUGUÊS | PROFESSOR ELDER DENCATI</h2><h3>AULA 02</h3>
+                <h2>INSS - NOÇÕES DE INFORMÁTICA | PROFESSOR JOÃO CLEBER</h2><h3>AULA 02</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA01.php">Anterio</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_PORTUGUES_ELDER_AULA03.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_INFORMATICA_JOAO_AULA01.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_INFORMATICA_JOAO_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/y9mwb3" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/9j3ybr" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
@@ -109,6 +114,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
