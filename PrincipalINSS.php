@@ -225,6 +225,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="INSS_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a><p></p>
                                         <a href="INSS_DIR_CONST_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 11/10/2022</a><p></p>
+                                        <a href="INSS_DIR_CONST_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 20/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -283,6 +284,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 06/10/2022</a><p></p>
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 10/10/2022</a><p></p>
+                                        <a href="INSS_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 19/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
