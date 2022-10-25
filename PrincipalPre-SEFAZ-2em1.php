@@ -134,9 +134,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="card-body">
                                 <h5 class="card-title">CURSO REGULAR - SEFAZ-MT PRÉ EDITAL</h5>
                                 <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHelio" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i>
-                                    </button>
                                     <a style="margin-left: 30px;" href="PrincipalPre-SEFAZ.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
                                 </p>
                             </div>
@@ -149,9 +146,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="card-body">
                                 <h5 class="card-title">CURSO AVANÇADO - SEFAZ-MT PRÉ EDITAL</h5>
                                 <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHelio" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i>
-                                    </button>
                                     <a style="margin-left: 30px;" href="PrincipalPre-SEFAZ-Avancado.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
                                 </p>
                             </div>
