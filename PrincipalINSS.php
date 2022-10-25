@@ -264,6 +264,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseRlm">
                                     <div class="card card-body">
                                         <a href="INSS_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 07/10/2022</a><p></p>
+                                        <a href="INSS_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 21/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
