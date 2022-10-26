@@ -361,6 +361,25 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAdmCleide" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                            </button>
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1GV3MN71nZoreJgnUdgkfexG2nggR55q0?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                            </p>
+                            <div class="collapse" id="collapseDirAdmCleide">
+                                <div class="card card-body">
+                                    <a href="SMS_TODOS_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 17/10/2022</a><p></p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">ESTATUTO DOS SERVIDORES - CLEIDE REGINA</h5>
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegCleide" aria-expanded="false" aria-controls="collapseExample">
                                 <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -370,7 +389,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseLegCleide">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 05/10/2022</a><p></p> 
-                                    <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/10/2022</a><p></p> 
+                                    <!-- <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/10/2022</a><p></p>  -->
                                 </div>
                             </div>
                         </div>
