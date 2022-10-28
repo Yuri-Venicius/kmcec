@@ -161,7 +161,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesHelio">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 11/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +205,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
-                                        <a href="PC-GO_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 14/10/2022</a><p></p> 
+                                        <a href="PC-GO_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 14/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -247,6 +249,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a>
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 11/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA03.php">AULA 03 - GRAVAÇÃO 20/10/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -267,9 +270,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseRlm">
                                     <div class="card card-body">
                                         <a href="PC-GO_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/09/2022</a>
-                                        <p></p>
                                         <a href="PC-GO_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
-                                        <p></p>
                                         <a href="PC-GO_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 03/10/2022</a>
                                         <p></p>
                                     </div>
@@ -291,8 +292,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDirAdmCleide">
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 20/09/22</a>
-                                        <p></p>
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 21/09/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 17/10/22</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -312,8 +313,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseCppMarciano">
                                     <div class="card card-body">
-                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a><p></p>
-                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 13/10/2022</a><p></p>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a>
+                                        <p></p>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 13/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -430,7 +433,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseCrimDavoli">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 22/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022</a>
+                                        <p></p>
                                         <p></p>
                                     </div>
                                 </div>
