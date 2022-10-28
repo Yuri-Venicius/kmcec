@@ -175,7 +175,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePortuguesHelio">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 12/05/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
