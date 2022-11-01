@@ -182,6 +182,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapsePortuguesElder">
                                     <div class="card card-body">
                                         <a href="INSS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 03/10/2022</a>
+                                        <a href="INSS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 29/10/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
