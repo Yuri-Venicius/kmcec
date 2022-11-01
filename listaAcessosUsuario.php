@@ -179,27 +179,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         </script>
 
         <script>
-            $(document).ready(function() {
-                )
-            };
-
-            function preencheTabela() {
-                $.ajax({
-                    dataType: 'json',
-                    url: 'preencheTabelaComDadosDoBD.php',
-                    success: function(data){
-                        for(var i = 0; data.length > i; i++){
-                            $('#Acessos').append('<tr><td>' + data[i].idUsuario) + '</td><td>'
-                            +data[i].nomeUsuario+'</td><td>'+data[i].dataDeCadastro+'</td><td>'
-                            +data[i].statusDoAcesso+'</td><td>'
-                            +'<button type="submit" value="CancelarAcessosDoUsuario" id="botaoCancelarAcessoDoUsuario" class="btn btn-danger">Cancelar Acesso</button>'+
-                            '</td><td>'
-                            +'<button type="submit" value="RenovarAcessosDoUsuario" id="botaoRenovarAcessoDoUsuario" class="btn btn-warning">Renovar Acesso</button>'+
-                            '</td></tr>';
-                        }
-                    }
-                })
-                }
         </script>
 </body>
 
