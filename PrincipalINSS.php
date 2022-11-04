@@ -238,14 +238,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">DIREITO PREVIDENCIÁRIO - JOSÉ NETO</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDireitoConstitucional" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDireitoPrevidenciario" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
                                 <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1l0h2xMxko__D_F3aeGTLlOphOrUyOsVc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
-                                <div class="collapse" id="collapseDireitoConstitucional">
+                                <div class="collapse" id="collapseDireitoPrevidenciario">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 07/01/2022</a><p></p> -->
+                                        <a href="INSS_DIR_PREV_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 26/10/2022</a><p></p>
+                                        <a href="INSS_DIR_PREV_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 27/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
