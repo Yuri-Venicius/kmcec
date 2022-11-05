@@ -181,6 +181,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseMatematicaIgor">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022 </a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 01/11/2022 </a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -258,6 +259,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 24/10/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 31/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -389,7 +391,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePenalEduardo">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 16/08/2022</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 28/10/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
