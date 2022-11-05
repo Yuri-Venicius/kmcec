@@ -292,6 +292,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 19/10/2022</a><p></p>
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA04.php">AULA 04 - GRAVAÇÃO 24/10/2022</a><p></p>
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 28/10/2022</a><p></p>
+                                        <a href="INSS_DIR_ADM_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 31/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
