@@ -137,6 +137,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <label for="sobrenome">Descrição do Curso</label>
                             <textarea class="form-control" name="descricao" id="descricao" rows="4"></textarea>
                         </div>
+                        <div class="form-group col-md-6"> 
+                            <label for="duracaoAcesso">Duração do Acesso (em meses)</label>
+                            <input type="number" class="form-control" name="duracaoAcesso" id="duracaoAcesso" required>
+                        </div>
+                        <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck">
+                                Eu conferi os dados e CONFIRMO a criação do curso!
+                            </label>
+                        </div>
+                    </div>
                     </div>
                     <button type="submit" value="CriarNovoCurso" id="botaoCriarCursoNovo" class="btn btn-primary">Criar Curso</button>
                     <p></p>

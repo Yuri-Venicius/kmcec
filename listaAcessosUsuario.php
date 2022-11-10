@@ -116,43 +116,41 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Esta área lista os usuários com acesso ativo/inativo por curso</p>
 
             <?php if ($verificaAdm['nivelAcesso'] == '1') : ?>
+                <form class="row g-3" id="formAcessosPorCurso">
+                    <div class="col-md-12">
+                        <label for="codCurso" class="form-label">Curso</label>
+                        <select name="codCurso" id="codCurso" class="form-select">
+                            <option selected>Selecione o curso</option>
+                            <?php $query = "SELECT * from curso";
+                            $select = mysqli_query($conexao, $query);
 
-                <div class="col-md-12">
-                    <label for="codCurso" class="form-label">Curso</label>
-                    <select name="codCurso" id="codCurso" class="form-select">
-                        <option selected>Selecione o curso</option>
-                        <?php $query = "SELECT * from curso";
-                        $select = mysqli_query($conexao, $query);
+                            while ($result = mysqli_fetch_assoc($select)) { ?>
+                                <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
+                            <?php } ?>
+                        </select>
+                        <button style="margin-left: 5px;" type="submit" value="ListarAcessosPorCurso" id="botaoListarAcessosPorCurso" class="btn btn-primary">Listar acessos</button>
+                    </div>
+                    <p></p>
 
-                        while ($result = mysqli_fetch_assoc($select)) { ?>
-                            <option value="<?php echo $result['idCurso']; ?>"> <?php echo $result['idCurso'] . " - " . $result['nomeCurso']; ?></option>
-                        <?php } ?>
-                    </select>
-                    <button style="margin-left: 5px;" type="submit" value="ListarAcessosPorCurso" id="botaoListarAcessosPorCurso" class="btn btn-primary">Listar acessos</button>
-                </div>
-                <p></p>
-
-                <div class="col-md-12">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nome</th>
-                                <th scope="col">Usuário</th>
-                                <th scope="col">Data Cadastro</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Opções de acesso</th>
-                                <th scope="col"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
-                </div>
-
+                    <div class="col-md-12">
+                        <table class="table" id="tabelaAcessos">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Código</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Usuário</th>
+                                    <th scope="col">Data de Cadastro</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Opções de acesso</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
             <?php endif; ?>
-
-
         </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -178,7 +176,24 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             });
         </script>
 
-        <script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#formAcessosPorCurso").submit(function(){
+
+                    var dados = jQuery(this).serialize();
+
+                    $.ajax({
+                        url: 'buscaUsuariosComAcessoPorCurso.php',
+                        cache: false,
+                        data: dados,
+                        type: "POST",
+
+                        success: function(tabela){
+                            
+                        }
+                    });
+                });
+            });
         </script>
 </body>
 
