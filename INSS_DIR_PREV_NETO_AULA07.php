@@ -96,12 +96,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
             
 
-                <h2>INSS - DIREITO PREVIDENCIÁRIO | PROFESSOR JOSÉ NETO</h2><h3>AULA 06</h3>
+                <h2>INSS - DIREITO PREVIDENCIÁRIO | PROFESSOR JOSÉ NETO</h2><h3>AULA 07</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_DIR_PREV_NETO_AULA05.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_DIR_PREV_NETO_AULA07.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_DIR_PREV_NETO_AULA06.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="INSS_DIR_PREV_NETO_AULA08.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/so8x3t" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/gv7bcy" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
