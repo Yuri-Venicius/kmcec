@@ -362,7 +362,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseRelDavoli">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 01/11/2022</a><p></p> 
-                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 11/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 11/11/2022</a><p></p>
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 17/11/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
