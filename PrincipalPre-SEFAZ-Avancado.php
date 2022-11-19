@@ -315,7 +315,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLteAndre">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 16/05/2022</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 09/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -412,6 +412,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 17/10/22</a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 19/10/22</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA03.php">AULA 03 - GRAVAÇÃO 04/11/22</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/22</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -468,7 +470,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEstatisticaIgor">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_ESTATISTICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 14/06/22</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_ESTATISTICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 07/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
