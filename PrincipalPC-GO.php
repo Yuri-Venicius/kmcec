@@ -186,6 +186,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
                                         <a href="PC-GO_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 10/10/2022</a>
                                         <a href="PC-GO_PORTUGUES_ELDER_AULA04.php">AULA 04 - GRAVAÇÃO 07/11/2022</a>
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA05.php">AULA 05 - GRAVAÇÃO 14/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -254,6 +255,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 11/10/2022</a>
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA03.php">AULA 03 - GRAVAÇÃO 20/10/2022</a>
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA04.php">AULA 04 - GRAVAÇÃO 27/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA05.php">AULA 05 - GRAVAÇÃO 11/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -443,6 +445,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022</a>
                                         <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a>
                                         <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 08/11/2022</a>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CRIMES DE TRÂNSITO - ALAN DE OLIVEIRA </h5>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCrimAlan" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1OoNX3xDrRXJeOUZkVBplaEd3lo6eqVVD?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseCrimAlan">
+                                    <div class="card card-body">
+                                        <a href="PC-GO_CRIM_ALAN_AULA01.php">AULA 01 - GRAVAÇÃO 10/11/2022</a>
                                         <p></p>
                                         <p></p>
                                     </div>
