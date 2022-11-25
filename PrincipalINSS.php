@@ -255,6 +255,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="INSS_DIR_PREV_NETO_AULA06.php">AULA 06 - GRAVAÇÃO 09/11/2022</a><p></p>
                                         <a href="INSS_DIR_PREV_NETO_AULA07.php">AULA 07 - GRAVAÇÃO 10/11/2022</a><p></p>
                                         <a href="INSS_DIR_PREV_NETO_AULA08.php">AULA 08 - GRAVAÇÃO 14/11/2022</a><p></p>
+                                        <a href="INSS_DIR_PREV_NETO_AULA09.php">AULA 09 - GRAVAÇÃO 23/11/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -301,6 +302,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 28/10/2022</a><p></p>
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 31/10/2022</a><p></p>
                                         <a href="INSS_DIR_ADM_CLEIDE_AULA07.php">AULA 07 - GRAVAÇÃO 18/11/2022</a><p></p>
+                                        <a href="INSS_DIR_ADM_CLEIDE_AULA08.php">AULA 08 - GRAVAÇÃO 24/11/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
