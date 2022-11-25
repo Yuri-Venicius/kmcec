@@ -147,12 +147,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card-body">
                             <h5 class="card-title">CONTEÚDO BÔNUS - ISOLADAS</h5>
                             <p class="card-text">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConteudoBonus" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConteudoBonusIsoladas" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS - CONTEÚDO BÔNUS - ISOLADAS
                                 </button>
                                 <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1KocBo-tifzB3NY_0qpOroBPaTtwaSBKo?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
                             </p>
-                            <div class="collapse" id="collapseConteudoBonus">
+                            <div class="collapse" id="collapseConteudoBonusIsoladas">
                                 <div class="card card-body">
                                     <a href="PrincipalIsoladasKM.php">CONTEÚDO BÔNUS - ISOLADAS DO KM</a>
                                     <p></p>
