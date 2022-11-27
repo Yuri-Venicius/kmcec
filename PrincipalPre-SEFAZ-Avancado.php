@@ -260,6 +260,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 24/10/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 31/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA04.php">AULA 04 - GRAVAÇÃO 11/11/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -316,6 +317,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseLteAndre">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 09/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 14/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 21/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -335,6 +338,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseTribLigia">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA01.php">AULA 01 - GRAVAÇÃO 26/10/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA02.php">AULA 02 - GRAVAÇÃO 16/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -373,6 +377,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseAdmCleide">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -392,6 +397,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapsePenalEduardo">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 28/10/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 10/11/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -414,6 +420,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 19/10/22</a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA03.php">AULA 03 - GRAVAÇÃO 04/11/22</a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/22</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA05.php">AULA 05 - GRAVAÇÃO 22/11/22</a><p></p> 
                                     </div>
                                 </div>
                             </div>
