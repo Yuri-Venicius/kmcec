@@ -336,7 +336,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">HISTÓRIA - CARLOS BIDU</h5>
+                                <h5 class="card-title">HISTÓRIA DE GO - LEANDRO MORAIS</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistoriaGenesis" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
@@ -344,7 +344,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseHistoriaGenesis">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_HISTORIA_GENESIS_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p> -->
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA01.php">AULA 01 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA02.php">AULA 02 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA03.php">AULA 03 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA04.php">AULA 04 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA05.php">AULA 05 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA06.php">AULA 06 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA07.php">AULA 07 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA08.php">AULA 08 </a><p></p>
                                     </div>
                                 </div>
                             </div>
