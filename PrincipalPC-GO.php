@@ -305,6 +305,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 17/10/22</a>
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA04.php">AULA 04 - GRAVAÇÃO 26/10/22</a>
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 16/11/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 21/11/22</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -475,6 +476,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseCrimAlan">
                                     <div class="card card-body">
                                         <a href="PC-GO_CRIM_ALAN_AULA01.php">AULA 01 - GRAVAÇÃO 10/11/2022</a>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">NOÇÕES DE MEDICINA LEGAL - FERNANDO DAVOLI</h5>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMedicinaDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1y6hoEdBwymtDpsoOmSNOl4BokZP2iDyC?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseMedicinaDavoli">
+                                    <div class="card card-body">
+                                        <a href="PC-GO_MEDICINA_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 22/11/2022</a>
                                         <p></p>
                                         <p></p>
                                     </div>
