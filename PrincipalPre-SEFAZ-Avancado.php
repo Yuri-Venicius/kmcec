@@ -129,25 +129,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="row">
 
-                    <!-- <div class="col-sm-6">
-                <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
-                            <p class="card-text">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
+                                <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHelio" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1rS1dT8jKCo2UEsAHylZ4XgZ4Jz4IVQpk?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                                    </p>
-                                    <div class="collapse" id="collapsePortuguesHelio">
-                                    <div class="card card-body"> 
-                                        <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 29/07/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA02.php">AULA 01 DISCURSIVAS - GRAVAÇÃO 22/07/2022</a><p></p> 
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/18LV4cAkStXPuS-aSLlod1lcrtmfl_5e7?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePortuguesHelio">
+                                    <div class="card card-body">
+                                        <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 24/11/2022</a>
+                                        <p></p>
                                     </div>
-                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div><p></p>
-                </div> -->
+                        <p></p>
+                    </div>
 
                     <div class="col-sm-6">
                         <div class="card">
@@ -180,8 +181,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseMatematicaIgor">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022 </a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 01/11/2022 </a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022 </a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_MATEMATICA_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 01/11/2022 </a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +222,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseHistoriaCarlao">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 20/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 20/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -257,10 +261,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseInformaticaJoao">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 24/10/2022</a><p></p>
-                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a><p></p>
-                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 31/10/2022</a><p></p>
-                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA04.php">AULA 04 - GRAVAÇÃO 11/11/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 24/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 31/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_JOAO_AULA04.php">AULA 04 - GRAVAÇÃO 11/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -316,9 +324,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLteAndre">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 09/11/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 14/11/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 21/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 09/11/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 14/11/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 21/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -337,8 +348,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseTribLigia">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA01.php">AULA 01 - GRAVAÇÃO 26/10/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA02.php">AULA 02 - GRAVAÇÃO 16/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA01.php">AULA 01 - GRAVAÇÃO 26/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA02.php">AULA 02 - GRAVAÇÃO 16/11/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA03.php">AULA 03 - GRAVAÇÃO 23/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +372,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseConstNeto">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -376,8 +392,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseAdmCleide">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_DIREITO_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -396,8 +414,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePenalEduardo">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 28/10/2022</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 10/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 28/10/2022</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 10/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -416,11 +436,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseContabilidadeDaniel">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 17/10/22</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 19/10/22</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA03.php">AULA 03 - GRAVAÇÃO 04/11/22</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/22</a><p></p> 
-                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA05.php">AULA 05 - GRAVAÇÃO 22/11/22</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 17/10/22</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 19/10/22</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA03.php">AULA 03 - GRAVAÇÃO 04/11/22</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/22</a>
+                                        <p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA05.php">AULA 05 - GRAVAÇÃO 22/11/22</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -477,7 +502,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEstatisticaIgor">
                                     <div class="card card-body">
-                                        <a href="PRE-SEFAZ-AVANCADO_ESTATISTICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 07/11/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_ESTATISTICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 07/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>

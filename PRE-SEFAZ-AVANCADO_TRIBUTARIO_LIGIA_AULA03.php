@@ -96,12 +96,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
             
 
-                <h2>SEFAZ-MT - PRE EDITAL AVANÇADO - DIREITO TRIBUTÁRIO | PROFESSORA LÍGIA DONONI</h2><h3>AULA 02</h3>
+                <h2>SEFAZ-MT - PRE EDITAL AVANÇADO - DIREITO TRIBUTÁRIO | PROFESSORA LÍGIA DONONI</h2><h3>AULA 03</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA01.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA03.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA02.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_TRIBUTARIO_LIGIA_AULA04.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/i4cn8b" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/iytkpn" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
