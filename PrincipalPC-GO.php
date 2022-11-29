@@ -355,6 +355,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA06.php">AULA 06 </a><p></p>
                                         <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA07.php">AULA 07 </a><p></p>
                                         <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA08.php">AULA 08 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA09.php">AULA 09 </a><p></p>
                                     </div>
                                 </div>
                             </div>
