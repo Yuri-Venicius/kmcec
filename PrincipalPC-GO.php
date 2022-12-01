@@ -339,7 +339,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">HISTÓRIA DE GO - LEANDRO MORAIS</h5>
+                                <h5 class="card-title">HISTÓRIA E GEOGRAFIA DE GOIÁS - LEANDRO MORAIS</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistoriaGenesis" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
@@ -368,63 +368,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">GEOGRAFIA - MARCELO ALONSO</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMarcelo" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k71ls0DwrTleJTc0Dcdyf5mvvT_7BGtA?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGeografiaMarcelo">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 22/01/2022</a><p></p>  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaSilvio" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k8Iw0iwN8AYFlr5lRu1mZ65viw3G-hgc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaSilvio">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1_FtU4kvaVbvw_LVtslfynM2-130qgsJ3?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaJoao">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 18/01/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
                                 <h5 class="card-title">LEGISLAÇÃO PENAL ESPECIAL - MICHELE DONEGÁ</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegEspMichele" aria-expanded="false" aria-controls="collapseExample">
@@ -436,6 +379,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 28/09/2022</a>
                                         <a href="PC-GO_LEG_ESP_MICHELE_AULA02.php">AULA 02 - GRAVAÇÃO 07/10/2022</a>
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA03.php">AULA 03 - GRAVAÇÃO 25/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
