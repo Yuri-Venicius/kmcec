@@ -257,6 +257,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA04.php">AULA 04 - GRAVAÇÃO 27/10/2022</a>
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA05.php">AULA 05 - GRAVAÇÃO 11/11/2022</a>
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA06.php">AULA 06 - GRAVAÇÃO 18/11/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA07.php">AULA 07 - GRAVAÇÃO 29/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -444,6 +445,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseMedicinaDavoli">
                                     <div class="card card-body">
                                         <a href="PC-GO_MEDICINA_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 22/11/2022</a>
+                                        <a href="PC-GO_MEDICINA_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 28/11/2022</a>
                                         <p></p>
                                         <p></p>
                                     </div>

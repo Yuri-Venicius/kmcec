@@ -96,11 +96,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
             
 
-                <h2>CARREIRAS POLICIAIS ONLINE PC GOIÁS - NOÇÕES MEDICINA LEGAL | PROFESSOR FERNANDO DAVOLI</h2><h3>AULA 01</h3>
+                <h2>CARREIRAS POLICIAIS ONLINE PC GOIÁS - NOÇÕES MEDICINA LEGAL | PROFESSOR FERNANDO DAVOLI</h2><h3>AULA 02</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_MEDICINA_DAVOLI_AULA02.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_MEDICINA_DAVOLI_AULA01.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="PC-GO_MEDICINA_DAVOLI_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/bzc2je" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/p92q3v" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
