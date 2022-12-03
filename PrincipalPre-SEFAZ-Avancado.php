@@ -319,6 +319,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 09/11/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 14/11/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 22/11/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_LTE_FANTONI_AULA04.php">AULA 04 - GRAVAÇÃO 29/11/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
