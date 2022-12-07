@@ -230,7 +230,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 30/09/2022</a>
                                         <a href="PC-GO_DIR_CONST_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 05/10/2022</a>
-                                        <a href="PC-GO_DIR_CONST_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 05/10/2022</a>
+                                        <a href="PC-GO_DIR_CONST_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 24/10/2022</a>
                                         <a href="PC-GO_DIR_CONST_NETO_AULA04.php">AULA 04 - GRAVAÇÃO 31/10/2022</a>
                                         <a href="PC-GO_DIR_CONST_NETO_AULA05.php">AULA 05 - GRAVAÇÃO 30/11/2022</a>
                                         <p></p>
@@ -332,7 +332,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a>
                                         <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 13/10/2022</a>
                                         <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA03.php">AULA 03 - GRAVAÇÃO 03/11/2022</a>
-                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA04.php">AULA 04 - GRAVAÇÃO 01/12/2022</a>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA04.php">AULA 04 - GRAVAÇÃO 24/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -406,7 +406,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022</a>
                                         <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a>
-                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 08/11/2022</a>
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 01/11/2022</a>
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/2022</a>
                                         <p></p>
                                         <p></p>
                                     </div>
