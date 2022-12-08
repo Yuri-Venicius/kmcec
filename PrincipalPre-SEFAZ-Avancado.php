@@ -443,7 +443,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseAuditoriaAndre">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA01.php">AULA 01 - GRAVAÇÃO 25/08/2022</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA03.php">AULA 03</a><p></p> 
                                     </div>
                                 </div>
                             </div>
