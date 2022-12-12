@@ -360,6 +360,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseConstNeto">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 01/12/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA03.php">AULA 04 - GRAVAÇÃO 21/10/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
