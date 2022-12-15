@@ -361,7 +361,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 01/12/2022</a><p></p>
-                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA03.php">AULA 04 - GRAVAÇÃO 21/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 21/10/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONSTITUCIONAL_NETO_AULA04.php">AULA 04 - GRAVAÇÃO 08/12/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -466,7 +467,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEmpresJose">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_EMPRESARIAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 04/08/2022</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_EMPRESARIAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 08/12/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -492,15 +493,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-
+                    
                     <!-- <div class="col-sm-6">
-                    <div class="card">
+                        <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">CONTABILIDADE AVANÇADA  - ANDERSON FUMAUX</h5>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCBLAnderson" aria-expanded="false" aria-controls="collapseExample">
-                                            <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                        </button>
-                                        <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1b6Hj6sbqAkLfT0FwNKHMe1fltz27L7EM?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCBLAnderson" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1b6Hj6sbqAkLfT0FwNKHMe1fltz27L7EM?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
                                         </p>
                                         <div class="collapse" id="collapseCBLAnderson">
                                         <div class="card card-body"> 
@@ -526,7 +527,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseCustosDaniel">
                                     <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_CUSTOS_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 28/07/2022</a><p></p>  -->
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 06/12/22</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 07/12/22</a><p></p>
                                     </div>
                                 </div>
                             </div>
