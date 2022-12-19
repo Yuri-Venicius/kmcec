@@ -91,7 +91,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - DIREITO TRIBUTÁRIO | PROFESSORA LÍGIA</h2><h3>AULA 01</h3>
+                <h2>CURSO PRÉ-EDITAL CONCURSO SEFAZ-MT - AUDITORIA | PROFESSOR TONYVAN</h2><h3>AULA 01</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA02.php">Próximo</a>
                 <p></p>

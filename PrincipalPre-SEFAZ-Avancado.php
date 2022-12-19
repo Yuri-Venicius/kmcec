@@ -439,7 +439,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="card">
+                        <div class="card"> 
                             <div class="card-body">
                                 <h5 class="card-title">AVANÇADO - AUDITORIA - TONIVAN CARVALHO - ONLINE</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAuditoriaAndre" aria-expanded="false" aria-controls="collapseExample">
@@ -452,6 +452,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA01.php">AULA 01</a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA02.php">AULA 02</a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_AUDITORIA_TONIVAN_AULA04.php">AULA 04</a><p></p> 
                                     </div>
                                 </div>
                             </div>
