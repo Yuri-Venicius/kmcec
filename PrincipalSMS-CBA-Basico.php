@@ -225,6 +225,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_PORTUGUES_ELDER_AULA04.php">AULA 04 - GRAVAÇÃO 30/11/2022</a><p></p> 
                                     <a href="SMS_TODOS_PORTUGUES_ELDER_AULA05.php">AULA 05 - GRAVAÇÃO 07/12/2022</a><p></p> 
                                     <a href="SMS_TODOS_PORTUGUES_ELDER_AULA06.php">AULA 06 - GRAVAÇÃO 14/12/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULAEXTRA.php">AULA EXTRA - CONJUNÇÃO</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -247,6 +248,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 04/11/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 06/12/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 13/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 15/12/2022 </a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -361,25 +363,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAdmCleide" aria-expanded="false" aria-controls="collapseExample">
-                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                            </button>
-                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1GV3MN71nZoreJgnUdgkfexG2nggR55q0?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                            </p>
-                            <div class="collapse" id="collapseDirAdmCleide">
-                                <div class="card card-body">
-                                    <!-- <a href="SMS_TODOS_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 17/10/2022</a><p></p>  -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p></p>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
                             <h5 class="card-title">ESTATUTO DOS SERVIDORES - CLEIDE REGINA</h5>
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegCleide" aria-expanded="false" aria-controls="collapseExample">
                                 <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -390,25 +373,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 05/10/2022</a><p></p> 
                                     <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/10/2022</a><p></p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p></p>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">ESTATUTO DOS SERVIDORES - JOSÉ NETO</h5>
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegNeto" aria-expanded="false" aria-controls="collapseExample">
-                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                            </button>
-                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1z9nUspZIml6K6BAMPgmqbpi3CHxvmU_6?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                            </p>
-                            <div class="collapse" id="collapseLegNeto">
-                                <div class="card card-body">
-                                    <!-- <a href="PRE-SES_LEGISLACAO_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 31-03-22</a><p></p>  -->
                                 </div>
                             </div>
                         </div>
