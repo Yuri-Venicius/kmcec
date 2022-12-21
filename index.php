@@ -72,7 +72,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <?php endif ?>
                 </li>
                 <li>
-                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Videoaulas</a>
+                    <a href="listaAcessosUsuario.php"><i class="bi bi-people-fill"></i></i></i> Gerenciar Acessos</a>
+                </li>
+                <li>
+                    <a href="curso.php"><i class="bi bi-collection-play-fill"></i></i> Gerenciar Cursos</a>
+                </li>
+                <li>
+                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Minhas Videoaulas</a>
                 </li>
                 <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>

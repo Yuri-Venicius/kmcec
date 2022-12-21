@@ -88,7 +88,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <!-- Page Content  -->
             <div id="content">
-
+            <?php
+            $codCurso = 2637;
+            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+            if (
+                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
+            ) : ?>
             
 
                 <h2>INSS - PORTUGUÊS | PROFESSOR ELDER DENCATI</h2><h3>AULA 02</h3>
@@ -109,6 +114,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
