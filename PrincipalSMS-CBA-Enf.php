@@ -275,6 +275,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 06/12/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 13/12/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 15/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA06.php">AULA 06 - GRAVAÇÃO 19/12/2022 </a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -379,6 +380,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 11/11/2022</a><p></p> 
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 17/11/2022</a><p></p> 
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 08/12/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA05.php">AULA 05 - GRAVAÇÃO 20/12/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
