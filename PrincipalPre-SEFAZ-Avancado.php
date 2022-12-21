@@ -143,6 +143,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 24/11/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 13/12/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 15/12/2022</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 16/12/2022</a><p></p>
                                     </div>
                                 </div>
                             </div>
