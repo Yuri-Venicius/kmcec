@@ -175,14 +175,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseEspecifico">
                                 <div class="card card-body">
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA01.php">AULA 01 - GRAVAÇÃO 11/10/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA02.php">AULA 02 - GRAVAÇÃO 19/10/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA03.php">AULA 03 - GRAVAÇÃO 25/10/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA04.php">AULA 04 - GRAVAÇÃO 31/10/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA05.php">AULA 05 - GRAVAÇÃO 08/11/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA06.php">AULA 06 - GRAVAÇÃO 22/11/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA07.php">AULA 07 - GRAVAÇÃO 02/12/2022</a><p></p> 
-                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA08.php">AULA 08 - GRAVAÇÃO 16/12/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA01.php">AULA 01 THAIS - GRAVAÇÃO 11/10/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA02.php">AULA 02 THAIS - GRAVAÇÃO 19/10/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA03.php">AULA 03 THAIS - GRAVAÇÃO 25/10/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA04.php">AULA 04 THAIS - GRAVAÇÃO 31/10/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA05.php">AULA 05 THAIS - GRAVAÇÃO 08/11/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA06.php">AULA 06 THAIS - GRAVAÇÃO 22/11/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA07.php">AULA 07 THAIS - GRAVAÇÃO 02/12/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA08.php">AULA 08 THAIS - GRAVAÇÃO 16/12/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA01.php">AULA 01 - GOIVANNE - GRAVAÇÃO 03/01/2023</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA02.php">AULA 02 - GOIVANNE - GRAVAÇÃO 04/01/2023</a><p></p> 
                                 </div>
                             </div>
                         </div>
