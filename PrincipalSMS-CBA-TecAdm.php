@@ -175,7 +175,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseEspecifico">
                                 <div class="card card-body">
-                                    <a href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 17/12/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA01.php">AULA 01 - DAVOLI - GRAVAÇÃO 17/12/2022</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_TECADM_CLEIDE_AULA01.php">AULA 01 - CLEIDE - GRAVAÇÃO 07/01/2023</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_TECADM_CLEIDE_AULA02.php">AULA 02 - CLEIDE - GRAVAÇÃO 07/01/2023</a><p></p> 
                                 </div>
                             </div>
                         </div>

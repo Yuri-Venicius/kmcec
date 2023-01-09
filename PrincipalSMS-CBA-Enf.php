@@ -185,6 +185,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_THAIS_AULA08.php">AULA 08 THAIS - GRAVAÇÃO 16/12/2022</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA01.php">AULA 01 - GIOVANNE - GRAVAÇÃO 03/01/2023</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA02.php">AULA 02 - GIOVANNE - GRAVAÇÃO 04/01/2023</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA03.php">AULA 03 - GIOVANNE - GRAVAÇÃO 06/01/2023</a><p></p> 
                                 </div>
                             </div>
                         </div>
