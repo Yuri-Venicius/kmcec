@@ -94,7 +94,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <h2>CURSO PARA A SMS CUIABÁ - HISTÓRIA DE MT| PROFESSOR CARLOS</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">Anterior</a>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">Próximo</a> -->
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">Próximo</a>
                 <p></p>
                 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/oe69qm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>

@@ -186,6 +186,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA01.php">AULA 01 - GIOVANNE - GRAVAÇÃO 03/01/2023</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA02.php">AULA 02 - GIOVANNE - GRAVAÇÃO 04/01/2023</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA03.php">AULA 03 - GIOVANNE - GRAVAÇÃO 06/01/2023</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA04.php">AULA 04 - GIOVANNE - GRAVAÇÃO 09/01/2023</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -301,6 +302,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">AULA 01 - GRAVAÇÃO 19/12/2022</a><p></p>
                                     <a href="SMS_TODOS_HISTORIA_CARLAO_AULA02.php">AULA 02 - GRAVAÇÃO 21/12/2022</a><p></p>
+                                    <a href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">AULA 03 - GRAVAÇÃO 10/01/2023</a><p></p>
                                 </div>
                             </div>
                         </div>
