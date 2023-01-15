@@ -161,7 +161,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesHelio">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 11/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -182,8 +183,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapsePortuguesElder">
                                     <div class="card card-body">
                                         <a href="PC-GO_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 22/09/2022</a>
-                                        <p></p>
                                         <a href="PC-GO_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 10/10/2022</a>
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA04.php">AULA 04 - GRAVAÇÃO 07/11/2022</a>
+                                        <a href="PC-GO_PORTUGUES_ELDER_AULA05.php">AULA 05 - GRAVAÇÃO 14/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -204,7 +207,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 14/10/2022</a>
+                                        <a href="PC-GO_PORTUGUES_GOUVEIA_AULA02.php">AULA 01 - GRAVAÇÃO 28/10/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -226,6 +231,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_CONST_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 30/09/2022</a>
                                         <a href="PC-GO_DIR_CONST_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 05/10/2022</a>
+                                        <a href="PC-GO_DIR_CONST_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 24/10/2022</a>
+                                        <a href="PC-GO_DIR_CONST_NETO_AULA04.php">AULA 04 - GRAVAÇÃO 31/10/2022</a>
+                                        <a href="PC-GO_DIR_CONST_NETO_AULA05.php">AULA 05 - GRAVAÇÃO 30/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -246,6 +254,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDireitoPenal">
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 29/09/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 06/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA03.php">AULA 03 - GRAVAÇÃO 13/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA04.php">AULA 04 - GRAVAÇÃO 20/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA05.php">AULA 05 - GRAVAÇÃO 27/10/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA06.php">AULA 06 - GRAVAÇÃO 11/11/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA07.php">AULA 07 - GRAVAÇÃO 18/11/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA08.php">AULA 08 - GRAVAÇÃO 02/12/2022</a>
+                                        <a href="PC-GO_DIR_PENAL_EDUARDO_AULA09.php">AULA 09 - GRAVAÇÃO 02/12/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -266,10 +282,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseRlm">
                                     <div class="card card-body">
                                         <a href="PC-GO_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/09/2022</a>
-                                        <p></p>
                                         <a href="PC-GO_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 26/09/2022</a>
-                                        <p></p>
                                         <a href="PC-GO_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 03/10/2022</a>
+                                        <a href="PC-GO_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 04/11/2022</a>
+                                        <a href="PC-GO_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 09/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -290,8 +306,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDirAdmCleide">
                                     <div class="card card-body">
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 20/09/22</a>
-                                        <p></p>
                                         <a href="PC-GO_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 21/09/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 17/10/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA04.php">AULA 04 - GRAVAÇÃO 26/10/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 16/11/22</a>
+                                        <a href="PC-GO_DIR_ADM_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 21/11/22</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -311,7 +330,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseCppMarciano">
                                     <div class="card card-body">
-                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a><p></p>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 04/10/2022</a>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 13/10/2022</a>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA03.php">AULA 03 - GRAVAÇÃO 03/11/2022</a>
+                                        <a href="PC-GO_PROCESSO_PENAL_MARCIANO_AULA04.php">AULA 04 - GRAVAÇÃO 24/11/2022</a>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -322,7 +345,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">HISTÓRIA - CARLOS BIDU</h5>
+                                <h5 class="card-title">HISTÓRIA E GEOGRAFIA DE GOIÁS - LEANDRO MORAIS</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistoriaGenesis" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
@@ -330,64 +353,17 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseHistoriaGenesis">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_HISTORIA_GENESIS_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">GEOGRAFIA - MARCELO ALONSO</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMarcelo" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k71ls0DwrTleJTc0Dcdyf5mvvT_7BGtA?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGeografiaMarcelo">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 22/01/2022</a><p></p>  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaSilvio" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1k8Iw0iwN8AYFlr5lRu1mZ65viw3G-hgc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaSilvio">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 08/01/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1_FtU4kvaVbvw_LVtslfynM2-130qgsJ3?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaJoao">
-                                    <div class="card card-body">
-                                        <!-- <a href="POS-PJC_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 18/01/2022</a><p></p> -->
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA01.php">AULA 01 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA02.php">AULA 02 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA03.php">AULA 03 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA04.php">AULA 04 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA05.php">AULA 05 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA06.php">AULA 06 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA07.php">AULA 07 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA08.php">AULA 08 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA09.php">AULA 09 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA10.php">AULA 10 </a><p></p>
+                                        <a href="PC-GO_HISTORIA_GO_LEANDRO_AULA11.php">AULA 11 </a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -409,6 +385,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PC-GO_LEG_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 28/09/2022</a>
                                         <a href="PC-GO_LEG_ESP_MICHELE_AULA02.php">AULA 02 - GRAVAÇÃO 07/10/2022</a>
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA03.php">AULA 03 - GRAVAÇÃO 19/10/2022</a>
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA04.php">AULA 04 - GRAVAÇÃO 23/11/2022</a>
+                                        <a href="PC-GO_LEG_ESP_MICHELE_AULA05.php">AULA 05 - GRAVAÇÃO 25/11/2022</a>
                                         <p></p>
                                     </div>
                                 </div>
@@ -428,7 +407,55 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseCrimDavoli">
                                     <div class="card card-body">
-                                        <!-- <a href="POS-PJC_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 22/01/2022</a><p></p>  -->
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022</a>
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 25/10/2022</a>
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 01/11/2022</a>
+                                        <a href="PC-GO_NOCOES_CRIM_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 08/11/2022</a>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CRIMES DE TRÂNSITO - ALAN DE OLIVEIRA </h5>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCrimAlan" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1OoNX3xDrRXJeOUZkVBplaEd3lo6eqVVD?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseCrimAlan">
+                                    <div class="card card-body">
+                                        <a href="PC-GO_CRIM_ALAN_AULA01.php">AULA 01 - GRAVAÇÃO 10/11/2022</a>
+                                        <a href="PC-GO_CRIM_ALAN_AULA02.php">AULA 02 - GRAVAÇÃO 17/11/2022</a>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">NOÇÕES DE MEDICINA LEGAL - FERNANDO DAVOLI</h5>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMedicinaDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1y6hoEdBwymtDpsoOmSNOl4BokZP2iDyC?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseMedicinaDavoli">
+                                    <div class="card card-body">
+                                        <a href="PC-GO_MEDICINA_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 22/11/2022</a>
+                                        <a href="PC-GO_MEDICINA_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 28/11/2022</a>
+                                        <p></p>
                                         <p></p>
                                     </div>
                                 </div>

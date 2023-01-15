@@ -147,12 +147,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card-body">
                             <h5 class="card-title">CONTEÚDO BÔNUS - ISOLADAS</h5>
                             <p class="card-text">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConteudoBonus" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConteudoBonusIsoladas" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS - CONTEÚDO BÔNUS - ISOLADAS
                                 </button>
                                 <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1KocBo-tifzB3NY_0qpOroBPaTtwaSBKo?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
                             </p>
-                            <div class="collapse" id="collapseConteudoBonus">
+                            <div class="collapse" id="collapseConteudoBonusIsoladas">
                                 <div class="card card-body">
                                     <a href="PrincipalIsoladasKM.php">CONTEÚDO BÔNUS - ISOLADAS DO KM</a>
                                     <p></p>
@@ -171,11 +171,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspecifico" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
-                                <!-- <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1KocBo-tifzB3NY_0qpOroBPaTtwaSBKo?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>  -->
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Vw7fMTuYBNbQ2wHpUtDl2_-n-S6pSaIR?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
                             </p>
                             <div class="collapse" id="collapseEspecifico">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 12/05/2022</a><p></p>  -->
+                                    <!-- <a href="SMS_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a><p></p>  -->
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePortuguesHelio">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 12/05/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 27/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 16/11/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -216,6 +217,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapsePortuguesGouveia">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 06/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA02.php">AULA 02 - GRAVAÇÃO 18/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA03.php">AULA 03 - GRAVAÇÃO 26/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA04.php">AULA 04 - GRAVAÇÃO 18/11/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -236,7 +240,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapsePortuguesElder">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 07/10/2022</a><p></p> 
-                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 08/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 09/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 23/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA04.php">AULA 04 - GRAVAÇÃO 30/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA05.php">AULA 05 - GRAVAÇÃO 07/12/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULA06.php">AULA 06 - GRAVAÇÃO 14/12/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_ELDER_AULAEXTRA.php">AULA EXTRA - CONJUNÇÃO</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -255,7 +264,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseRaciocinioIgor">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_RACIOCINIO_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 15/03/2022 </a><p></p>  -->
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 21/10/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 04/11/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 06/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 13/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 15/12/2022 </a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -266,7 +279,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">HISTÓRIA DE MT - PROF. BIDU</h5>
+                            <h5 class="card-title">HISTÓRIA DE MT - CARLOS</h5>
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
                                 <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                             </button>
@@ -274,7 +287,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseHistBidu">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 29/03/2022</a><p></p> -->
+                                    <a href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">AULA 01 - GRAVAÇÃO 19/12/2022</a><p></p>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +306,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseGeografiaMarcelo">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 06/04/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 13/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_GEOGRAFIA_MARCELO_AULA02.php">AULA 02 - GRAVAÇÃO 21/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_GEOGRAFIA_MARCELO_AULA03.php">AULA 03 - GRAVAÇÃO 25/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_GEOGRAFIA_MARCELO_AULA04.php">AULA 04 - GRAVAÇÃO 01/12/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -312,7 +328,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseInformaticaJoao">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 25/03/2022</a><p></p> -->
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 10/10/2022</a><p></p>
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 03/11/2022</a><p></p>
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 29/11/2022</a><p></p>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +349,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseInformaticaSilvio">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 20/04/2022</a><p></p> -->
+                                    <a href="SMS_TODOS_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 28/10/2022</a><p></p>
+                                    <a href="SMS_TODOS_INFORMATICA_SILVIO_AULA02.php">AULA 02 - GRAVAÇÃO 10/11/2022</a><p></p>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +369,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseRelDavoli">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_RELACOES_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 30/03/2022</a><p></p>  -->
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 01/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 11/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 17/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 08/12/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -370,25 +392,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseLegCleide">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 05/10/2022</a><p></p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p></p>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">ESTATUTO DOS SERVIDORES - JOSÉ NETO</h5>
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegNeto" aria-expanded="false" aria-controls="collapseExample">
-                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                            </button>
-                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1z9nUspZIml6K6BAMPgmqbpi3CHxvmU_6?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                            </p>
-                            <div class="collapse" id="collapseLegNeto">
-                                <div class="card card-body">
-                                    <!-- <a href="PRE-SES_LEGISLACAO_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 31-03-22</a><p></p>  -->
+                                    <a href="SMS_TODOS_ESTATUTO_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 17/10/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>

@@ -1014,7 +1014,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $_SESSION['usuario'] == 'adonabruna@gmail.com' || $_SESSION['usuario'] == 'adonabruna@gmail.com ' || $_SESSION['usuario'] == 'Adonabruna@gmail.com' || $_SESSION['usuario'] == 'Adonabruna@gmail.com ' ||
                     $_SESSION['usuario'] == 'ingridacostta@gmail.com' || $_SESSION['usuario'] == 'ingridacostta@gmail.com ' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com ' ||
                     // $_SESSION['usuario'] == 'oluansartori@gmail.com' || $_SESSION['usuario'] == 'oluansartori@gmail.com ' || $_SESSION['usuario'] == 'Oluansartori@gmail.com' || $_SESSION['usuario'] == 'Oluansartori@gmail.com ' ||
-                    $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com ' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com ' ||
+                    // $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com ' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com ' ||
                     $_SESSION['usuario'] == 'haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'haiesa.sorretino@gmail.com ' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com' || $_SESSION['usuario'] == 'Haiesa.sorretino@gmail.com ' ||
                     $_SESSION['usuario'] == 'larissafael171194@gmail.com' || $_SESSION['usuario'] == 'larissafael171194@gmail.com ' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com ' ||
                     $_SESSION['usuario'] == 'mariana.gfonseca@hotmail.com' || $_SESSION['usuario'] == 'mariana.gfonseca@hotmail.com ' || $_SESSION['usuario'] == 'Mariana.gfonseca@hotmail.com' || $_SESSION['usuario'] == 'Mariana.gfonseca@hotmail.com ' ||
@@ -1060,7 +1060,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $_SESSION['usuario'] == 'rbd_acs@hotmail.com' || $_SESSION['usuario'] == 'rbd_acs@hotmail.com ' || $_SESSION['usuario'] == 'Rbd_acs@hotmail.com' || $_SESSION['usuario'] == 'Rbd_acs@hotmail.com ' ||
                     $_SESSION['usuario'] == 'alexandreabilio10@gmail.com' || $_SESSION['usuario'] == 'amobibi.ss@gmail.com' || $_SESSION['usuario'] == 'wisley2207@hotmail.com' ||
                     $_SESSION['usuario'] == 'ingridacostta@gmail.com' || $_SESSION['usuario'] == 'ingridacostta@gmail.com ' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com' || $_SESSION['usuario'] == 'Ingridacostta@gmail.com ' ||
-                    $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com ' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com ' ||
+                    // $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'renaira_dossantos.duarte@hotmail.com ' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com' || $_SESSION['usuario'] == 'Renaira_dossantos.duarte@hotmail.com ' ||
                     $_SESSION['usuario'] == 'larissafael171194@gmail.com' || $_SESSION['usuario'] == 'larissafael171194@gmail.com ' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com' || $_SESSION['usuario'] == 'Larissafael171194@gmail.com ' ||
                     $_SESSION['usuario'] == 'rodmagalhaes18@gmail.com' || $_SESSION['usuario'] == 'rodmagalhaes18@gmail.com ' || $_SESSION['usuario'] == 'Rodmagalhaes18@gmail.com' || $_SESSION['usuario'] == 'Rodmagalhaes18@gmail.com ' ||
                     $_SESSION['usuario'] == 'silviosoares622@gmail.com' || $_SESSION['usuario'] == 'silviosoares622@gmail.com ' || $_SESSION['usuario'] == 'Silviosoares622@gmail.com' || $_SESSION['usuario'] == 'Silviosoares622@gmail.com ' ||
@@ -1300,9 +1300,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 $codCurso = 2637;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
-
-                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
                 ) : ?>
                     <div class="col-sm-6">
                         <div class="card">
@@ -1312,6 +1310,50 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <p></p>
                                 <a href="PrincipalINSS.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2738;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PREPARATÓRIO AVANÇADO PRÉ-EDITAL PARA A SEFAZ-MT [Online]</h5>
+                                <p class="card-text">Curso ONLINE avançado pré-edital preparatório para o concurso da SEFAZ-MT</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalPre-SEFAZ-Avancado.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2744;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
+
+                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSOS REGULAR E AVANÇADO PRÉ-EDITAL PARA A SEFAZ-MT [Online]</h5>
+                                <p class="card-text">Combo 2 em 1 com os cursos regular e avançado, ambos pré-edital para a SEFAZ-MT</p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalPre-SEFAZ-2em1.php" class="btn btn-primary">Acessar</a>
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>

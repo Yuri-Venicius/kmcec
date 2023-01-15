@@ -224,6 +224,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 15/06/2022</a><p></p>
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA02.php">AULA 02 - GRAVAÇÃO 26/07/2022</a><p></p>
                                         <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA03.php">AULA 03 - GRAVAÇÃO 27/07/2022</a><p></p>
+                                        <a href="PRE-SEFAZ_HISTORIA_BIDU_AULA04.php">AULA 04 - GRAVAÇÃO 01/09/2022</a><p></p>
                                     </div>
                                     </div>
                         </div>
@@ -333,6 +334,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA08.php">AULA 08 - GRAVAÇÃO 09/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA09.php">AULA 09 - GRAVAÇÃO 12/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_LTE_FANTONI_AULA10.php">AULA 10 - GRAVAÇÃO 18/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA11.php">AULA 11 - GRAVAÇÃO 31/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA12.php">AULA 12 - GRAVAÇÃO 08/09/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA13.php">AULA 13 - GRAVAÇÃO 12/09/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_LTE_FANTONI_AULA14.php">AULA 14 - GRAVAÇÃO 20/09/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>
@@ -432,6 +437,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA01.php">AULA 01 - GRAVAÇÃO 16/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA02.php">AULA 02 - GRAVAÇÃO 19/08/2022</a><p></p> 
                                             <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA03.php">AULA 03 - GRAVAÇÃO 22/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_PENAL_EDUARDO_AULA04.php">AULA 04 - GRAVAÇÃO 22/08/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>
@@ -496,6 +502,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <div class="collapse" id="collapseEmpresJose">
                                         <div class="card card-body"> 
                                             <a href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 04/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 30/08/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA03.php">AULA 03 - GRAVAÇÃO 21/09/2022</a><p></p> 
+                                            <a href="PRE-SEFAZ_EMPRESARIAL_NETO_AULA04.php">AULA 04 - GRAVAÇÃO 23/09/2022</a><p></p> 
                                         </div>
                                         </div>
                             </div>
