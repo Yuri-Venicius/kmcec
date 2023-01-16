@@ -424,6 +424,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseLegNeto">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_LEGISLACAO_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 22/12/22</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 14/01/23</a><p></p> 
                                 </div>
                             </div>
                         </div>
