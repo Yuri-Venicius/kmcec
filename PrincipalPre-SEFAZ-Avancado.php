@@ -231,25 +231,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">AVANÇADO - GEOGRAFIA - FANAIA</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMarcelo" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1pDSYqKYkLIfjiGgC8yUJm1JKigdy7fZF?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGeografiaMarcelo">
-                                    <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 11/05/2022</a><p></p>  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
                                 <h5 class="card-title">AVANÇADO - INFORMÁTICA - JOÃO CLEBER</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -268,43 +249,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">AVANÇADO - INFORMÁTICA - SILVIO BONONI</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaSilvio" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1qAMg96RLR0FlPzBBNf1qSeBssJYquda5?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaSilvio">
-                                    <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 19/04/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">TECNOLOGIA DA INFORMAÇÃO - GABRIEL PACHECO</h5>
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaGabriel" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Z91l_PlzkDQ95IVZoAdXNt0BtAJ_rvyP?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                    </p>
-                                    <div class="collapse" id="collapseInformaticaGabriel">
-                                        <div class="card card-body">
-                                            <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_PACHECO_AULA01.php">AULA 01 - GRAVAÇÃO 27/06/2022</a><p></p>
-                                        </div>
-                                    </div>    
-                        </div>
-                    </div><p></p>
-                </div> -->
 
                     <div class="col-sm-6">
                         <div class="card">
@@ -497,29 +441,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-                    
-                    <!-- <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CONTABILIDADE AVANÇADA  - ANDERSON FUMAUX</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCBLAnderson" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1b6Hj6sbqAkLfT0FwNKHMe1fltz27L7EM?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseCBLAnderson">
-                                        <div class="card card-body"> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA01.php">AULA 01 - GRAVAÇÃO 08/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA02.php">AULA 02 - GRAVAÇÃO 09/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA03.php">AULA 03 - GRAVAÇÃO 09/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA04.php">AULA 04 - GRAVAÇÃO 10/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA05.php">AULA 05 - GRAVAÇÃO 23/07/22</a><p></p> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
-
+         
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -540,42 +462,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">ÉTICA E FILOSOFIA - DOUGLAS REMONATTO [CONTEÚDO BÔNUS]</h5>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEticaDouglas" aria-expanded="false" aria-controls="collapseExample">
-                                            <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                        </button>
-                                        <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1TxXHtVD_dv7u6ZuKPp5iO1HUDAkHruLe?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseEticaDouglas">
-                                        <div class="card card-body"> 
-                                            <a href="PRE-SEFAZ-AVANCADO_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 03/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_ETICA_DOUGLAS_AULA02.php">AULA 02 - GRAVAÇÃO 08/08/2022</a><p></p> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
-
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">SIMULADOS - PROVAS E GABARITOS</h5>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimulados" aria-expanded="false" aria-controls="collapseExample">
-                                            <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                        </button>
-                                        <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/15WOlVEZmNqomUfF-mXSZekYySXtrMOBv?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Acessar</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseSimulados">
-                                        <div class="card card-body"> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
 
                 </div>
 
