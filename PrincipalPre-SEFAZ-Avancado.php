@@ -120,12 +120,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente, e para fazer o
                 download do material de apoio do bloco, basta clicar em "Materiais" que o Download irá começar.</p>
 
-            <?php
-            $codCurso = 2738;
-            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-            if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
-            ) : ?>
+            
 
                 <div class="row">
 
@@ -582,7 +577,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div><p></p>
                 </div> -->
 
-                <?php endif; ?>
                 </div>
 
 
