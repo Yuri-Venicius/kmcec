@@ -1354,6 +1354,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
+                <?php
+                $codCurso = 2834;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO SEFAZ-MT PRÉ-EDITAL + ATUALIZAÇÕES [Online]</h5>
+                                <p class="card-text">Curso preparatório pré edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais, 
+                                    100% on-line, com os melhores professores do Brasil!
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalPre-SEFAZ-2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
 
                 <!-- ANTIGAS A SEREM ATUALIZADAS COM NOVA VERIFICAÇÃO  -->
 
