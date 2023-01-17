@@ -127,7 +127,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
 
                 <div class="row">
-                    <h3>Conteúdo Bônus: </h3>
+                    <div class="col-sm-12"><h3>Conteúdo Bônus: </h3></div>
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -152,8 +152,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
-                    <h3>Conteúdo do curso: </h3>
-                    <p>Ainda não há conteúdo gravado</p>
+                    <div class="col-md-12"><h3>Conteúdo do curso: </h3></div>
+                    <p></p>
+                    <a>Ainda não há conteúdo gravado</a>
 
                 <?php endif; ?>
                 </div>
