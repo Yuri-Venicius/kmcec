@@ -190,6 +190,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA05.php">AULA 05 - GIOVANNE - GRAVAÇÃO 12/01/2023</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA06.php">AULA 06 - GIOVANNE - GRAVAÇÃO 13/01/2023</a><p></p> 
                                     <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA07.php">AULA 07 - GIOVANNE - GRAVAÇÃO 16/01/2023</a><p></p> 
+                                    <a href="SMS_ESPECIFICO_ENF_TECENF_GIOVANNE_AULA08.php">AULA 08 - GIOVANNE - GRAVAÇÃO 17/01/2023</a><p></p> 
                                 </div>
                             </div>
                         </div>
