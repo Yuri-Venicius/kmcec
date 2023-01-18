@@ -90,9 +90,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <div id="content">
             <?php
             $codCurso = 2738;
+            $codCurso2 = 2834;
             $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
             if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
+                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && ($userTemp['idCurso'] == $codCurso || $userTemp['idCurso'] == '2834'))
             ) : ?>
             
 
