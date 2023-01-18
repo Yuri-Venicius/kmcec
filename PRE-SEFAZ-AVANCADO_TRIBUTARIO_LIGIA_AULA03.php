@@ -89,11 +89,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
             <?php
-            $codCurso = 2738;
-            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+            $codCurso = 1;
             if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
-            ) : ?>
+                $codCurso == 1 ) : ?>
             
 
                 <h2>SEFAZ-MT - PRE EDITAL AVANÇADO - DIREITO TRIBUTÁRIO | PROFESSORA LÍGIA DONONI</h2><h3>AULA 03</h3>
