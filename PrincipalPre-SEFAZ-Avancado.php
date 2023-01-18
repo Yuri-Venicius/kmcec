@@ -120,12 +120,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente, e para fazer o
                 download do material de apoio do bloco, basta clicar em "Materiais" que o Download irá começar.</p>
 
-            <?php
-            $codCurso = 2738;
-            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-            if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
-            ) : ?>
+            
 
                 <div class="row">
 
@@ -145,26 +140,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 13/12/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 15/12/2022</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 16/12/2022</a><p></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">AVANÇADO - PORTUGUÊS - HENRIQUE CASTELO BRANCO</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHenrique" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1ieLE33kx00UIaLJcmPjGMLUVdA99FY5w?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapsePortuguesHenrique">
-                                    <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_PORTUGUES_HENRIQUE_AULA01.php">AULA 01 - GRAVAÇÃO 11/04/2022</a><p></p>  -->
                                     </div>
                                 </div>
                             </div>
@@ -205,6 +180,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 18/10/2022 </a><p></p> 
                                         <a href="PRE-SEFAZ-AVANCADO_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 12/12/2022 </a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 19/12/2022 </a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 21/12/2022 </a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -234,25 +211,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">AVANÇADO - GEOGRAFIA - FANAIA</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMarcelo" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1pDSYqKYkLIfjiGgC8yUJm1JKigdy7fZF?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGeografiaMarcelo">
-                                    <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 11/05/2022</a><p></p>  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
                                 <h5 class="card-title">AVANÇADO - INFORMÁTICA - JOÃO CLEBER</h5>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -271,43 +229,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">AVANÇADO - INFORMÁTICA - SILVIO BONONI</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaSilvio" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1qAMg96RLR0FlPzBBNf1qSeBssJYquda5?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInformaticaSilvio">
-                                    <div class="card card-body">
-                                        <!-- <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 19/04/2022</a><p></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">TECNOLOGIA DA INFORMAÇÃO - GABRIEL PACHECO</h5>
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaGabriel" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Z91l_PlzkDQ95IVZoAdXNt0BtAJ_rvyP?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                    </p>
-                                    <div class="collapse" id="collapseInformaticaGabriel">
-                                        <div class="card card-body">
-                                            <a href="PRE-SEFAZ-AVANCADO_INFORMATICA_PACHECO_AULA01.php">AULA 01 - GRAVAÇÃO 27/06/2022</a><p></p>
-                                        </div>
-                                    </div>    
-                        </div>
-                    </div><p></p>
-                </div> -->
 
                     <div class="col-sm-6">
                         <div class="card">
@@ -474,6 +395,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseEmpresJose">
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_EMPRESARIAL_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 08/12/2022</a><p></p> 
+                                        <a href="PRE-SEFAZ-AVANCADO_EMPRESARIAL_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 20/12/2022</a><p></p> 
                                     </div>
                                 </div>
                             </div>
@@ -499,29 +421,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-                    
-                    <!-- <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CONTABILIDADE AVANÇADA  - ANDERSON FUMAUX</h5>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCBLAnderson" aria-expanded="false" aria-controls="collapseExample">
-                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                </button>
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1b6Hj6sbqAkLfT0FwNKHMe1fltz27L7EM?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseCBLAnderson">
-                                        <div class="card card-body"> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA01.php">AULA 01 - GRAVAÇÃO 08/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA02.php">AULA 02 - GRAVAÇÃO 09/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA03.php">AULA 03 - GRAVAÇÃO 09/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA04.php">AULA 04 - GRAVAÇÃO 10/07/22</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_CBL_FUMAUX_AULA05.php">AULA 05 - GRAVAÇÃO 23/07/22</a><p></p> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
-
+         
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -535,6 +435,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 06/12/22</a><p></p>
                                         <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 07/12/22</a><p></p>
+                                        <a href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA03.php">AULA 03 - GRAVAÇÃO 22/12/22</a><p></p>
                                     </div>
                                 </div>
                             </div>
@@ -542,43 +443,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">ÉTICA E FILOSOFIA - DOUGLAS REMONATTO [CONTEÚDO BÔNUS]</h5>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEticaDouglas" aria-expanded="false" aria-controls="collapseExample">
-                                            <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                        </button>
-                                        <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1TxXHtVD_dv7u6ZuKPp5iO1HUDAkHruLe?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseEticaDouglas">
-                                        <div class="card card-body"> 
-                                            <a href="PRE-SEFAZ-AVANCADO_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 03/08/2022</a><p></p> 
-                                            <a href="PRE-SEFAZ-AVANCADO_ETICA_DOUGLAS_AULA02.php">AULA 02 - GRAVAÇÃO 08/08/2022</a><p></p> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
-
-                    <!-- <div class="col-sm-6">
-                    <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">SIMULADOS - PROVAS E GABARITOS</h5>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimulados" aria-expanded="false" aria-controls="collapseExample">
-                                            <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                        </button>
-                                        <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/15WOlVEZmNqomUfF-mXSZekYySXtrMOBv?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Acessar</a> 
-                                        </p>
-                                        <div class="collapse" id="collapseSimulados">
-                                        <div class="card card-body"> 
-                                        </div>
-                                        </div>
-                            </div>
-                    </div><p></p>
-                </div> -->
-
-                <?php endif; ?>
                 </div>
 
 

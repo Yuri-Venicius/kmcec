@@ -200,11 +200,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePortuguesGouveia">
                                 <div class="card card-body">
-                                <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 06/10/2022</a><p></p> 
-                                <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA02.php">AULA 02 - GRAVAÇÃO 18/10/2022</a><p></p> 
-                                <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA03.php">AULA 03 - GRAVAÇÃO 26/10/2022</a><p></p> 
-                                <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA04.php">AULA 04 - GRAVAÇÃO 18/11/2022</a><p></p> 
-                                <p></p>
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 06/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA02.php">AULA 02 - GRAVAÇÃO 18/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA03.php">AULA 03 - GRAVAÇÃO 26/10/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA04.php">AULA 04 - GRAVAÇÃO 18/11/2022</a><p></p> 
+                                    <a href="SMS_TODOS_PORTUGUES_GOUVEIA_AULA05.php">AULA 05 - GRAVAÇÃO 10/11/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -254,6 +254,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 06/12/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 13/12/2022 </a><p></p> 
                                     <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 15/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA06.php">AULA 06 - GRAVAÇÃO 19/12/2022 </a><p></p> 
+                                    <a href="SMS_TODOS_RACIOCINIO_IGOR_AULA07.php">AULA 07 - GRAVAÇÃO 21/12/2022 </a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -268,11 +270,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
                                 <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                             </button>
-                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1QKK2vA8sq-FusdPIkSTkLdL0ogu2XHWI?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1CvxFmlf3XRaOotWEb0b4dcFCe0-5kt3Y?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> 
                             </p>
                             <div class="collapse" id="collapseHistBidu">
                                 <div class="card card-body">
                                     <a href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">AULA 01 - GRAVAÇÃO 19/12/2022</a><p></p>
+                                    <a href="SMS_TODOS_HISTORIA_CARLAO_AULA02.php">AULA 02 - GRAVAÇÃO 21/12/2022</a><p></p>
+                                    <a href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">AULA 03 - GRAVAÇÃO 10/01/2023</a><p></p>
                                 </div>
                             </div>
                         </div>
@@ -316,6 +320,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 10/10/2022</a><p></p>
                                     <a href="SMS_TODOS_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 03/11/2022</a><p></p>
                                     <a href="SMS_TODOS_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 29/11/2022</a><p></p>
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA04.php">AULA 04 - GRAVAÇÃO 05/01/2023</a><p></p>
+                                    <a href="SMS_TODOS_INFORMATICA_JOAO_AULA05.php">AULA 05 - GRAVAÇÃO 11/01/2023</a><p></p>
                                 </div>
                             </div>
                         </div>
@@ -358,6 +364,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 11/11/2022</a><p></p> 
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 17/11/2022</a><p></p> 
                                     <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 08/12/2022</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_DAVOLI_AULA05.php">AULA 05 - GRAVAÇÃO 20/12/2022</a><p></p> 
                                 </div>
                             </div>
                         </div>
@@ -417,7 +424,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseLegNeto">
                                 <div class="card card-body">
-                                    <!-- <a href="PRE-SES_LEGISLACAO_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 31-03-22</a><p></p>  -->
+                                    <a href="SMS_TODOS_LEGISLACAO_NETO_AULA01.php">AULA 01 - GRAVAÇÃO 22/12/22</a><p></p> 
+                                    <a href="SMS_TODOS_LEGISLACAO_NETO_AULA02.php">AULA 02 - GRAVAÇÃO 14/01/23</a><p></p> 
                                 </div>
                             </div>
                         </div>

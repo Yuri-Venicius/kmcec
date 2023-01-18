@@ -89,17 +89,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
             <?php
-            $codCurso = 2738;
-            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+            $codCurso = 1;
             if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
-            ) : ?>
+                $codCurso == 1 ) : ?>
             
 
                 <h2>SEFAZ-MT - PRE EDITAL AVANÇADO - CONTABILIDADE DE CUSTOS | PROFESSOR DANIEL MERRELES</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA01.php">Anterior</a>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_DANIEL_AULA09.php">Próximo</a> -->
+                <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ-AVANCADO_CONTABILIDADE_CUSTOS_DANIEL_AULA03.php">Próximo</a>
                 <p></p>
                 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/3wgg1m" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
