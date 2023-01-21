@@ -115,7 +115,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>VÍDEO AULAS - SEFAZ PRÉ-EDITAL + ATUALIZAÇÕES</h2>
+            <h2>VÍDEO AULAS - CURSO BANCO DO BRASIL</h2>
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
