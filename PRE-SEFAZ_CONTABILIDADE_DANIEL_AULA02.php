@@ -91,7 +91,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>INDEA-MT SUPERIOR - CONTABILIDADE GERAL | PROFESSOR DANIEL MERRELES</h2><h3>AULA 02</h3>
+                <h2>CURSO PRÉ-EDITAL SEFAZ MT - CONTABILIDADE GERAL | PROFESSOR DANIEL MERRELES</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_CONTABILIDADE_DANIEL_AULA01.php">Anterior</a>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="PRE-SEFAZ_CONTABILIDADE_DANIEL_AULA03.php">Próximo</a>
