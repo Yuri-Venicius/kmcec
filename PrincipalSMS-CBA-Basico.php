@@ -415,7 +415,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card-body">
                             <h5 class="card-title">TODOS SIMULADOS</h5>
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimlado" aria-expanded="false" aria-controls="collapseExample">
-                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                <!-- <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS -->
                             </button>
                             <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1hwc8744sfoFOu-8Y-wbGBP8jaLtVAWzb?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> SIMULADOS</a> 
                             </p>
