@@ -91,12 +91,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA A SMS CUIABÁ - CONTEÚDO ESPECÍFICO | PROFESSOR DAVOLI</h2><h3>AULA 02</h3>
+                <h2>CURSO PARA A SMS CUIABÁ - CONTEÚDO ESPECÍFICO | PROFESSOR DAVOLI</h2><h3>AULA 03 PT 2</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA02_1.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA03_1.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA03_1.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_ESPECIFICO_TECADM_DAVOLI_AULA04_1.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/m9d2qb" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/bsukdk" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
