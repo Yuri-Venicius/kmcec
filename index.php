@@ -1250,9 +1250,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 $codCurso = 2658;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
-
-                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
                 ) : ?>
                     <div class="col-sm-6">
                         <div class="card">
