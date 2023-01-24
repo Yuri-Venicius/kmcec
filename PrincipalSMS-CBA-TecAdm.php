@@ -436,6 +436,25 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <p></p>
                 </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SIMULADOS</h5>
+                            <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSimlado" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS 
+                            </button> -->
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1hwc8744sfoFOu-8Y-wbGBP8jaLtVAWzb?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR</a> 
+                            </p>
+                            <div class="collapse" id="collapseSimlado">
+                                <div class="card card-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+                
             </div>
             <!-- jQuery CDN - Slim version (=without AJAX) -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
