@@ -1225,28 +1225,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
-                $codCurso = 2652;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso) ||
-
-                    $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO PARA SMS CUIABÁ-MT - FARMACÊUTICO</h5>
-                                <p class="card-text">Curso ONLINE preparatório para a Secretaria Municipal de Saúde de Cuiabá - MT, para os cargos de Farmacêutico.</p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSMS-CBA-Farmaceutico.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                    </div>
-                <?php endif; ?>
-
-                <?php
                 $codCurso = 2654;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
