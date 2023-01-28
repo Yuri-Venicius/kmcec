@@ -215,7 +215,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInglesJunior" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1pP1UHm0PY2sOFY_0IEmCM3NNAai-w7rl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1ZDODekP9BNyOMwgeVA6k3xeDdjybaJD4?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseInglesJunior">
                                     <div class="card card-body">
