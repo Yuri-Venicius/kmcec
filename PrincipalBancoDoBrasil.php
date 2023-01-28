@@ -127,7 +127,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
 
                 <div class="row">
-                    <div class="col-sm-12"><h3>Conteúdo Bônus: </h3></div>
+                    <div class="col-sm-12">
+                        <h3>Conteúdo Bônus: </h3>
+                    </div>
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -140,11 +142,216 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
-                    <div class="col-md-12"><h3>Conteúdo do curso: </h3>
-                    <p></p>
-                    <a>Ainda não há conteúdo gravado</a>
+                    <div class="col-md-12">
+                        <h3>Conteúdo do curso: </h3>
                     </div>
-                    
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - ELDER DENCATI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesElder" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1j57jQURz9-Y7Voa8KatcDMI65-mvceuJ?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePortuguesElder">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - GOUVEIA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesGouveia" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1REzK8NjFeFCGy5mv4wu7AScDlAJaGjH2?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePortuguesGouveia">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePortuguesHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1lqgz3rQypx3LyfQy6EV3AZ4lBnLh9l47?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePortuguesHelio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA INGLESA - JÚNIOR</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInglesJunior" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1pP1UHm0PY2sOFY_0IEmCM3NNAai-w7rl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInglesJunior">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">MATEMÁTICA - IGOR BRASIL</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMatematicaIgor" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1H6-bnEtTRrgTON7COp-Wx1iE4tpu5CGK?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseMatematicaIgor">
+                                    <div class="card card-body">
+                                        <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/01/2023</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PROBABILIDADE E ESTATÍSTICA - IGOR BRASIL</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseProbIgor" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1soadZq80zPOQ6wL1rqbKtcYO_DT7OZxk?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseProbIgor">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ATUALIDADES DO MERCADO FINANCEIRO - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAtualidadesDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1VFG355LbLYE9PkkUPBsfnkGczxgUbJFc?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseAtualidadesDavoli">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/14tG5ZZP-CEiPtcwVjQpXm5De47TQpOG5?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoao">
+                                    <div class="card card-body">
+                                        <a href="BANCO_DO_BRASIL_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 24/01/2023</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CONHECIMENTOS BANCÁRIOS - CLEIDE REGINA/FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseBasicos" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/182rl24NGHUlDTQ7m2zjLZ7x14xG4lvC7?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseBasicos">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">VENDAS E NEGOCIAÇÕES - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseNegocios" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1F-3v_D_yeIEvW0rVOPPq4w8vAMAbH38m?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseNegocios">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
 
                 <?php endif; ?>
                 </div>
