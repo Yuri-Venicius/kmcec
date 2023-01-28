@@ -1095,6 +1095,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1155,6 +1156,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1177,6 +1179,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1199,6 +1202,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1221,6 +1225,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1243,6 +1248,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1263,6 +1269,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1283,6 +1290,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <P></P>
                     </div>
                 <?php endif; ?>
 
@@ -1305,6 +1313,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1327,6 +1336,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1349,6 +1359,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
@@ -1370,6 +1381,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
+                        <p></p>
                     </div>
                 <?php endif; ?>
 
