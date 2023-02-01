@@ -157,7 +157,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortuguesElder">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="BANCO_DO_BRASIL_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 30/01/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">MATEMÁTICA - IGOR BRASIL</h5>
+                                <h5 class="card-title">MATEMÁTICA/ESTATÍSTICA - IGOR BRASIL</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMatematicaIgor" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -240,27 +240,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseMatematicaIgor">
                                     <div class="card card-body">
                                         <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 23/01/2023</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">PROBABILIDADE E ESTATÍSTICA - IGOR BRASIL</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseProbIgor" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1soadZq80zPOQ6wL1rqbKtcYO_DT7OZxk?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseProbIgor">
-                                    <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
-
                                     </div>
                                 </div>
                             </div>
