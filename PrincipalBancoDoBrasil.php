@@ -302,7 +302,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseBasicosDavoli">
                                     <div class="card card-body">
-                                        <a>AINDA NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="BANCO_DO_BRASIL_BANCARIO_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 03/02/2023</a>
+                                        <a href="BANCO_DO_BRASIL_BANCARIO_DAVOLI_AULAEXTRA.php">AULA EXTRA - RESOLUÇÃO DE QUESTÕES - GRAVAÇÃO 04/02/2023</a>
                                     </div>
                                 </div>
                             </div>
