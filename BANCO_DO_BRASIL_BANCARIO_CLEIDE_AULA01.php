@@ -91,7 +91,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA O BANCO DO BRASIL - CONHECIMENTOS BANCÁRIOS | PROFESSORA CLEIDE REGINA</h2><h3>AULA 01</h3>
+                <h2>CURSO PARA O BANCO DO BRASIL - DIREITO  ADM/CONHECIMENTOS BANCÁRIOS | PROFESSORA CLEIDE REGINA</h2><h3>AULA 01</h3>
                 <div>
                 <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_BANCARIO_CLEIDE_AULA02.php">Próximo</a> -->
                 <p></p>
