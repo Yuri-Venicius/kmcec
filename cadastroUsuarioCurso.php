@@ -70,11 +70,11 @@ $emailUsuario = $array['email'];
                 ($array['email'] == null) ? enviaEmailPeloServer($conexao, $logarray, $codCurso) : enviaEmailPeloServer($conexao, $array['usuario'], $codCurso);
                 echo"<script language='javascript' type='text/javascript'>
                     alert('Usuário $var cadastrado em: {$nomeCurso['nomeCurso']} com sucesso!');
-                    </script>";
+                    window.location.href='novoUsuario.php';</script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
                     alert('Não foi possível cadastrar esse usuário');
-                    </script>";
+                    window.location.href='novoUsuario.php';</script>";
             }
         }
     }
