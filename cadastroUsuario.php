@@ -31,17 +31,22 @@ $nomeUser = $array['nome'];
             die();
         
         }else{
-            $query = "INSERT INTO usuarios(usuario, senha, nome, cpf, email, contato, sobrenome) VALUES ('$usuario','$senha', '$nome', '$cpf', '$email', '$contato', '$sobrenome')";
+            $query = "INSERT INTO usuarios(usuario, senha, nome, cpf, email, contato, sobrenome) 
+                        SELECT '$usuario','$senha', '$nome', '$cpf', '$email', '$contato', '$sobrenome'
+                        FROM usuarios
+                            WHERE NOT EXISTS(
+                                SELECT usuario
+                                FROM usuarios
+                                WHERE usuario = '$usuario')
+                        LIMIT 1";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
                 echo"<script language='javascript' type='text/javascript'>
-                    alert('Usuário cadastrado com sucesso!');
-                    window.location.href='index.php'</script>";
+                    alert('Usuário cadastrado com sucesso!');</script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
-                    alert('Não foi possível cadastrar esse usuário');
-                    window.location.href='novoUsuario.php'</script>";
+                    alert('Não foi possível cadastrar esse usuário, é possível que os dados estejam');</script>";
             }
         }
     }
