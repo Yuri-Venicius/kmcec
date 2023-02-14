@@ -48,7 +48,7 @@ $emailUsuario = $array['email'];
                         '$codCurso',
                         NOW(), 
                         'ATIVO', 
-                        '{$_SESSION[' usuario ']}', 
+                        '{$_SESSION['usuario']}', 
                         '$modalidadeAluno'
                     FROM
                         acessousuariocurso
