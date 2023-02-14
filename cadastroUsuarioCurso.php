@@ -35,7 +35,34 @@ $emailUsuario = $array['email'];
             die();
         
         }else{
-            $query = "INSERT INTO acessousuariocurso(idUsuario, idCurso, dtCriacaoAcesso, statusAcesso, criadoPor, modalidadeAluno) VALUES ('$idUsuario', '$codCurso', now(), 'ATIVO', '{$_SESSION['usuario']}', '$modalidadeAluno')";
+            $query = "INSERT INTO acessousuariocurso(
+                        idUsuario,
+                        idCurso,
+                        dtCriacaoAcesso,
+                        statusAcesso,
+                        criadoPor,
+                        modalidadeAluno
+                    )
+                    SELECT
+                        '$idUsuario',
+                        '$codCurso',
+                        NOW(), 
+                        'ATIVO', 
+                        '{$_SESSION[' usuario ']}', 
+                        '$modalidadeAluno'
+                    FROM
+                        acessousuariocurso
+                    WHERE NOT
+                        EXISTS(
+                        SELECT
+                            idUsuario,
+                            idCurso
+                        FROM
+                            acessousuariocurso
+                        WHERE
+                            idUsuario = '$idUsuario' AND '$codCurso'
+                    )
+                    LIMIT 1";
             $insert = mysqli_query($conexao, $query);
 
             if($insert){
@@ -43,11 +70,11 @@ $emailUsuario = $array['email'];
                 ($array['email'] == null) ? enviaEmailPeloServer($conexao, $logarray, $codCurso) : enviaEmailPeloServer($conexao, $array['usuario'], $codCurso);
                 echo"<script language='javascript' type='text/javascript'>
                     alert('Usuário $var cadastrado em: {$nomeCurso['nomeCurso']} com sucesso!');
-                    window.location.href='novoUsuario.php'</script>";
+                    </script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
                     alert('Não foi possível cadastrar esse usuário');
-                    window.location.href='novoUsuario.php'</script>";
+                    </script>";
             }
         }
     }
