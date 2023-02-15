@@ -60,7 +60,7 @@ $emailUsuario = $array['email'];
                         FROM
                             acessousuariocurso
                         WHERE
-                            idUsuario = '$idUsuario' AND '$codCurso'
+                            idUsuario = '$idUsuario' AND curso idCurso = '$codCurso'
                     )
                     LIMIT 1";
             $insert = mysqli_query($conexao, $query);
