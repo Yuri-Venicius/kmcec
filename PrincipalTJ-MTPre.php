@@ -143,11 +143,410 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
 
                     <div class="col-md-12">
-                        <h3>Conteúdo do curso: </h3>
-                        <h3>AINDA NÃO HÁ CONTEÚDO GRAVADO</h3>
+                        <h3>CONTEÚDO DO CURSO </h3>
                     </div>
-                <?php endif; ?>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - ELDER DENCATI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtElder" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1DbZr3Dn3IzyuRz-zPTTVqWDczvDYN7Uk?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtElder">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - HÉLIO TAQUES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1boSc-68IRLxwevk3CYKvw0DaD4oQK2Ri?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtHelio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - GOUVEIA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGouveia" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1rAcJw-ySx6ist6_OKBRjmWA1KQuVxeqL?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseGouveia">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO CONSTITUCIONAL - JOSÉ NETO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirConstJoseNeto" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1R_8Jv3VHekZ_F8liKI3HYRHyKrKjJUAS?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirConstJoseNeto">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAdmCleide" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1G5Ex3w1WSEVL_7TBVoecr6Uaq7jKd2w9?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirAdmCleide">
+                                    <div class="card card-body">
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 13/02/2023</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO CIVIL - STANLEY COSTA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirCivilStanley" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Gs0ad29UJOaKrf-0vamxKuRRIO4gr-Ht?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirCivilStanley">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO PROCESSUAL CIVIL - STANLEY COSTA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirProcStanley" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/10ac5KtI4QiDn4OQEqCUvBXKCFocE4858?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirProcStanley">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO PENAL - LUIZ HENRIQUE</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirPenalLuizH" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/14lqhDeiInquHrXU16GcXbePHkJwo30om?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirPenalLuizH">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO PROCESSUAL PENAL - MARCIANO XAVIER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirProcMarciano" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1MrTYNIQgrBP3gaZ49qhWjtJ3RWTRIPTl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirProcMarciano">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO AMBIENTAL - DANIELLE KUROISHI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAmbDanielle" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1SKm1Nol7F4etscxAlhBZm8mZBHGvxSnm?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirAmbDanielle">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITOS HUMANOS - JOSÉ NETO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirHumJose" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1vTIKTF0XQlP5qogVQ1aLdHfEpNSpIUbb?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirHumJose">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO ELEITORAL - HÉLIO UDSON</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirEleitoralHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Uxv2wBT5i_Ok7Q4-OLByUpzDnhaWcU4V?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirEleitoralHelio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">REGIMENTO INTERNO DO TJ - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRegInternoTj" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1212upiK0IhYYi-Fm8NKJ5gcT0y5dgG99?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRegInternoTj">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CÓDIGO DE ORGANIZAÇÃO JUDICIÁRIA - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCoje" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1y952Q8yyKURY4oyCOAeuYdkTHjGDzWHt?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseCoje">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">RACIOCÍNIO LÓGICO E MATEMÁTICO - IGOR BRASIL</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1h35qNX46e_0lAqS-bvAfBqitYPTjsQVt?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRlmIgor">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoSilvio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1F_auRIzZ2g56ljdL9KVifRSsLcuX6BVd?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoSilvio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1YIXKycuW686DxXLyYE6YAIRmyNGme28R?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoao">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">HISTÓRIA DE MT - CARLOS BIDU</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1xwzL11Xz8c4WmLgVDGiUv9NvcT5K-Tta?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseHistBidu">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">GEOGRAFIA DE MT - MARCELO ALONSO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeografiaMt" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1eU-tXZWoWd497ucFsnCykI86ODoEYoCB?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseGeografiaMt">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ÉTICA E FILOSOFIA - DOUGLAS REMONATTO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEticaDouglas" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1ALWZH-KsTjYXIZnR3bCsuuglmmnGVPV7?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseEticaDouglas">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
                 </div>
+            <?php endif; ?>
 
 
                 <!-- jQuery CDN - Slim version (=without AJAX) -->
