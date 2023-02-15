@@ -47,7 +47,7 @@ $nomeUser = $array['nome'];
                     window.location.href='novoUsuario.php';</script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
-                    alert('Não foi possível cadastrar esse usuário, é possível que os dados estejam');
+                    alert('Não foi possível cadastrar esse usuário, verifique os dados inseridos, é possível que este usuário ja tenha cadastro');
                     window.location.href='novoUsuario.php';</script>";
             }
         }
