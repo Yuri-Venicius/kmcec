@@ -73,7 +73,7 @@ $emailUsuario = $array['email'];
                     window.location.href='novoUsuario.php';</script>";
             }else{
                 echo"<script language='javascript' type='text/javascript'>
-                    alert('Não foi possível cadastrar esse usuário');
+                    alert('O Usuário $var ja esta cadastrado no curso: {$nomeCurso['nomeCurso']} ');
                     window.location.href='novoUsuario.php';</script>";
             }
         }
