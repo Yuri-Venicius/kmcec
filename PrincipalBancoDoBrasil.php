@@ -179,6 +179,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapsePortuguesGouveia">
                                     <div class="card card-body">
                                         <a href="BANCO_DO_BRASIL_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 27/01/2023</a>
+                                        <a href="BANCO_DO_BRASIL_PORTUGUES_GOUVEIA_AULA02.php">AULA 02 - GRAVAÇÃO 15/02/2023</a>
                                     </div>
                                 </div>
                             </div>
