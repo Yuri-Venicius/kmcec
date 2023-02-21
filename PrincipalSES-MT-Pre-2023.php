@@ -142,6 +142,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PRÉ-EDITAL SES-MT 2022</h5>
+                                <p class="card-text">
+                                    <a style="margin-left: 30px;" href="PrincipalSES-MT.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
+                                </p>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
                         <h3>AINDA NÃO HÁ CONTEÚDO GRAVADO</h3>
