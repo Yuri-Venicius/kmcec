@@ -123,7 +123,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="form-row">
                         <div class="form-group col-md-3">
                             <label for="nome">Nome</label>
-                            <input type="text" class="form-control" name="nome" id="nome">
+                            <input type="text" class="form-control" name="nome" id="nome" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="sobrenome">Sobrenome</label>
@@ -131,11 +131,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <div class="form-group col-md-3">
                             <label for="cpf">CPF</label>
-                            <input type="number" class="form-control" name="cpf" id="cpf">
+                            <input type="number" class="form-control" name="cpf" id="cpf" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="email">E-mail</label>
-                            <input type="text" class="form-control" name="email" id="email">
+                            <input type="text" class="form-control" name="email" id="email" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="contato">Contato</label>
