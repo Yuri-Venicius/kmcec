@@ -263,6 +263,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDirAdmCleide">
                                     <div class="card card-body">
                                         <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 13/02/2023</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 27/02/2023</a>
                                     </div>
                                 </div>
                             </div>
