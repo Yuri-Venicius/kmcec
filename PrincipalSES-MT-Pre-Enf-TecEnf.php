@@ -120,7 +120,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
             <?php
-            $codCurso = 3032;
+            $codCurso = 3037;
             $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
             if (
                 $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
