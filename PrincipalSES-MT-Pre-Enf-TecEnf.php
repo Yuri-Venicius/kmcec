@@ -156,7 +156,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
-                        <h4>Ainda não há conteúdo gravado</h4>
                     </div>
 
                     <div class="col-sm-6">
