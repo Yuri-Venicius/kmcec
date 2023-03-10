@@ -160,6 +160,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="TJMT_PRE_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 16/02/2023</a>
                                         <a href="TJMT_PRE_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 23/02/2023</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 06/03/2023</a>
                                     </div>
                                 </div>
                             </div>
