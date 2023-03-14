@@ -14,27 +14,27 @@ function enviaEmailPeloServer($conexao, $usuario, $curso){
 	$subject	= 'KM C&C - SEU ACESSO AO CURSO: ' . $cursoCadastrado['nomeCurso'];
 	$message	= 
 	
-	'Olá '. $dadosUsuario['nome'] . ', venho lhe dar as boas vindas ao Curso: '.$cursoCadastrado['nomeCurso'].'
+'Olá '. $dadosUsuario['nome'] . ', venho lhe dar as boas vindas ao Curso: '.$cursoCadastrado['nomeCurso'].'
 
-	Seus acessos iniciais são:
+Seus acessos iniciais são:
 
-	KM Online: https://kmconcursos.com.br/kmonline
+KM Online: https://kmconcursos.com.br/kmonline
 
-	Login: ' . $varEmail . '
+Login: ' . $varEmail . '
 
-	Senha: Seu CPF, sem traços, pontos ou espaços.
+Senha: Seu CPF, sem traços, pontos ou espaços.
 
-	Quaisquer dúvidas estamos a disposição no whatsapp:[https://api.whatsapp.com/send/?phone=556599585177]
+Quaisquer dúvidas estamos a disposição no whatsapp:[https://api.whatsapp.com/send/?phone=556599585177]
 
 
 
-	Este é um e-email AUTOMÁTICO, favor não responder';
+	Este é um e-mail foi enviado AUTOMÁTICAMENTE, favor não responder';
 
 	$headers	= 'From: no-reply@kmconcursos.com.br' . "\r\n" .
 		'Reply-to: no-reply@kmconcursos.com.br';
 
-	mail($to, $subject, $message, $headers);
+	$ok = mail($to, $subject, $message, $headers);
 
-	return ;
+	return $ok ;
 }
 ?>
