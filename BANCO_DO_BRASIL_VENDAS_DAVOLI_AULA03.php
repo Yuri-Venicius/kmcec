@@ -96,7 +96,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_VENDAS_DAVOLI_AULA02.php">Anterior</a>
                 <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_VENDAS_DAVOLI_AULA04.php">Próximo</a> -->
                 <p></p>
-                <iframe src="https://drive.google.com/file/d/1t6IQnnseUolEzyW4lz1BlqQoRm0equWk/preview" width="640" height="480" allow="fullscreen"></iframe>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/1t6IQnnseUolEzyW4lz1BlqQoRm0equWk/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
