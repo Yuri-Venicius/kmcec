@@ -160,7 +160,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                     <div class="col-sm-12">
                         <div class="alert alert-primary" role="alert">
-                            Acesse clicando  <a href="https://1drv.ms/x/s!As1LxEBhMOtnrG5oy0o_xpLy79Wu?e=N7sxsa" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                            Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/1EVeQcGbYFQnjNY8i9SdJY6PQ_kHnY17V5KzNfDsV7Tw/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                         </div>
                     </div>
 
