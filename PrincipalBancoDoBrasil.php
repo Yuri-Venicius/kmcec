@@ -145,6 +145,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
                     </div>
+
+                    <div class="col-sm-12">
+                        <div class="alert alert-primary" role="alert">
+                            Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/1gCfhwrTy9BTESiI3G_g5q7xrVp9bX20Gk4kObqkSmFU/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                        </div>
+                    </div>
+
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
