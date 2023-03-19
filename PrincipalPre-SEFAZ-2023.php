@@ -414,7 +414,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePortElder">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SEFAZ_POS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 18/03/2022</a>
                                     </div>
                                 </div>
                             </div>
