@@ -142,6 +142,51 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
+                    <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BÔNUS: INFORMÁTICA - JOÃO CLEBER</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/13bdxJ4Wy5NrCkXCwmFSRu3YvYogkV0Ru?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseInformaticaJoao">
+                                        <div class="card card-body">
+                                            <a href="PRE-SEFAZ_INFORMATICA_JOAO_AULA01.php">AULA 01</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_JOAO_AULA02.php">AULA 02</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_JOAO_AULA03.php">AULA 03</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_JOAO_AULA04.php">AULA 04</a><p></p>
+                                        </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BÔNUS: TECNOLOGIA DA INFORMAÇÃO - GABRIEL PACHECO</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInformaticaGabriel" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Z91l_PlzkDQ95IVZoAdXNt0BtAJ_rvyP?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseInformaticaGabriel">
+                                        <div class="card card-body">
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA01.php">AULA 01</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA02.php">AULA 02</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA03.php">AULA 03</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA04.php">AULA 04</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA05.php">AULA 05</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA06.php">AULA 06</a><p></p>
+                                            <a href="PRE-SEFAZ_INFORMATICA_PACHECO_AULA07.php">AULA 07</a><p></p>
+                                        </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                </div>
+
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
                     </div>
