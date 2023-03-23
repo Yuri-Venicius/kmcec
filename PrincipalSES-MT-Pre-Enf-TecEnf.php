@@ -237,6 +237,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapsePtHelio">
                                     <div class="card card-body">
                                         <a href="SES_PRE_2023_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 13/03/2023</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 20/03/2023</a>
                                     </div>
                                 </div>
                             </div>
