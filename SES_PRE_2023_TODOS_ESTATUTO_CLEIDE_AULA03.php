@@ -91,12 +91,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA A SES-MT PRÉ-EDITAL - ESTATUTO DO SERVIDOR | PROFESSORA CLEIDE REGINA</h2><h3>AULA 02</h3>
+                <h2>CURSO PARA A SES-MT PRÉ-EDITAL - ESTATUTO DO SERVIDOR | PROFESSORA CLEIDE REGINA</h2><h3>AULA 03</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA01.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA03.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA02.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA04.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/1sroL66NMlCc5HMy8hlF4LZYPTIp77F9_/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/1sgRW4ZsBZaFh58TwxU-uMKwVuxRRzI8P/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 
