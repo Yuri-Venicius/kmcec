@@ -578,7 +578,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGeografiaMt">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 17/03/2023</a>
                                     </div>
                                 </div>
                             </div>
