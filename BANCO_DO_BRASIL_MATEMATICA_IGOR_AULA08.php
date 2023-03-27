@@ -91,23 +91,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA O BANCO DO BRASIL - LÍNGUA INGLESA | PROFESSOR JÚNIOR</h2><h3>AULA 05</h3>
+                <h2>CURSO PARA O BANCO DO BRASIL - MATEMÁTICA/ESTATÍSTICA | PROFESSOR IGOR BRASIL</h2><h3>AULA 08</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_INGLES_JUNIOR_AULA04.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_INGLES_JUNIOR_AULA06.php">Próximo</a>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/1cvsln" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA07.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA09.php">Próximo</a> -->
+                <p></p>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/1OI9tfD_hVJlAX3bVL9LsBDfIq-ofklje/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
-                <div class="col-sm-6" style="margin: center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>
-                        </div>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;">COMO ACELERAR O VÍDEO?</h5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no celular: Basta clicar na opção engrenagem e escolher a velocidade desejada<H5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
-                    </div>
-                </div>
+                
             </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
