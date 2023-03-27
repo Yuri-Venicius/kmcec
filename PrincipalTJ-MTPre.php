@@ -435,7 +435,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirEleitoralHelio">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 23/03/2023</a>
+                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 21/03/2023</a>
                                     </div>
                                 </div>
                             </div>
