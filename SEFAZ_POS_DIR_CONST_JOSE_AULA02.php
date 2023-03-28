@@ -96,7 +96,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_DIR_CONST_JOSE_AULA01.php">Anterior</a>
                 <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_DIR_CONST_JOSE_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/1pJhYHD9eEbDzd9HPM1RLSL0oDML-M6oS/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/7cnzvg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
