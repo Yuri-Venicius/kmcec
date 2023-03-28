@@ -93,8 +93,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <h2>CURSO PARA O TJ-MT PRÉ-EDITAL - DIREITO ELEITORAL | PROFESSOR HELIO</h2><h3>AULA 01</h3>
                 <div>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA02.php">Próximo</a> -->
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="TJMT_PRE_DIR_CONST_JOSE_AULA06.php">Próximo</a> -->
+                <a style="align-items: flex-end;" class="btn btn-primary" href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA02.php">Próximo</a>
                 <p></p>
                 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/opy3hl" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
