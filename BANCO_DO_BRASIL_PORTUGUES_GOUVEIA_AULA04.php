@@ -96,7 +96,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_PORTUGUES_GOUVEIA_AULA03.php">Anterior</a>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="BANCO_DO_BRASIL_PORTUGUES_GOUVEIA_AULA05.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://drive.google.com/file/d/14u6yuPzWpU-IYZaq1yQSmfbFSpJOgrE3/preview" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/13y4hq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 
