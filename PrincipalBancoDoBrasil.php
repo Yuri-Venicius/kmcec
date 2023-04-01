@@ -369,6 +369,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1I_8a2ig8iqK9xuOi-jC7adUvxhsFUYZF?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoao">
+                                    <div class="card card-body">
+                                        <a href="BANCO_DO_BRASIL_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 31/03/2023</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div> 
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
                                 <h5 class="card-title">CONHECIMENTOS BANCÁRIOS - FERNANDO DAVOLI</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseBasicosDavoli" aria-expanded="false" aria-controls="collapseExample">
