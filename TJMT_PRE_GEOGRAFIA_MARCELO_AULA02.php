@@ -91,7 +91,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA O TJ-MT PRÉ-EDITAL - GEOGRAFIA | PROFESSOR MARCELO ALONSO/h2><h3>AULA 02</h3>
+                <h2>CURSO PARA O TJ-MT PRÉ-EDITAL - GEOGRAFIA | PROFESSOR MARCELO ALONSO</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA01.php">Anterior</a>
                 <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA01.php">Anterior</a> -->
