@@ -609,7 +609,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEticaDouglas">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SEFAZ_POS_EXTRA_ETICA_DOUGLAS_AULA01.php">AULA 01</a>
+                                        <a href="SEFAZ_POS_EXTRA_ETICA_DOUGLAS_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
