@@ -552,7 +552,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEstatisticaIgor">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SEFAZ_POS_ESTATISTICA_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 08/04/2023</a>
+                                        <a href="SEFAZ_POS_ESTATISTICA_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 09/04/2023</a>
                                     </div>
                                 </div>
                             </div>
