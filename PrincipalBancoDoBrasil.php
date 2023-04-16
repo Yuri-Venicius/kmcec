@@ -187,6 +187,39 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div><p></p>
                 </div>
 
+                <div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">BÔNUS: CURSO DE REDAÇÃO - HÉLIO TAQUES</h5>
+								<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRedacaoHelio" aria-expanded="false" aria-controls="collapseExample">
+									<i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+								</button>
+								<a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1PuN_yrINm9mAblGJh32GrfIgSa_NZRwX?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+								</p>
+								<div class="collapse" id="collapseRedacaoHelio">
+									<div class="card card-body">
+										<a href="REDACAO_UFMT_HELIO_AULA01.php">AULA 01</a>
+										<p></p>
+										<a href="REDACAO_UFMT_HELIO_AULA02.php">AULA 02</a>
+										<p></p>
+										<a href="REDACAO_UFMT_HELIO_AULA03.php">AULA 03</a>
+										<p></p>
+										<a href="REDACAO_UFMT_HELIO_AULA04.php">AULA 04</a>
+										<p></p>
+										<!-- <a href="POS-DICAS_DAVOLI_AULA01.php">AULA ÚNICA - GRAVAÇÃO 13/02/2022</a>
+										<p></p>
+										<a href="POS-ATUALIDADES_MARCELO_AULA01.php">AULA COM PROF. MARCELO [ATUALIDADES] - GRAVAÇÃO 06/02/2022</a>
+										<p></p>
+										<a href="POS-DICAS_DONEGA_AULA01.php">AULA COM PROFª. MICHELE [ATUALIDADES] - GRAVAÇÃO 13/02/2022</a>
+										<p></p> -->
+										<p></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p></p>
+					</div>
+
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
                     </div>
