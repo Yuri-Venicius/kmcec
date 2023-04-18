@@ -197,7 +197,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePtElder">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 11/04/2023</a>
                                     </div>
                                 </div>
                             </div>
