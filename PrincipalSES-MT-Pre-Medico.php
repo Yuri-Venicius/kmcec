@@ -343,6 +343,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseHistBidu">
                                     <div class="card card-body">
                                         <a href="SES_PRE_2023_TODOS_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 28/03/2023</a>
+                                        <a href="SES_PRE_2023_TODOS_HISTORIA_BIDU_AULA02.php">AULA 02 - GRAVAÇÃO 18/04/2023</a>
                                     </div>
                                 </div>
                             </div>
