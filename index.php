@@ -1467,6 +1467,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
+                <?php
+                $codCurso = 3247;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA O CONCURSO DA GUARDA MUNICIPAL DE LUCAS DO RIO VERDE [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso de Lucas do Rio Verde 2023.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalLucasRioVerdeGM.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
                 <!-- ANTIGAS A SEREM ATUALIZADAS COM NOVA VERIFICAÇÃO  -->
 
 
