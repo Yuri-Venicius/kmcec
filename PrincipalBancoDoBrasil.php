@@ -397,6 +397,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA09.php">AULA 09 - GRAVAÇÃO 28/03/2023</a>
                                         <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA10.php">AULA 10 - GRAVAÇÃO 08/04/2023</a>
                                         <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA11.php">AULA 11 - GRAVAÇÃO 11/04/2023</a>
+                                        <a href="BANCO_DO_BRASIL_MATEMATICA_IGOR_AULA12.php">AULA 12 - GRAVAÇÃO 21/04/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -443,6 +444,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="BANCO_DO_BRASIL_INFORMATICA_JOAO_AULA04.php">AULA 04 - GRAVAÇÃO 13/02/2023</a>
                                         <a href="BANCO_DO_BRASIL_INFORMATICA_JOAO_AULA05.php">AULA 05 - GRAVAÇÃO 01/03/2023</a>
                                         <a href="BANCO_DO_BRASIL_INFORMATICA_JOAO_AULA06.php">AULA 06 - GRAVAÇÃO 13/03/2023</a>
+                                        <a href="BANCO_DO_BRASIL_INFORMATICA_JOAO_AULA07.php">AULA 07 - GRAVAÇÃO 21/04/2023</a>
                                     </div>
                                 </div>
                             </div>
