@@ -175,6 +175,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseLteFandoni">
                                     <div class="card card-body">
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 10/04/2023</a>
+                                        <a href="SEFAZ_POS_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 22/04/2023</a>
                                     </div>
                                 </div>
                             </div>
