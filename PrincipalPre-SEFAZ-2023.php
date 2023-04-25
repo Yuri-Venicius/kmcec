@@ -176,6 +176,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 10/04/2023</a>
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA02.php">AULA 02 - GRAVAÇÃO 22/04/2023</a>
+                                        <a href="SEFAZ_POS_LTE_FANTONI_AULA03.php">AULA 03 - GRAVAÇÃO 24/04/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -263,26 +264,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA05.php">AULA 05 - GRAVAÇÃO 04/04/2023</a>
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA06.php">AULA 06 - GRAVAÇÃO 05/04/2023</a>
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA07.php">AULA 07 - GRAVAÇÃO 14/04/2023</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">T.I - GABRIEL PACHECO</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTiGabriel" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1PMBiilX7C3WALVLdE4rdDRpDWv1m7cwP?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseTiGabriel">
-                                    <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
                                     </div>
                                 </div>
                             </div>
