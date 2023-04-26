@@ -66,10 +66,7 @@
                         <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
-                <li>
-                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Videoaulas</a>
-                </li>
-                <p></p>
+ <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>

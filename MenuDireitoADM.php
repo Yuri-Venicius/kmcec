@@ -56,10 +56,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <li>
                     <a href="perfil.php"><i class="fas fa-user-alt"></i> Perfil</a>
                 </li>
-                <li>
-                    <a href="videoaulas.php"><i class="bi bi-file-play-fill"></i> Videoaulas</a>
-                </li>
-                <p></p>
+ <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
