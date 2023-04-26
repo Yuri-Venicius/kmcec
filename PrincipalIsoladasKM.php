@@ -132,10 +132,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseRedacaoHelio">
                                     <div class="card card-body">
-                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 30/07/2022</a><p></p> 
-                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 20/08/2022</a><p></p> 
-                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 03/09/2022</a><p></p> 
-                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 17/09/2022</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_HELIO_AULA04.php">AULA 04</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -154,9 +154,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapsePortuguesElder">
                                     <div class="card card-body"> 
-                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 06/08/22</a><p></p> 
-                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 13/08/22</a><p></p> 
-                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 27/08/22</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="ISOLADAS_PORTUGUES_ELDER_AULA03.php">AULA 03</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -175,9 +175,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseINFOSilvio">
                                     <div class="card card-body"> 
-                                        <a href="ISOLADAS_SILVIO_INFO_AULA01.php">AULA 01 - Gravação 30/07/2022 </a><p></p> 
-                                        <a href="ISOLADAS_SILVIO_INFO_AULA02.php">AULA 02 - Gravação 06/08/2022 </a><p></p> 
-                                        <a href="ISOLADAS_SILVIO_INFO_AULA03.php">AULA 03 - Gravação 13/08/2022 </a><p></p> 
+                                        <a href="ISOLADAS_SILVIO_INFO_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="ISOLADAS_SILVIO_INFO_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="ISOLADAS_SILVIO_INFO_AULA03.php">AULA 03</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -196,9 +196,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseINFOJoao">
                                     <div class="card card-body"> 
-                                        <a href="ISOLADAS_INFO_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 27/08/22 </a><p></p> 
-                                        <a href="ISOLADAS_INFO_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 03/09/22 </a><p></p> 
-                                        <a href="ISOLADAS_INFO_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 17/09/22 </a><p></p> 
+                                        <a href="ISOLADAS_INFO_JOAO_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="ISOLADAS_INFO_JOAO_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="ISOLADAS_INFO_JOAO_AULA03.php">AULA 03</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -217,13 +217,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseRLMIgor">
                                     <div class="card card-body"> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 30/07/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 06/08/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 13/08/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 20/08/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 27/08/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA06.php">AULA 06 - GRAVAÇÃO 03/09/2022 </a><p></p> 
-                                        <a href="ISOLADAS_RLM_IGOR_AULA07.php">AULA 07 - GRAVAÇÃO 20/09/2022 </a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA04.php">AULA 04</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA05.php">AULA 05</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA06.php">AULA 06</a><p></p> 
+                                        <a href="ISOLADAS_RLM_IGOR_AULA07.php">AULA 07</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
