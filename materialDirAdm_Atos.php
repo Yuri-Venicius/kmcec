@@ -66,7 +66,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <div id="content">
         <h2>Materiais para Download - Curso Atos Administrativos</h2><p></p><p></p>
             <div class="card" style="width: 18rem;">
-                <a href="https://drive.google.com/uc?id=1tOlL6SarwJI5VONICDvkXVXJF_Lzac1x&export=download"><img src="/assets/pdf.png" class="card-img-top" alt="..."></a>
+                <a href="https://docs.google.com/presentation/d/1MWJWYeRhMh71RfDYZSR6HuSP6ziu7NSk/edit?usp=share_link&ouid=107610973499749603627&rtpof=true&sd=true"><img src="/assets/pdf.png" class="card-img-top" alt="..."></a>
 
                 <div class="card-body">
 
