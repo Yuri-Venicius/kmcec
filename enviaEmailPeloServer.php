@@ -6,8 +6,8 @@ require __DIR__."/vendor/autoload.php";
 $email = new Email();
 
 $email->add(
-    "TESTE",
-    "<h1>Teste</h1>",
+    "TESTS",
+    "Blank Document, just for tests",
     "KM C&C",
     "yvenicios@gmail.com"
 )->send();
