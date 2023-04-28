@@ -140,6 +140,25 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
+                $codCurso = 660;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
+                ) : ?>
+                    <div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Direito Administrativo - Atos Administrativos</h5>
+								<p class="card-text">Curso de Atos Administrativos para concursos em geral.
+								</p>
+								<p>Ministrado por Profª Cleide Regina.</p>
+								<a href="menuDirAdmATOS.php" class="btn btn-primary">Acessar</a>
+							</div>
+						</div>
+					</div>
+                <?php endif; ?>
+
+                <?php
                 $codCurso = 642;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
