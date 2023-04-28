@@ -1,0 +1,24 @@
+{
+    "name": "yuri/kmcec",
+    "description": "Ambiente do aluno da KM Cursos & Concursos",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yuri V M Oliveira",
+            "email": "yuri@kmconcursos.com.br",
+            "role": "developer",
+            "homepage": "https://kmconcursos.com.br"
+        }],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "files": [
+            "config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.7.*"
+    }
+}
