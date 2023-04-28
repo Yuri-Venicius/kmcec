@@ -99,7 +99,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="card-body">
                         <h5 class="card-title">Materiais</h5>
                         <p class="card-text">Download dos Materiais disponíveis referente ao curso</p>
-                        <a href="materialDirAdm_Atos.php" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                        <a href="https://docs.google.com/presentation/d/1MWJWYeRhMh71RfDYZSR6HuSP6ziu7NSk/edit?usp=share_link&ouid=107610973499749603627&rtpof=true&sd=true" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                     </div>
                 </div>
             </div>
