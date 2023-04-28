@@ -1,8 +1,7 @@
 <?php
 
-use Exception;
-use stdClass;
 use PHPMailer\PHPMailer\PHPMailer;
+use stdClass;
 
 class Email
 {
@@ -20,7 +19,7 @@ class Email
     {
 
         $this->mail = new PHPMailer(true);
-        $this->mail = new stdClass();
+        $this->data = new stdClass();
 
         $this->mail->isSMTP();
         $this->mail->isHTML();
@@ -37,12 +36,12 @@ class Email
 
     }
 
-    public function add(string $subject, string $body, string $recipient_name, string $recipient_mail): Email
+    public function add(string $subject, string $body, string $recipient_name, string $recipient_email): Email
     {
         $this->data->subject = $subject;
         $this->data->body = $body;
         $this->data->recipient_name = $recipient_name;
-        $this->data->recipient_mail = $recipient_mail;
+        $this->data->recipient_email = $recipient_email;
 
         return $this;
     }
@@ -52,13 +51,13 @@ class Email
         $this->data->attach[$filePath] = $filePath;
     }
 
-    public function send(string $from_name = MAIL["from_name"], string $fromEmail = MAIL["from_email"]): bool
+    public function send(string $from_name = MAIL["from_name"], string $from_email = MAIL["from_email"]): bool
     {
         try {
             $this->mail->Subject = $this->data->subject;
             $this->mail->msgHTML($this->data->body);
-            $this->mail->addAddress($this->data->recipient_mail, $this->data->recipient_name);
-            $this->mail-setFrom($fromEmail, $from_name);
+            $this->mail->addAddress($this->data->recipient_email, $this->data->recipient_name);
+            $this->mail->setFrom($from_email, $from_name);
 
             if(!empty($this->data->attach))
             {
