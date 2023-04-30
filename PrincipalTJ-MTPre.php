@@ -382,7 +382,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirProcMarciano">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 24/04/2023</a>
                                     </div>
                                 </div>
                             </div>
