@@ -362,6 +362,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseGeoMarcelo">
                                     <div class="card card-body">
                                         <a href="SES_PRE_2023_TODOS_GEO_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 17/03/2023</a>
+                                        <a href="SES_PRE_2023_TODOS_GEO_MARCELO_AULA02.php">AULA 02 - GRAVAÇÃO 19/04/2023</a>
                                     </div>
                                 </div>
                             </div>
