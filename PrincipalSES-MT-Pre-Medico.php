@@ -402,7 +402,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLegSusDavoli">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
