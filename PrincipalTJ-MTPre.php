@@ -413,7 +413,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">DIREITO AMBIENTAL - DANIELLE KUROISHI</h5>
+                                <h5 class="card-title">DIREITO AMBIENTAL - TATYANE FIORI</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirAmbDanielle" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -422,7 +422,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirAmbDanielle">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA01.php">AULA 01 - GRAVAÇÃO 27/04/2023</a>
                                     </div>
                                 </div>
                             </div>
