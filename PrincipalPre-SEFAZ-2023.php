@@ -261,6 +261,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA05.php">AULA 05 - GRAVAÇÃO 04/04/2023</a>
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA06.php">AULA 06 - GRAVAÇÃO 05/04/2023</a>
                                         <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA07.php">AULA 07 - GRAVAÇÃO 14/04/2023</a>
+                                        <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA08.php">AULA 08 - GRAVAÇÃO 29/04/2023</a>
+                                        <a href="SEFAZ_POS_CONTABILIDADE_DANIEL_AULA09.php">AULA 09 - GRAVAÇÃO 30/04/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -482,6 +484,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseCustosDaniuel">
                                     <div class="card card-body">
                                         <a href="SEFAZ_POS_CUSTOS_DANIEL_AULA01.php">AULA 01 - GRAVAÇÃO 28/04/2023</a>
+                                        <a href="SEFAZ_POS_CUSTOS_DANIEL_AULA02.php">AULA 02 - GRAVAÇÃO 01/05/2023</a>
                                     </div>
                                 </div>
                             </div>
