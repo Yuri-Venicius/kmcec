@@ -148,9 +148,249 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             Acesse clicando  <a href="" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                         </div>
                     </div> -->
-                    <div class="col-md-12">
+                    <!-- <div class="col-md-12">
                         <a>NÃO HÁ CONTEÚDO GRAVADO NO MOMENTO</a>
-                    </div> 
+                    </div>  -->
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1jYOwmJwYPcjj0_l12ZjUPmP4f57_ULcl?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtHelio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - ELDER DENCATI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtElder" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1OvJR8U_Hr9-7yPldliwybxhvZvwhGWbV?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtElder">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTUGUÊS - GOUVEIA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtGouveia" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Vj2GlBrjGKGplKiPKdr_Yq9R4ON_8omN?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtGouveia">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">REDAÇÃO - HÉLIO TAQUES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRedacaoHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1t45axuyr92qhwdVytrr0phnh26DV6pK4?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRedacaoHelio">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">RLM - IGOR BRASIL</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1J-dhIn0eJujbDFahRofkIk5FVaodNMjr?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRlmIgor">
+                                    <div class="card card-body">
+                                        <a href="GMLRV_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 03/04/2023</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1UjcSWNL7n6rFAKB5Vhl4r353yQYENUn_?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoao">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO CONSTITUCIONAL - JOSÉ NETO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirNeto" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1fUcE9M5D14bdUaQkyrBkr1pVw_6hCjLM?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirNeto">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirCleice" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1NmR09B37Z3li4QYXEoCQ2mN_tHpt17p1?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirCleice">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirLuiz" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1IE-2Q8aYC9IjW2o3UfIoRCKt5FjYyTUU?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDirLuiz">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LEGISLAÇÃO PENAL EXTRAVAGANTE - MICHELE DONEGÁ</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegMichele" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/111zxMnLgNWd1LRYuyIRxJnagJGa0kiDK?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseLegMichele">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LEGISLAÇÃO PENAL EXTRAVAGANTE - GUILHERME FACHINELLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegGuilhemre" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/10wccqaaL7K_VdJTounypgXEk4VG3aQkM?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseLegGuilhemre">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LEGISLAÇÃO DA GCM LRV - A DEFINIR</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLeg" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1IujE1RlddcngJuNNregVOxwCkY_RV07r?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseLeg">
+                                    <div class="card card-body">
+                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
 
             <?php endif; ?>
                     
