@@ -244,7 +244,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRlmIgor">
                                     <div class="card card-body">
-                                        <a href="GMLRV_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 03/04/2023</a>
+                                        <a href="GMLRV_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 03/05/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseInfoJoao">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="GMLRV_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 04/05/2023</a>
                                     </div>
                                 </div>
                             </div>
