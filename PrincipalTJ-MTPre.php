@@ -490,7 +490,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRegInternoTj">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 06/05/2023</a>
                                     </div>
                                 </div>
                             </div>
