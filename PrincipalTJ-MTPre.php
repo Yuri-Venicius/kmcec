@@ -388,6 +388,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDirProcMarciano">
                                     <div class="card card-body">
                                         <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 24/04/2023</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 08/05/2023</a>
                                     </div>
                                 </div>
                             </div>
