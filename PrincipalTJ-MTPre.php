@@ -393,6 +393,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 24/04/2023</a>
                                         <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 08/05/2023</a>
                                         <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA03.php">AULA 03 - GRAVAÇÃO 11/05/2023</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA04.php">AULA 04 - GRAVAÇÃO 18/05/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -540,6 +541,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="TJMT_PRE_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 01/03/2023</a>
                                         <a href="TJMT_PRE_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 25/04/2023</a>
                                         <a href="TJMT_PRE_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 05/05/2023</a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 19/05/2023</a>
                                     </div>
                                 </div>
                             </div>
