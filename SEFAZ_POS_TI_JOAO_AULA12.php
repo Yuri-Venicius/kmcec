@@ -88,12 +88,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA A SEFAZ-MT PÓS EDITAL - T.I | PROFESSOR JOÃO CLEBER</h2><h3>AULA 11</h3>
+                <h2>CURSO PARA A SEFAZ-MT PÓS EDITAL - T.I | PROFESSOR JOÃO CLEBER</h2><h3>AULA 12</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_TI_JOAO_AULA10.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_TI_JOAO_AULA12.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_TI_JOAO_AULA11.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SEFAZ_POS_TI_JOAO_AULA13.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/dzmzgt" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/sk42ps" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
