@@ -470,26 +470,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">NOÇÕES DE GESTÃO PÚBLICA - FERNANDO DAVOLI</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGestDavoli" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1z6CojrfYh-aU0qZOcRnT_7v8ipbL5R5M?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGestDavoli">
-                                    <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
+                    
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -502,34 +483,19 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGestCleide">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA04.php">AULA 04</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA05.php">AULA 05</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA06.php">AULA 06</a><p></p> 
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <p></p>
                     </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">NOÇÕES DE GESTÃO PÚBLICA - JOSÉ NETO</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGestNeto" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1pLBhZKhysHzmZr6cCC5QUrPn1Now5ThX?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGestNeto">
-                                    <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
+                    
                 <?php endif; ?>
                 </div>
 
