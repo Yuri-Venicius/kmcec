@@ -415,6 +415,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseDirEmpreJose">
                                     <div class="card card-body">
                                         <a href="SEFAZ_POS_DIR_EMPRESARIAL_JOSE_AULA01.php">AULA 01 - GRAVAÇÃO 16/05/2023</a>
+                                        <a href="SEFAZ_POS_DIR_EMPRESARIAL_JOSE_AULA02.php">AULA 02 - GRAVAÇÃO 23/05/2023</a>
                                     </div>
                                 </div>
                             </div>
