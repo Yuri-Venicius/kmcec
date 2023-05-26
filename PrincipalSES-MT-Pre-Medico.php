@@ -391,7 +391,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDouglasEtica">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SES_PRE_2023_TODOS_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 23/05/2023</a>
+                                        <a href="SES_PRE_2023_TODOS_ETICA_DOUGLAS_AULA02.php">AULA 02 - GRAVAÇÃO 24/05/2023</a>
                                     </div>
                                 </div>
                             </div>
