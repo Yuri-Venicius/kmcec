@@ -670,6 +670,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseEticaDouglas">
                                     <div class="card card-body">
                                         <a href="TJMT_PRE_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 23/05/2023</a>
+                                        <a href="TJMT_PRE_ETICA_DOUGLAS_AULA02.php">AULA 02 - GRAVAÇÃO 24/05/2023</a>
                                     </div>
                                 </div>
                             </div>
