@@ -221,7 +221,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDiscursivasFandoni">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="SEFAZ_POS_DISCURSIVAS_FANTONI_AULA01.php">AULA 01 - GRAVAÇÃO 27/05/2023</a>
                                     </div>
                                 </div>
                             </div>
