@@ -180,6 +180,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA07.php">AULA 07 - GRAVAÇÃO 20/05/2023</a>
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA08.php">AULA 08 - GRAVAÇÃO 22/05/2023</a>
                                         <a href="SEFAZ_POS_LTE_FANTONI_AULA09.php">AULA 09 - GRAVAÇÃO 28/05/2023</a>
+                                        <a href="SEFAZ_POS_LTE_FANTONI_AULA10.php">AULA 10 - GRAVAÇÃO 30/05/2023</a>
                                     </div>
                                 </div>
                             </div>
