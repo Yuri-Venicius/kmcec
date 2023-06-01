@@ -332,6 +332,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SEFAZ_POS_DIR_TRIBUTARIO_LIGIA_AULA06.php">AULA 06 - GRAVAÇÃO 17/05/2023</a>
                                         <a href="SEFAZ_POS_DIR_TRIBUTARIO_LIGIA_AULA07.php">AULA 07 - GRAVAÇÃO 19/05/2023</a>
                                         <a href="SEFAZ_POS_DIR_TRIBUTARIO_LIGIA_AULA08.php">AULA 08 - GRAVAÇÃO 26/05/2023</a>
+                                        <a href="SEFAZ_POS_DIR_TRIBUTARIO_LIGIA_AULA09.php">AULA 09 - GRAVAÇÃO 31/05/2023</a>
                                     </div>
                                 </div>
                             </div>
