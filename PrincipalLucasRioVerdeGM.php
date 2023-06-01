@@ -246,6 +246,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="GMLRV_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 08/05/2023</a>
                                         <a href="GMLRV_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 16/05/2023</a>
                                         <a href="GMLRV_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 23/05/2023</a>
+                                        <a href="GMLRV_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 31/05/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -289,6 +290,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="GMLRV_DIREITOCONST_JOSE_AULA01.php">AULA 01 - GRAVAÇÃO 12/05/2023</a>
                                         <a href="GMLRV_DIREITOCONST_JOSE_AULA02.php">AULA 02 - GRAVAÇÃO 17/05/2023</a>
                                         <a href="GMLRV_DIREITOCONST_JOSE_AULA03.php">AULA 03 - GRAVAÇÃO 24/05/2023</a>
+                                        <a href="GMLRV_DIREITOCONST_JOSE_AULA04.php">AULA 04 - GRAVAÇÃO 30/05/2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -310,6 +312,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="GMLRV_DIREITOADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 05/05/2023</a>
                                         <a href="GMLRV_DIREITOADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 09/05/2023</a>
+                                        <a href="GMLRV_DIREITOADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 29/05/2023</a>
                                         <a href="GMLRV_DIREITOADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 29/05/2023</a>
                                     </div>
                                 </div>
