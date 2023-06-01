@@ -167,6 +167,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <option selected>Selecione</option>
                             <option value="ONLINE">Aluno ONLINE</option>
                             <option value="PRESENCIAL">Aluno PRESENCIAL</option>
+                            <option value="CORTESIA">Aluno CORTESIA</option>
                         </select>
                     </div>
                     <div class="col-md-6">
