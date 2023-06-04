@@ -387,7 +387,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">LEGISLAÇÃO DA GCM LRV - A DEFINIR</h5>
+                                <h5 class="card-title">LEGISLAÇÃO DA GCM LRV - FERNANDO DAVOLI</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLeg" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -396,7 +396,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLeg">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="GMLRV_LEGGCM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 03/06/2023</a>
                                     </div>
                                 </div>
                             </div>
