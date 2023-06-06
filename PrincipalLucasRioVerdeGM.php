@@ -161,7 +161,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePtHelio">
                                     <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
+                                        <a href="GMLRV_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 05/06/2023</a>
                                     </div>
                                 </div>
                             </div>
