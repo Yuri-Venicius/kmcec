@@ -532,26 +532,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">CÓDIGO DE ORGANIZAÇÃO JUDICIÁRIA - FERNANDO DAVOLI</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCoje" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1y952Q8yyKURY4oyCOAeuYdkTHjGDzWHt?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseCoje">
-                                    <div class="card card-body">
-                                        <a>NÃO HÁ CONTEÚDO GRAVADO</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
                                 <h5 class="card-title">RACIOCÍNIO LÓGICO E MATEMÁTICO - IGOR BRASIL</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
