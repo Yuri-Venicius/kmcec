@@ -88,7 +88,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>GUARDA MUNICIPAL DE VG - CTB | PROFESSOR ALAN DE OLIVEIRA</h2><h3>AULA 02</h3>
+                <h2>GUARDA MUNICIPAL - CTB | PROFESSOR ALAN DE OLIVEIRA</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG_CTB_ALAN_AULA01.php">Anterior</a>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG_CTB_ALAN_AULA03.php">Próximo</a>

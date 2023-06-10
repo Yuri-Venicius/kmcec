@@ -406,6 +406,46 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
+                    <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CRIMES DE TRÂNSITO - EDUARDO</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCrimesEduardo" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1DSuOLPjGiW8HSEGer-Dy7laNfpYA9-Fl?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseCrimesEduardo">
+                                    <div class="card card-body"> 
+                                        <a href="GUARDAVG_CRIMES_EDUARDO_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="GUARDAVG_CRIMES_EDUARDO_AULA02.php">AULA 02</a><p></p> 
+                                    </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CTB - ALAN DE OLIVEIRA</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCtbAlan" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1e9QF1WksVFYOT4enb8Ljm-797uczoEzg?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseCtbAlan">
+                                    <div class="card card-body"> 
+                                        <a href="GUARDAVG_CTB_ALAN_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="GUARDAVG_CTB_ALAN_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="GUARDAVG_CTB_ALAN_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="GUARDAVG_CTB_ALAN_AULA04.php">AULA 04</a><p></p> 
+                                    </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                    </div>
+
             <?php endif; ?>
                     
                 </div>

@@ -88,7 +88,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>GUARDA MUNICIPAL DE VG - CRIMES DE TRÂNSITO | PROFESSOR EDUARDO</h2><h3>AULA 01</h3>
+                <h2>GUARDA MUNICIPAL - CRIMES DE TRÂNSITO | PROFESSOR EDUARDO</h2><h3>AULA 01</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG_CRIMES_EDUARDO_AULA02.php">Próximo</a>
 
