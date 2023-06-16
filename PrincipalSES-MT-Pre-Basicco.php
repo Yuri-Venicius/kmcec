@@ -116,40 +116,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
-            <?php
-            $codCurso = 3032;
-            $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-            if (
-                $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
-            ) : ?>
+            
 
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h3>Conteúdo Bônus: </h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO ISOLADAS DO KM</h5>
-                                <p class="card-text">
-                                    <a style="margin-left: 30px;" href="PrincipalIsoladasKM.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
-                                </p>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO PRÉ-EDITAL SES-MT 2022</h5>
-                                <p class="card-text">
-                                    <a style="margin-left: 30px;" href="PrincipalSES-MT.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
-                                </p>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
 
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
@@ -474,8 +443,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                         <p></p>
                     </div>
-
-                <?php endif; ?>
                 </div>
 
 

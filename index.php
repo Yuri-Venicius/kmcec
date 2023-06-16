@@ -1505,7 +1505,74 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-                <!-- ANTIGAS A SEREM ATUALIZADAS COM NOVA VERIFICAÇÃO  -->
+                <?php
+                $codCurso = 3444;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Básico todos os cargos [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Básico todos os cargos, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoBasicoTodosOsCargos.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3448;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoEnfTecEnf.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3449;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Farmacêutico [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Farmacêutico, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoFarmacia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
 
 
             </div>
