@@ -117,8 +117,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p></p>
             <div class="row">
 
-                <div>
-                    <h2>CURSOS JA FINALIZADOS:
+                <div class="col-md-12">
+                    <h3>CURSOS JA FINALIZADOS:
                 </div>
 
                 <?php
@@ -1487,8 +1487,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-                <div>
-                    <h2>CURSOS EM ANDAMENTO:
+                <div class="col-md-12">
+                    <h3>CURSOS EM ANDAMENTO:
                 </div>
 
                 <?php
