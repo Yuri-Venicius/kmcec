@@ -223,7 +223,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $verificaAdm['nivelAcesso'] == '1'
                 ) : ?>
                 <div class="col-md-12">
-                    <h3>Cursos ja finalizados:
+                    <h5>Cursos ja finalizados:
                 </div>
                 <?php endif; ?>
 
