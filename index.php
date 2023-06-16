@@ -117,9 +117,115 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p></p>
             <div class="row">
 
+
+                <?php
+                if (
+                    $verificaAdm['nivelAcesso'] == '1'
+                ) : ?>
                 <div class="col-md-12">
-                    <h3>CURSOS JA FINALIZADOS:
+                    <h3>Cursos em andamento:
                 </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3247;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA O CONCURSO DA GUARDA MUNICIPAL DE LUCAS DO RIO VERDE [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso de Lucas do Rio Verde 2023.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalLucasRioVerdeGM.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3444;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Básico todos os cargos [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Básico todos os cargos, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoBasicoTodosOsCargos.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3448;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoEnfTecEnf.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3449;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Farmacêutico [Online]</h5>
+                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Farmacêutico, com atualização
+                                    para o PÓS-EDITAL.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesMtComAtualizacaoFarmacia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                if (
+                    $verificaAdm['nivelAcesso'] == '1'
+                ) : ?>
+                <div class="col-md-12">
+                    <h3>Cursos ja finalizados:
+                </div>
+                <?php endif; ?>
 
                 <?php
                 $codCurso = 603;
@@ -1486,102 +1592,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
                 <?php endif; ?>
-
-                <div class="col-md-12">
-                    <h3>CURSOS EM ANDAMENTO:
-                </div>
-
-                <?php
-                $codCurso = 3247;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO PARA O CONCURSO DA GUARDA MUNICIPAL DE LUCAS DO RIO VERDE [Online]</h5>
-                                <p class="card-text">Curso preparatório para o concurso de Lucas do Rio Verde 2023.
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalLucasRioVerdeGM.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
-                <?php
-                $codCurso = 3444;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Básico todos os cargos [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Básico todos os cargos, com atualização
-                                    para o PÓS-EDITAL.
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSesMtComAtualizacaoBasicoTodosOsCargos.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
-                <?php
-                $codCurso = 3448;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem, com atualização
-                                    para o PÓS-EDITAL.
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSesMtComAtualizacaoEnfTecEnf.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
-                <?php
-                $codCurso = 3449;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Farmacêutico [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Farmacêutico, com atualização
-                                    para o PÓS-EDITAL.
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSesMtComAtualizacaoFarmacia.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
 
             </div>
 

@@ -151,7 +151,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div> -->
 
                     <div class="col-md-12">
-                        <h3>Ainda Não Há Conteúdo Gravado</h3>
+                        <h5>Ainda Não Há Conteúdo Gravado</h5>
                     </div>
 
                 <?php endif; ?>
