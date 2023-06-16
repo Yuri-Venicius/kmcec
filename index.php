@@ -117,6 +117,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p></p>
             <div class="row">
 
+                <div>
+                    <h2>CURSOS JA FINALIZADOS:
+                </div>
+
                 <?php
                 $codCurso = 603;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
@@ -1482,6 +1486,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
                 <?php endif; ?>
+
+                <div>
+                    <h2>CURSOS EM ANDAMENTO:
+                </div>
 
                 <?php
                 $codCurso = 3247;
