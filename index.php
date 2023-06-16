@@ -123,7 +123,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $verificaAdm['nivelAcesso'] == '1'
                 ) : ?>
                 <div class="col-md-12">
-                    <h3>Cursos em andamento:
+                    <h5>Cursos em andamento:
                 </div>
                 <?php endif; ?>
 
