@@ -405,6 +405,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="GMLRV_LEGGCM_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 03/06/2023</a>
                                         <a href="GMLRV_LEGGCM_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 07/06/2023</a>
                                         <a href="GMLRV_LEGGCM_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 14/06/2023</a>
+                                        <a href="GMLRV_LEGGCM_DAVOLI_AULA04.php">AULA 04 - GRAVAÇÃO 17/06/2023</a>
                                     </div>
                                 </div>
                             </div>
