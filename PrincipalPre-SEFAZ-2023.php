@@ -112,7 +112,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>VÍDEO AULAS - SEFAZ PÓS-EDITAL</h2>
+            <h2>VÍDEO AULAS - SEFAZ-MT PREPARATÓRIO COMPLETO</h2>
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
@@ -125,17 +125,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="row">
                     <div class="col-sm-12"><h3>Conteúdo Bônus: </h3></div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO REGULAR - SEFAZ-MT PRÉ EDITAL</h5>
-                                <p class="card-text">
-                                    <a style="margin-left: 30px;" href="PrincipalPre-SEFAZ.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
-                                </p>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
 
                     <div class="col-sm-6">
                         <div class="card">
@@ -151,12 +140,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                     <div class="col-md-12">
                         <h3>Conteúdo do curso: </h3>
-                    </div>
-
-                    <div class="col-sm-12">
-                        <div class="alert alert-primary" role="alert">
-                            Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/19A0u_qf12oMWpX2RzAUQl02Xj-NcNdiMAIT2_5hvcYE/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
-                        </div>
                     </div>
 
                     <div class="col-sm-6">

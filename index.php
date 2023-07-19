@@ -1469,7 +1469,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">CURSO SEFAZ-MT PÓS-EDITAL [Online]</h5>
+                                <h5 class="card-title">CURSO SEFAZ-MT PREPARATÓRIO COMPLETO [Online]</h5>
                                 <p class="card-text">Curso preparatório pós edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais, 
                                     100% on-line, com os melhores professores do Brasil!
                                 </p>
