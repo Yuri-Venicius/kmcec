@@ -117,7 +117,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p></p>
             <div class="row">
 
-
                 <?php
                 if (
                     $verificaAdm['nivelAcesso'] == '1'
@@ -211,6 +210,139 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <p></p>
                                 <a href="PrincipalSesMtComAtualizacaoFarmacia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 2834;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO SEFAZ-MT PREPARATÓRIO COMPLETO [Online]</h5>
+                                <p class="card-text">Curso preparatório pós edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais, 
+                                    100% on-line, com os melhores professores do Brasil!
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalPre-SEFAZ-2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3527;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">[ENEM] Isoladas do KM – Curso Online de Matemática [Online]</h5>
+                                <p class="card-text">Curso preparatório para ENEM, matéria de Matemática
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalIsoladasEnemMatematica2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3528;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">[ENEM] Isoladas do KM – Curso Online de Física [Online]</h5>
+                                <p class="card-text">Curso preparatório para ENEM, matéria de Física
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalIsoladasEnemFisica2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3529;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">[ENEM] Isoladas do KM – Curso Online de Química [Online]</h5>
+                                <p class="card-text">Curso preparatório para ENEM, matéria de Química
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalIsoladasEnemQuimica2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3530;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">[ENEM] Isoladas do KM – Curso Online de Redação [Online]</h5>
+                                <p class="card-text">Curso preparatório para ENEM, matéria de Redação
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalIsoladasEnemRedacao2023.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3532;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">[ENEM] Isoladas do KM – Curso Online Completo [Online]</h5>
+                                <p class="card-text">Curso preparatório para ENEM, matérias de Matemática, Física, Química e Redação.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalIsoladasEnemCompleto2023.php" class="btn btn-primary">Acessar</a>
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
@@ -1460,28 +1592,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-                <?php
-                $codCurso = 2834;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO SEFAZ-MT PREPARATÓRIO COMPLETO [Online]</h5>
-                                <p class="card-text">Curso preparatório pós edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais, 
-                                    100% on-line, com os melhores professores do Brasil!
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalPre-SEFAZ-2023.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
+                
 
                 <?php
                 $codCurso = 2883;
