@@ -174,7 +174,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <label for="codCurso" class="form-label">Curso</label>
                         <select name="codCurso" id="codCurso" class="form-control" required>
                             <option selected>Selecione o curso</option>
-                            <?php $query = "SELECT * from curso";
+                            <?php $query = "SELECT * from curso WHERE statusVendaCurso = '1' ORDER BY idCurso DESC";
                             $select = mysqli_query($conexao, $query);
 
                             while ($result = mysqli_fetch_assoc($select)) { ?>
