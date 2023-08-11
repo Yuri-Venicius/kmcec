@@ -142,7 +142,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                 <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">FÍSICA - PAULO GUTIERREZ</h5>
+                            <h5 class="card-title">FÍSICA - IGOR BRASIL</h5>
                             <p class="card-text">
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFisicaPaulo" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
@@ -151,7 +151,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </p>
                                     <div class="collapse" id="collapseFisicaPaulo">
                                     <div class="card card-body">
-                                        <!-- <a href="[Enem]IsoladasFisica">AULA 01 - 31/07/2023</a><p></p>  -->
+                                        <a href="[Enem]IsoladasFisicaAula01.php">AULA 01 - 08/08/2023</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
