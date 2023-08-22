@@ -135,6 +135,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="[Enem]IsoladasMatematicaAula01.php">AULA 01 - 31/07/2023</a><p></p> 
                                         <a href="[Enem]IsoladasMatematicaAula02.php">AULA 02 - 07/08/2023</a><p></p> 
                                         <a href="[Enem]IsoladasMatematicaAula03.php">AULA 03 - 14/08/2023</a><p></p>
+                                        <a href="[Enem]IsoladasMatematicaAula04.php">AULA 04 - 21/08/2023</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
@@ -194,6 +195,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="collapse" id="collapseRedacaoKelina">
                                     <div class="card card-body">
                                         <a href="[Enem]IsoladasRedacaoAula01.php">AULA 01 - 11/08/2023</a><p></p> 
+                                        <a href="[Enem]IsoladasRedacaoAula02.php">AULA 02 - 18/08/2023</a><p></p> 
                                     </div>
                                     </div>    
                         </div>

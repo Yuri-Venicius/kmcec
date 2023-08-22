@@ -133,6 +133,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="collapse" id="collapseRedacaoKelina">
                                     <div class="card card-body">
                                         <a href="[Enem]IsoladasRedacaoAula01.php">AULA 01 - 11/08/2023</a><p></p> 
+                                        <a href="[Enem]IsoladasRedacaoAula02.php">AULA 02 - 18/08/2023</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
