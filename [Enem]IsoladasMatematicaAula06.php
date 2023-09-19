@@ -86,12 +86,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
 
-                <h2>ISOLADAS DO KM PARA ENEM - MATEMÁTICA | PROFESSOR IGOR BRASIL</h2><h3>AULA 05</h3>
+                <h2>ISOLADAS DO KM PARA ENEM - MATEMÁTICA | PROFESSOR IGOR BRASIL</h2><h3>AULA 06</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula04.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula06.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula05.php">Anterior</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula07.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/0KIfZ6096Rc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/qZRFfVaxaDQ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
