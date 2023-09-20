@@ -1,5 +1,5 @@
 <?php
-session_start();
+    session_start();
 include('verifica_login.php');
 include('buscaDadosBasicosUsuario.php');
 include('buscaDadosDoCurso.php');
@@ -7,20 +7,18 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-?>
+    ?>
 
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+    <html>
 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>KM Online</title>
+        <title>KM Online</title>
     <link rel="icon" type="image/png" href="./assets/brand.png" />
-
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -37,13 +35,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
             <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
@@ -85,64 +83,17 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             </p>
         </nav>
 
-        <!-- Page Content  -->
-        <div id="content">
+            <!-- Page Content  -->
+            <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                    </button>
-
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a nav-link href="https://kmconcursos.com.br/index.php/shop/">
-                                    <button type="button" class="btn btn-warning">Loja KM</button>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
+                <h2>ISOLADAS DO KM PARA ENEM - REDAÇÃO | PROFESSORA KELINA SOUZA</h2><h3>AULA 04</h3>
+                <div>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasRedacaoAula03.php">Anterior</a>
+                <p></p>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/gBGeCfZoGWA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
-            </nav>
-            
-            <h2>Vídeo Aulas</h2>
-            <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo. 
-                Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente, e para fazer o 
-                download do material de apoio do bloco, basta clicar em "Materiais" que o Download irá começar.</p>
-
-            
-            <div class="row">
-
-                <div class="col-sm-6">
-                <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">REDAÇÃO - KELINA SOUZA</h5>
-                            <p class="card-text">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRedacaoKelina" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1hmRGo2qo4pPpaTFK0HOMsGopbJDLQgqi?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                    </p>
-                                    <div class="collapse" id="collapseRedacaoKelina">
-                                    <div class="card card-body">
-                                        <a href="[Enem]IsoladasRedacaoAula01.php">AULA 01 - 11/08/2023</a><p></p> 
-                                        <a href="[Enem]IsoladasRedacaoAula02.php">AULA 02 - 18/08/2023</a><p></p>
-                                        <a href="[Enem]IsoladasRedacaoAula03.php">AULA 03 - 01/09/2023</a><p></p> 
-                                        <a href="[Enem]IsoladasRedacaoAula04.php">AULA 04 - 14/09/2023</a><p></p> 
-                                    </div>
-                                    </div>    
-                        </div>
-                    </div><p></p>
-                </div>
-
-        </div>
+                <p></p>
+            </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -154,18 +105,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });
 
-                $('#sidebarCollapse').on('click', function() {
+                $('#sidebarCollapse').on('click', function () {
                     $('#sidebar, #content').toggleClass('active');
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
             });
         </script>
-</body>
+    </body>
 
-</html>
+    </html>
