@@ -136,6 +136,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="[Enem]IsoladasRedacaoAula02.php">AULA 02 - 18/08/2023</a><p></p>
                                         <a href="[Enem]IsoladasRedacaoAula03.php">AULA 03 - 01/09/2023</a><p></p> 
                                         <a href="[Enem]IsoladasRedacaoAula04.php">AULA 04 - 14/09/2023</a><p></p> 
+                                        <a href="[Enem]IsoladasRedacaoAula05.php">AULA 05 - 22/09/2023</a><p></p> 
                                     </div>
                                     </div>    
                         </div>
