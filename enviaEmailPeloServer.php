@@ -10,6 +10,12 @@ function enviaEmailPeloServer($conexao, $usuario, $curso){
 	$cursoCadastrado = buscaDadosDoCurso($conexao, $curso);
 	($dadosUsuario['email'] == null) ? $varEmail = $usuario : $varEmail = $dadosUsuario['email']; 
 
+	$host = 'smtp-mail.outlook.com'; // Substitua pelo seu servidor SMTP
+	$porta = 587; // A porta padrão para envio de e-mails geralmente é 587
+	$usuario = 'kmconcursos@outlook.com.br'; // Substitua pelo seu endereço de e-mail
+	$senha = 'KM@outlook$2023'; // Substitua pela senha do seu e-mail
+
+
 	$to			= $varEmail;
 	$subject	= 'KM C&C - SEU ACESSO AO CURSO: ' . $cursoCadastrado['nomeCurso'];
 	$message	= 
@@ -32,6 +38,10 @@ Quaisquer dúvidas estamos a disposição no whatsapp:[https://api.whatsapp.com/
 
 	$headers	= 'From: no-reply@kmconcursos.com.br' . "\r\n" .
 		'Reply-to: no-reply@kmconcursos.com.br';
+
+	ini_set("SMTP", $host);
+    ini_set("smtp_port", $porta);
+    ini_set('sendmail_from', $usuario);
 
 	$ok = mail($to, $subject, $message, $headers);
 
