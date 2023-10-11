@@ -120,10 +120,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="row">
 
-                    <div class="col-md-12">
-                        <h3>Este curso ainda não possui aulas gravadas!</h3>
-                    </div>
-
                     <!-- <div class="col-sm-12">
                         <div class="alert alert-primary" role="alert">
                             Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/19GmqiljdVswaumqzOydQDHuFHKgeVFoKYUcpAaHKdvA/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
