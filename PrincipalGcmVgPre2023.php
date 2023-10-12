@@ -166,6 +166,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 </div>
 
+                    <div class="col-sm-6">
+                    <div class="card">
+                    <div class="card-body">
+                            <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePthELIO" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1n0nMj2TYMwHOaVEOLHNJWDJ4Lg2FOjiP?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapsePthELIO">
+                                    <div class="card card-body"> 
+                                        <a href="GUARDAVG2023_PT_HELIO_AULA01.php">AULA 01</a><p></p> 
+                                    </div>
+                                    </div>    
+                        </div>
+                    </div><p></p>
+                </div>
+
+                </div>
+
 
                 <!-- jQuery CDN - Slim version (=without AJAX) -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
