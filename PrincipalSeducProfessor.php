@@ -152,7 +152,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     <?php endif; ?>
                 </div>
-                <h2>CONTEÚDO DO CURSO</h2>
 
                 <div class="col-sm-6">
                     <div class="card">
