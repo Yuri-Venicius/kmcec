@@ -119,7 +119,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <div class="row">
                 
                 <div class="col-sm-12">
-                    <h2>CONTEÚDO BÔNUS</h2>
+                    <h3>CONTEÚDO BÔNUS</h3>
                     <?php if (
                         $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
                     ) : ?>
