@@ -74,7 +74,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
- <p></p>
+                <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
@@ -116,122 +116,157 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
-            
 
-                <div class="row">
 
-                    <!-- <div class="col-sm-12">
+            <div class="row">
+
+                <!-- <div class="col-sm-12">
                         <div class="alert alert-primary" role="alert">
                             Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/19GmqiljdVswaumqzOydQDHuFHKgeVFoKYUcpAaHKdvA/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                         </div>
                     </div> -->
 
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                <div class="col-sm-12">
+                    <h2>CONTEÚDO BÔNUS</h2>
+                    <?php if (
+                        $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
+                    ) : ?>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">REDAÇÃO UFMT - HÉLIO TAQUES</h5>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRedacaoHelio" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1M5KhS_0wepPuF4XDLqo_i1M07F2Geb3P?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseRlmIgor">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_RLM_IGOR_AULA01.php">AULA 01</a>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1PuN_yrINm9mAblGJh32GrfIgSa_NZRwX?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    </p>
+                                    <div class="collapse" id="collapseRedacaoHelio">
+                                        <div class="card card-body">
+                                            <a href="REDACAO_UFMT_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 16/01/2022</a>
+                                            <p></p>
+                                            <a href="REDACAO_UFMT_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 23/01/2022</a>
+                                            <p></p>
+                                            <a href="REDACAO_UFMT_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 30/01/2022</a>
+                                            <p></p>
+                                            <a href="REDACAO_UFMT_HELIO_AULA04.php">AULA 04 - GRAVAÇÃO 13/02/2022</a>
+                                            <p></p>
+                                            <a href="POS-DICAS_DAVOLI_AULA01.php">AULA ÚNICA - GRAVAÇÃO 13/02/2022</a>
+                                            <p></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <p></p>
                         </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Zmpn1aTM-o2saAxdiXyyWocl2OpfdgVc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseInfoJoao">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_INFO_JOAO_AULA01.php">AULA 01</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">PORTUGUES - HÉLIO TAQUES</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/11PHowX9RwOoe-b2SD4CFQeF5UFTqnzZt?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapsePtHelio">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_PT_HELIO_AULA01.php">AULA 01</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">LEGISLAÇÃO DA EDUCAÇÃO - OZANIL RONDON</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegOzanil" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1SxSp0VHic8_zpcF__wKl2hGLsodwEbxr?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseLegOzanil">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_LEG_OZANIL_AULA01.php">AULA 01</a>
-                                        <a href="SEDUC_LEG_OZANIL_AULA02.php">AULA 02</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-
+                    <?php endif; ?>
                 </div>
 
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1M5KhS_0wepPuF4XDLqo_i1M07F2Geb3P?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRlmIgor">
+                                <div class="card card-body">
+                                    <a href="SEDUC_RLM_IGOR_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
 
-                <!-- jQuery CDN - Slim version (=without AJAX) -->
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <!-- Popper.JS -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-                <!-- Bootstrap JS -->
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-                <!-- jQuery Custom Scroller CDN -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Zmpn1aTM-o2saAxdiXyyWocl2OpfdgVc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseInfoJoao">
+                                <div class="card card-body">
+                                    <a href="SEDUC_INFO_JOAO_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
 
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        $("#sidebar").mCustomScrollbar({
-                            theme: "minimal"
-                        });
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">PORTUGUES - HÉLIO TAQUES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/11PHowX9RwOoe-b2SD4CFQeF5UFTqnzZt?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsePtHelio">
+                                <div class="card card-body">
+                                    <a href="SEDUC_PT_HELIO_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
 
-                        $('#sidebarCollapse').on('click', function() {
-                            $('#sidebar, #content').toggleClass('active');
-                            $('.collapse.in').toggleClass('in');
-                            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                        });
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">LEGISLAÇÃO DA EDUCAÇÃO - OZANIL RONDON</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegOzanil" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1SxSp0VHic8_zpcF__wKl2hGLsodwEbxr?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseLegOzanil">
+                                <div class="card card-body">
+                                    <a href="SEDUC_LEG_OZANIL_AULA01.php">AULA 01</a>
+                                    <a href="SEDUC_LEG_OZANIL_AULA02.php">AULA 02</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+            </div>
+
+
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <!-- jQuery Custom Scroller CDN -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#sidebar").mCustomScrollbar({
+                        theme: "minimal"
                     });
-                </script>
+
+                    $('#sidebarCollapse').on('click', function() {
+                        $('#sidebar, #content').toggleClass('active');
+                        $('.collapse.in').toggleClass('in');
+                        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    });
+                });
+            </script>
 </body>
 
 </html>
