@@ -119,7 +119,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
 
             <div class="row">
-                <h2>CONTEÚDO BÔNUS</h2>
+                <h3>CONTEÚDO BÔNUS</h3>
                 <?php if (
                     $_SESSION['usuario'] == 'yvenicios@gmail.com' || $_SESSION['usuario'] == 'kleybermoreno@gmail.com' || $_SESSION['usuario'] == 'joaovitormoreno01@gmail.com' || $_SESSION['usuario'] == 'kedmasantosmoreno@gmail.com'
                 ) : ?>
@@ -154,7 +154,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             </div>
 
             <div class="col-sm-12">
-
+            <h3>CONTEÚDO DO CURSO</h3>
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
