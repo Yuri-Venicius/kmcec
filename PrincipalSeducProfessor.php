@@ -116,8 +116,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
-
-
             <div class="row">
                 
                 <div class="col-sm-12">
@@ -154,6 +152,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         </div>
                     <?php endif; ?>
                 </div>
+                <h2>CONTEÚDO DO CURSO</h2>
 
                 <div class="col-sm-6">
                     <div class="card">
