@@ -88,12 +88,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>GUARDA MUNICIPAL DE VG - RLM | PROFESSOR IGOR BRASIL</h2><h3>AULA 01</h3>
+                <h2>GUARDA MUNICIPAL DE VG - RLM | PROFESSOR IGOR BRASIL</h2><h3>AULA 02</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG2023_RLM_IGOR_AULA02.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG2023_RLM_IGOR_AULA01.php">Anterior</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG2023_RLM_IGOR_AULA03.php">Próximo</a>
 
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/oIwlu_Nx4lM" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/avFXVij0e-0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 <div class="col-sm-6" style="margin: center">
