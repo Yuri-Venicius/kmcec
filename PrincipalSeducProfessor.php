@@ -128,7 +128,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <h3>Conteúdo Bônus: </h3>
                 </div>
 
-
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
