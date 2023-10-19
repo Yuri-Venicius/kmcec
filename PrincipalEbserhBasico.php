@@ -74,7 +74,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
- <p></p>
+                <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
@@ -116,45 +116,59 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
-            
 
-                <div class="row">
 
-                    <div class="col-md-12">
-                        <h3>Este curso ainda não possui aulas gravadas!</h3>
-                    </div>
+            <div class="row">
 
-                    <!-- <div class="col-sm-12">
-                        <div class="alert alert-primary" role="alert">
-                            Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/19GmqiljdVswaumqzOydQDHuFHKgeVFoKYUcpAaHKdvA/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
-                        </div>
-                    </div> -->
-
+                <div class="col-md-12">
+                    <h3>Conteúdo do curso: </h3>
                 </div>
 
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1-9CV--nHd5TX-xHWlhJ-SkwY4_A3uMm4?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRlmIgor">
+                                <div class="card card-body">
+                                    <a href="EBSERH_RLM_IGOR_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
 
-                <!-- jQuery CDN - Slim version (=without AJAX) -->
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <!-- Popper.JS -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-                <!-- Bootstrap JS -->
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-                <!-- jQuery Custom Scroller CDN -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+            </div>
 
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        $("#sidebar").mCustomScrollbar({
-                            theme: "minimal"
-                        });
 
-                        $('#sidebarCollapse').on('click', function() {
-                            $('#sidebar, #content').toggleClass('active');
-                            $('.collapse.in').toggleClass('in');
-                            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                        });
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <!-- jQuery Custom Scroller CDN -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#sidebar").mCustomScrollbar({
+                        theme: "minimal"
                     });
-                </script>
+
+                    $('#sidebarCollapse').on('click', function() {
+                        $('#sidebar, #content').toggleClass('active');
+                        $('.collapse.in').toggleClass('in');
+                        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    });
+                });
+            </script>
 </body>
 
 </html>
