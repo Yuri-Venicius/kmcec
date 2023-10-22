@@ -89,7 +89,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <h2>ISOLADAS DO KM PARA ENEM - QUÍMICA | PROFESSOR MARCIANO</h2><h3>AULA 06</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasQuimicaAula05.php">Anterior</a>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasQuimicaAula07.php">Próximo</a> -->
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasQuimicaAula07.php">Próximo</a>
                 <p></p>
                 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/6qfg5a7-21k" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
