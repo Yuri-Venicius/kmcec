@@ -86,12 +86,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
 
-                <h2>ISOLADAS DO KM PARA ENEM - REDAÇÃO | PROFESSORA KELINA SOUZA</h2><h3>AULA 05</h3>
+                <h2>ISOLADAS DO KM PARA ENEM - REDAÇÃO | PROFESSORA KELINA SOUZA</h2><h3>AULA 07</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasRedacaoAula04.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasRedacaoAula06.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasRedacaoAula06.php">Anterior</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasRedacaoAula08.php">Próximo</a>
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/qUX91izLqIA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/CpRLZJPflos" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
