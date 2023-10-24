@@ -85,27 +85,14 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <!-- Page Content  -->
             <div id="content">
-
-            
-
-                <h2>GUARDA MUNICIPAL DE VG - PORTUGUES | PROFESSOR HÉLIO TAQUES</h2><h3>AULA 01</h3>
+                <h2>CURSO PARA SEDUC 2023 - PORTUGUES | PROFESSOR HELIO TAQUES</h2><h3>AULA 02</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG2023_PT_HELIO_AULA02.php">Próximo</a>
-
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_PT_HELIO_AULA01.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_PT_HELIO_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/D86AbBbaHA0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/VOjEIIaAxSY" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
-                <div class="col-sm-6" style="margin: center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>
-                        </div>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;">COMO ACELERAR O VÍDEO?</h5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no celular: Basta clicar na opção engrenagem e escolher a velocidade desejada<H5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
-                    </div>
-                </div>
             </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
