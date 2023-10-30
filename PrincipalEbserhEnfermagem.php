@@ -150,6 +150,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">ESPECÍFICO ENFERMAGEM - GEOVANNE CASTILHO</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEnfGeovane" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1O53V9LA-ud2jVNWs5ZhaFSMg1irSrb1J?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseEnfGeovane">
+                                <div class="card card-body">
+                                    <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
                             <p class="card-text">
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
