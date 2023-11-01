@@ -148,6 +148,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1FolpavTbyg88ijeDSDH-NXJN7TGxqzgUibbDn3qH_7Q/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="alert alert-warning" role="alert">
+                        Acesse clicando <a href="https://meet.google.com/rby-wfnw-qug" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                    </div>
+                </div>
 
                 <div class="col-sm-6">
                     <div class="card">
