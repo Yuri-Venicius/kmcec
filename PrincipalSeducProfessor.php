@@ -117,10 +117,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
             <div class="row">
-                
-                <div class="col-sm-12">
+
+                <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
                         Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1B7t3uMTAl17ofRaSfqlmdQPc1pW1ByTw89fBPZ01xS4/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="alert alert-warning" role="alert">
+                        Acesse clicando <a href="https://meet.google.com/vpf-jdvf-ztc" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
                 </div>
 
@@ -290,7 +295,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <p></p>
                 </div>
-                
+
             </div>
 
 
