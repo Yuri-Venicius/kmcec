@@ -160,6 +160,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseEnfGeovane">
                                 <div class="card card-body">
                                     <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA01.php">AULA 01</a>
+                                    <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
