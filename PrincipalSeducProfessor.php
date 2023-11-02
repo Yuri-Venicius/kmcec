@@ -161,6 +161,50 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <p></p>
                 </div>
 
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RELAÇÕES INTERPESSOAIS - FERNANDO DAVOLI</h5>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRelInter" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                            </button>
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1cTY3DXdLIKkLKlmjngGchcvRCmmXH4lb?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRelInter">
+                                <div class="card card-body">
+                                    <a href="DPE_MEDIO_RELACOES_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 06/08/2022</a>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ARQUIVOLOGIA - FERNANDO DAVOLI</h5>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseArquivologia" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                            </button>
+                            <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/17L16o76w7cPS99bF7vfq8x-itMv8mkOq?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseArquivologia">
+                                <div class="card card-body">
+                                    <a href="DPE_MEDIO_ARQUIVOLOGIA_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 23/07/2022</a>
+                                    <p></p>
+                                    <a href="DPE_MEDIO_ARQUIVOLOGIA_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 30/07/2022</a>
+                                    <p></p>
+                                    <a href="DPE_MEDIO_ARQUIVOLOGIA_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 13/08/2022</a>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
                 <div class="col-md-12">
                     <h3>Conteúdo do curso: </h3>
                 </div>
