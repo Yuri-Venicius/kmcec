@@ -86,12 +86,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <!-- Page Content  -->
         <div id="content">
             <h2>CURSO PARA SEDUC 2023 - LEGISLAÇÃO DA EDUCAÇÃO | PROFESSORA OZANIL RONDON</h2>
-            <h3>AULA 06</h3>
+            <h3>AULA 07</h3>
             <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_LEG_OZANIL_AULA05.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_LEG_OZANIL_AULA07.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_LEG_OZANIL_AULA06.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_LEG_OZANIL_AULA08.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/mZn2Dtt1ROg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/4YWSBFNmBGU" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
             </div>
             <p></p>
         </div>
