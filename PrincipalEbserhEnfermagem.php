@@ -162,6 +162,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA01.php">AULA 01</a>
                                     <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA02.php">AULA 02</a>
                                     <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA03.php">AULA 03</a>
+                                    <a href="EBSERH_ENFERMAGEM_GEOVANNE_AULA04.php">AULA 04</a>
                                 </div>
                             </div>
                         </div>
