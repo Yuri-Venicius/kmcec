@@ -368,12 +368,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card-body">
                             <h5 class="card-title">LC 112/02 - FERNANDO DAVOLI</h5>
                             <p class="card-text">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsEcaLcCleide" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsLcDavoli" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                 </button>
                                 <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/15lx3qs85kR0lJDjKxom_VE6EpIjLR5Rd?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                             </p>
-                            <div class="collapse" id="collapsEcaLcCleide">
+                            <div class="collapse" id="collapsLcDavoli">
                                 <div class="card card-body">
                                     <a href="SEDUC_LC11202_DAVOLI_AULA01.php">AULA 01</a>
                                 </div>
