@@ -86,12 +86,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             <!-- Page Content  -->
             <div id="content">
 
-                <h2>ISOLADAS DO KM PARA ENEM - MATEMÁTICA/FÍSICA | PROFESSOR IGOR BRASIL</h2><h3>AULÃO DE REVISÃO</h3>
+                <h2>ISOLADAS DO KM PARA ENEM - QUÍMICA | PROFESSOR MARCIANO</h2><h3>AULÃO</h3>
                 <div>
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula12.php">Anterior</a> -->
-                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasMatematicaAula14.php">Próximo</a> -->
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasQuimicaAula09.php">Anterior</a> -->
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="[Enem]IsoladasQuimicaAula11.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/IB2sS3iPrxs" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/stqcg9xmJdA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
