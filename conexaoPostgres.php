@@ -5,10 +5,18 @@ define('PG_USER', 'yuri.oliveira');
 define('PG_PASSWORD', 'yuri@123');
 define('PG_DB', 'km-hml');
 
-try {
-    $conexaoPostgres = new PDO("pgsql:host=".PG_HOST.";port=".PG_PORT.";dbname=".PG_DB, PG_USER, PG_PASSWORD);
-    $conexaoPostgres->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Erro na conexão com PostgreSQL: " . $e->getMessage());
+// Estabelece a conexão
+$conexaoPostgres = pg_connect("host=" . PG_HOST . " port=" . PG_PORT . " dbname=" . PG_DB . " user=" . PG_USER . " password=" . PG_PASSWORD);
+
+// Verifica a conexão
+if (!$conexaoPostgres) {
+    die("Falha na conexão com o PostgreSQL: " . pg_last_error());
 }
+
+echo "Conexão com PostgreSQL bem-sucedida";
+
+// ... faça suas consultas aqui ...
+
+// Fecha a conexão
+
 ?>
