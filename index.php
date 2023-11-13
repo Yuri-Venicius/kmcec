@@ -224,8 +224,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Básico todos os cargos [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Básico todos os cargos, com atualização
-                                    para o PÓS-EDITAL.
+                                <p class="card-text">Curso Preparatório Pré-edital 2023 para a SES-MT - Básico todos os cargos.
                                 </p>
                                 </p>
                                 <p></p>
@@ -247,8 +246,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Enfermagem/Téc. de Enfermagem, com atualização
-                                    para o PÓS-EDITAL.
+                                <p class="card-text">Curso Preparatório Pré-edital 2023 para a SES-MT - Enfermagem/Téc. de Enfermagem.
                                 </p>
                                 </p>
                                 <p></p>
@@ -270,8 +268,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Preparatório Pré-edital para a SES-MT - Farmacêutico [Online]</h5>
-                                <p class="card-text">Curso Preparatório Pré-edital para a SES-MT - Farmacêutico, com atualização
-                                    para o PÓS-EDITAL.
+                                <p class="card-text">Curso Preparatório Pré-edital 2023 para a SES-MT - Farmacêutico.
                                 </p>
                                 </p>
                                 <p></p>

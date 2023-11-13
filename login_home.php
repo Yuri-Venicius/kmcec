@@ -62,7 +62,7 @@ session_start();
 						<span class="focus-input100" data-placeholder="Email"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Digite a Senha">
+					<div class="wrap-input100 validate-input" data-validate="Digite a Senha (apenas os números de seu CPF)">
 						<span class="btn-show-pass">
 							<i class="zmdi zmdi-eye"></i>
 						</span>

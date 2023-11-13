@@ -124,35 +124,328 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
 
                 <div class="row">
-                    <div class="col-sm-12">
+                    <!-- <div class="col-sm-12">
                         <h3>Conteúdo Bônus: </h3>
-                    </div>
+                    </div> -->
                 
+                    <div class="col-md-12">
+                        <h3>Conteúdo do curso: </h3>
+                    </div>
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">CURSO PRÉ-EDITAL SES-MT 2023</h5>
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - ELDER DENCATI</h5>
                                 <p class="card-text">
-                                    <a style="margin-left: 30px;" href="PrincipalSES-MT-Pre-Basicco.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtElder" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1VXmKdIuWwsLi7FPvLbsyQ8d0XWV4LlkA?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
+                                <div class="collapse" id="collapsePtElder">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA02.php">AULA 02</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA03.php">AULA 03</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA04.php">AULA 04</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_ELDER_AULA05.php">AULA 05</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <p></p>
                     </div>
 
-                    <div class="col-md-12">
-                        <h3>Conteúdo do curso: </h3>
-                    </div>
-
-                    <!-- <div class="col-sm-12">
-                        <div class="alert alert-primary" role="alert">
-                            Acesse clicando  <a href="https://docs.google.com/spreadsheets/d/19GmqiljdVswaumqzOydQDHuFHKgeVFoKYUcpAaHKdvA/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - GOUVEIA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtGouveia" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1NrgDABbW-IxNim5_8By0IXTL96m9aoRq?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtGouveia">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_GOUVEIA_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_GOUVEIA_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div> -->
-
-                    <div class="col-md-12">
-                        <h5>Ainda Não Há Conteúdo Gravado</h5>
+                        <p></p>
                     </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LÍNGUA PORTUGUESA - HÉLIO TAQUES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1DvA8lhPJi9ScpNKhBEYit4_mXk5CuXjr?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtHelio">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_PORTUGUES_HELIO_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">REDAÇÃO - KELLEN</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRedacaoKellen" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1jhNDj7Ro8o26cuYZFj2N_khFVwJDcyK9?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRedacaoKellen">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_TODOS_REDACAO_KELLEN_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_TODOS_REDACAO_KELLEN_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">RACIOCÍNIO LÓGICO MATEMÁTICO - IGOR BRASIL</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1tLgxRFUxV8d2F72U6L6Rw7YyvnCjEmoi?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseRlmIgor">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA02.php">AULA 02</a>
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA03.php">AULA 03</a>
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA04.php">AULA 04</a>
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA05.php">AULA 05</a>
+                                        <a href="SES_PRE_2023_TODOS_RLM_IGOR_AULA06.php">AULA 06</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1IbdJRJqMXdU1bhS3B1sjWewq575otIGn?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoao">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_INFO_JOAO_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_INFO_JOAO_AULA02.php">AULA 02</a>
+                                        <a href="SES_PRE_2023_TODOS_INFO_JOAO_AULA03.php">AULA 03</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - SILVIO BONONI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoSilvio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1XwwKBX6QU0mQyMz8xNXJxxZQSHgLvNCX?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoSilvio">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_INFO_SILVIO_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_INFO_SILVIO_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">HISTÓRIA - CARLOS BIDU</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1DCX1VWOneLsWWl8Punoo-LxfOO5CchpV?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseHistBidu">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_HISTORIA_BIDU_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_HISTORIA_BIDU_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">GEOGRAFIA E ATUALIDADES - MARCELO ALONSO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeoMarcelo" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1X1_uKhUnoVqRIzFu0pKO3RUtxwYRAapZ?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseGeoMarcelo">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_GEO_MARCELO_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_GEO_MARCELO_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">NOÇÕES DE ÉTICA E FILOSOFIA - DOUGLAS REMONATTO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDouglasEtica" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1-BgcPSkexycg3R1jBEVbzawDsa_cFX7d?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseDouglasEtica">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_ETICA_DOUGLAS_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_ETICA_DOUGLAS_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LEGISLAÇÃO DO SUS - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegSusDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1GPLEETS5CBVNaJnhS1r8SGMe8ig2Vq8a?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseLegSusDavoli">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA02.php">AULA 02</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA03.php">AULA 03</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA04.php">AULA 04</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA05.php">AULA 05</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA06.php">AULA 06</a>
+                                        <a href="SES_PRE_2023_TODOS_LEG_SUS_DAVOLI_AULA07.php">AULA 07</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CONSTITUIÇÃO ESTADUAL - JOSÉ NETO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConstNeto" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1-qHHlg-O0jQEmsF5ZzG8-7ijDTrlgCRf?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseConstNeto">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_CONSTITUICAO_JOSE_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_CONSTITUICAO_JOSE_AULA02.php">AULA 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ESTATUTO DO SERVIDOR - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEstServCleide" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1nVzC_G4SPpO1KQZSG_J3D1cmZdPvAAAh?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseEstServCleide">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA01.php">AULA 01</a>
+                                        <a href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA02.php">AULA 02</a>
+                                        <a href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA03.php">AULA 03</a>
+                                        <a href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA04.php">AULA 04</a>
+                                        <a href="SES_PRE_2023_TODOS_ESTATUTO_CLEIDE_AULA05.php">AULA 05</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">NOÇÕES DE GESTÃO PÚBLICA - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGestCleide" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1ZooGSz2CXnDLqDByQPUFuqYMnT20Kx2-?usp=share_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseGestCleide">
+                                    <div class="card card-body">
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA01.php">AULA 01</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA02.php">AULA 02</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA03.php">AULA 03</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA04.php">AULA 04</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA05.php">AULA 05</a><p></p> 
+                                        <a href="SES_PRE_2023_GESTAO_CLEIDE_AULA06.php">AULA 06</a><p></p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+
 
                 <?php endif; ?>
                 </div>
