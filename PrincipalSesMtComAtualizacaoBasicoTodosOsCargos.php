@@ -112,7 +112,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>VÍDEO AULAS - CURSO PARA O CONCURSO DA SES-MT PRÉ-EDITAL - COM ATUALIZAÇÃO PARA PÓS EDITAL - BÁSICO TODOS OS CARGOS</h2>
+            <h2>VÍDEO AULAS - CURSO PARA O CONCURSO DA SES-MT PRÉ-EDITAL - BÁSICO TODOS OS CARGOS</h2>
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
