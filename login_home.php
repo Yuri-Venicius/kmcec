@@ -50,6 +50,9 @@ session_start();
 					<div class="notification is-danger">
 						<p>Usuário ou Senha Inválidos, tente novamente.</p>
 					</div>
+					<div class="alert alert-primary" role="alert">
+                        Caso aconteça algum erro de usuário ou senha inválidos, favor inserir o email cadastrado e o número de seu CPF no campo senha.
+                    </div>
 					<?php
 					
 					endif;
@@ -69,6 +72,9 @@ session_start();
 						<input class="input100" type="password" name="senha">
 						<span class="focus-input100" data-placeholder="Senha"></span>
 					</div>
+					<!-- <div class="alert alert-primary" role="alert">
+                        Caso aconteça algum erro de usuário ou senha inválidos, favor inserir o email cadastrado e o número de seu CPF no campo senha.
+                    </div> -->
 
 					<div class="container-login100-form-btn">
 						
