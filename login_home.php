@@ -44,15 +44,15 @@ session_start();
 					<span class="login100-form-title p-b-26">
 						Bem-Vindo(a)
 					</span>
+					<div class="alert alert-primary" role="alert">
+						No campo Usuario, inserir o e-mail cadastrado, no campo senha, inserir o número de seu CPF.
+					</div>
 					<?php
 					if(isset($_SESSION['usuario_invalido'])):
 					?>
 					<div class="notification is-danger">
 						<p>Usuário ou Senha Inválidos, tente novamente.</p>
 					</div>
-					<div class="alert alert-primary" role="alert">
-                        Caso aconteça algum erro de usuário ou senha inválidos, favor inserir o email cadastrado e o número de seu CPF no campo senha.
-                    </div>
 					<?php
 					
 					endif;
