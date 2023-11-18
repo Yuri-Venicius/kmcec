@@ -45,7 +45,7 @@ session_start();
 						Bem-Vindo(a)
 					</span>
 					<div class="alert alert-primary" role="alert">
-						No campo Usuario, inserir o e-mail cadastrado, no campo senha, inserir o número de seu CPF.
+						No campo Email, inserir o e-mail cadastrado, no campo Senha, inserir o número de seu CPF.
 					</div>
 					<?php
 					if(isset($_SESSION['usuario_invalido'])):
