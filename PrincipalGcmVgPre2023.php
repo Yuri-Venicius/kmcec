@@ -290,6 +290,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="card card-body">
                                     <a href="GUARDAVG2023_DIR_ADM_CLEIDE_AULA01.php">AULA 01</a>
                                     <a href="GUARDAVG2023_DIR_ADM_CLEIDE_AULA02.php">AULA 02</a>
+                                    <a href="GUARDAVG2023_DIR_ADM_CLEIDE_AULA03.php">AULA 03</a>
                                 </div>
                             </div>
                         </div>
