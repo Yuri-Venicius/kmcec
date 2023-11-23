@@ -236,6 +236,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">PORTUGUÊS - GOUVEIA</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePthGouveia" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1lkFQsNIbAPygHKf2KG4DihEljuw_Fgzu?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsePthGouveia">
+                                <div class="card card-body">
+                                    <a href="GUARDAVG2023_PT_GOUVEIA_AULA01.php">AULA 01</a>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">DIREITO CONSTITUCIONAL - JOSÉ NETO</h5>
                             <p class="card-text">
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirJoseNeto" aria-expanded="false" aria-controls="collapseExample">
