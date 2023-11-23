@@ -378,6 +378,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <p></p>
                 </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">GEOGRAFIA - MARCELO ALONSO</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeoMarcelo" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1QoI0m4jJWVyo0ZOmcT7AzsLyv6kFmAJn?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseGeoMarcelo">
+                                <div class="card card-body">
+                                    <!-- <a href="GUARDAVG2023_HISTORIA_BIDU_AULA01.php">AULA 01</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
             </div>
         </div>
 
