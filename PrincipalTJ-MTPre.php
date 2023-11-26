@@ -124,20 +124,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
 
                 <div class="row">
-                    <div class="col-sm-12">
+                    <!-- <div class="col-sm-12">
                         <h3>Conteúdo Bônus: </h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CURSO ISOLADAS DO KM</h5>
-                                <p class="card-text">
-                                    <a style="margin-left: 30px;" href="PrincipalIsoladasKM.php" class="btn btn-primary"><i class="fas fa-book-open"></i> ACESSAR O CURSO</a>
-                                </p>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-12">
                         <h3>CONTEÚDO DO CURSO </h3>
