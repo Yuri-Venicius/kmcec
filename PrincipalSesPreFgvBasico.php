@@ -124,12 +124,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             ) : ?>
 
                 <div class="row">
-                    <!-- <div class="col-sm-12">
+                    <div class="col-sm-12">
                         <h3>Conteúdo Bônus: </h3>
-                    </div> -->
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CURSO PARA O CONCURSO DA SES-MT PRÉ-EDITAL - BÁSICO TODOS OS CARGOS [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES MT, BÁSICO PARA TODOS OS CARGOS pré-edital.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSES-MT-Pre-Basicco.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
 
                     <div class="col-md-12">
-                        <h3>Este curso ainda não iniciou. </h3>
+                        <h3>Conteúdo do curso:</h3>
+                        <h3>Este curso ainda não iniciou. </h5>
                     </div>
 
 
