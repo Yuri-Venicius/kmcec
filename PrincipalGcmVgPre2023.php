@@ -374,6 +374,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseHistBidu">
                                 <div class="card card-body">
                                     <a href="GUARDAVG2023_HISTORIA_BIDU_AULA01.php">AULA 01</a>
+                                    <a href="GUARDAVG2023_HISTORIA_BIDU_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
