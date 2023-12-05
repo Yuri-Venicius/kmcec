@@ -204,6 +204,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="GUARDAVG2023_RLM_IGOR_AULA05.php">AULA 05</a>
                                     <a href="GUARDAVG2023_RLM_IGOR_AULA06.php">AULA 06</a>
                                     <a href="GUARDAVG2023_RLM_IGOR_AULA07.php">AULA 07</a>
+                                    <a href="GUARDAVG2023_RLM_IGOR_AULA08.php">AULA 08</a>
                                     <p></p>
                                 </div>
                             </div>
