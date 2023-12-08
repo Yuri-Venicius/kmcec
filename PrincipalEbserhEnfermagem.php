@@ -321,7 +321,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card-body">
                             <h5 class="card-title">SIMULADOS</h5>
                             <p class="card-text">
-                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1o-prGt6R_rEWERIHDEGsuDBGq8nzB1xx?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Simulado</a>
+                                <a href="https://drive.google.com/drive/folders/1o-prGt6R_rEWERIHDEGsuDBGq8nzB1xx?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Simulado</a>
                             </p>
                         </div>
                     </div>
