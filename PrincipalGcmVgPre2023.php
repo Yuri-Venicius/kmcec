@@ -270,6 +270,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapsePtElder">
                                 <div class="card card-body">
                                     <a href="GUARDAVG2023_PORTUGUES_ELDER_AULA01.php">AULA 01</a>
+                                    <a href="GUARDAVG2023_PORTUGUES_ELDER_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
