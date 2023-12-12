@@ -85,12 +85,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <!-- Page Content  -->
             <div id="content">
-                <h2>EBSERH - ESPECÍFICO ENFERMAGEM | PROFESSOR GEOVANNE CASTILHO</h2><h3>AULA 09</h3>
+                <h2>EBSERH - ESPECÍFICO ENFERMAGEM | PROFESSOR GEOVANNE CASTILHO</h2><h3>AULA 10</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_ENFERMAGEM_GEOVANNE_AULA08.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_ENFERMAGEM_GEOVANNE_AULA10.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_ENFERMAGEM_GEOVANNE_AULA09.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_ENFERMAGEM_GEOVANNE_AULA11.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/hrBMdx0AjDM" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/68Nuxi1zcwc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
