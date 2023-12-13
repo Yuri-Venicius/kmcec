@@ -88,12 +88,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>EBSERH - PORTUGUÊS | PROFESSOR HÉLIO TAQUES</h2><h3>AULA 03</h3>
+                <h2>EBSERH - PORTUGUÊS | PROFESSOR HÉLIO TAQUES</h2><h3>AULA 04</h3>
                 <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_PT_HELIO_AULA02.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_PT_HELIO_AULA04.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_PT_HELIO_AULA03.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="EBSERH_PT_HELIO_AULA05.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/FDwvj8SU2RY" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/fPCB6HfUaQA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
                 
