@@ -370,6 +370,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">ESTATUTO DA GCM - CLEIDE REGINA</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsEstatutoCleide" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1-NK6MVmhfH0tUekAnZspagf5b6E7GePy?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsEstatutoCleide">
+                                <div class="card card-body">
+                                    <a href="GUARDAVG2023_ESTATUTO_CLEIDE_AULA01.php">AULA 01</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">CTB - ALAN DE OLIVEIRA </h5>
                             <p class="card-text">
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsCtbAlan" aria-expanded="false" aria-controls="collapseExample">
