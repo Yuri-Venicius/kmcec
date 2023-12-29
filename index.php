@@ -71,7 +71,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
- <p></p>
+                <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
@@ -121,9 +121,261 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 if (
                     $verificaAdm['nivelAcesso'] == '1'
                 ) : ?>
-                <div class="col-md-12">
-                    <h5>Cursos em andamento:
-                </div>
+                    <div class="col-md-12">
+                        <h5>Cursos em andamento:
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3593;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Básico para nível superior [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, básico para todos os cargos de nível superior, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvBasicoSuperio.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3594;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Básico para nível médio [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, básico para todos os cargos de nível médio, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvBasicoMedio.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3595;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Administrador [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, cargo de administrador, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvAdministrador.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3596;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Técnico em assuntos culturais e educacionais (Pedagogo e Letras) [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, cargos de Técnico em assuntos culturais e educacionais (Pedagogo e Letras), Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvTecLetrasPedago.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3597;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Economia [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, cargos de economia, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvEconomia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3598;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Enfermagem [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, Enfermagem, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvEnfermagem.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3599;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Advogado [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, Advogado, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvAdvogado.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3600;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Técnico de Enfermagem [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, técnico de enfermagem, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvTecEnf.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3601;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Médico [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, cargo de médico, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvMedico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3602;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Fisioterapia [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, fisioterapeuta, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvFisioterapia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3603;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SES-MT Pós edital FGV - Contador [Online]</h5>
+                                <p class="card-text">Curso preparatório para o concurso da SES-MT, Contador, Online ao vivo
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSesPosFgvContador.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+
+                <?php
+                if (
+                    $verificaAdm['nivelAcesso'] == '1'
+                ) : ?>
+                    <div class="col-md-12">
+                        <h5>Cursos ja finalizados:
+                    </div>
                 <?php endif; ?>
 
                 <?php
@@ -334,7 +586,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">CURSO SEFAZ-MT PREPARATÓRIO COMPLETO [Online]</h5>
-                                <p class="card-text">Curso preparatório pós edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais, 
+                                <p class="card-text">Curso preparatório pós edital para a SEFAZ Mato Grosso, Fiscal de tributos estaduais,
                                     100% on-line, com os melhores professores do Brasil!
                                 </p>
                                 </p>
@@ -456,16 +708,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
                 <?php endif; ?>
-
-                <?php
-                if (
-                    $verificaAdm['nivelAcesso'] == '1'
-                ) : ?>
-                <div class="col-md-12">
-                    <h5>Cursos ja finalizados:
-                </div>
-                <?php endif; ?>
-
                 <?php
                 $codCurso = 3247;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
@@ -487,7 +729,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
                 <?php endif; ?>
-                
+
                 <?php
                 $codCurso = 603;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
@@ -517,16 +759,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
                 ) : ?>
                     <div class="col-sm-6">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Direito Administrativo - Atos Administrativos</h5>
-								<p class="card-text">Curso de Atos Administrativos para concursos em geral.
-								</p>
-								<p>Ministrado por Profª Cleide Regina.</p>
-								<a href="menuDirAdmATOS.php" class="btn btn-primary">Acessar</a>
-							</div>
-						</div>
-					</div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Direito Administrativo - Atos Administrativos</h5>
+                                <p class="card-text">Curso de Atos Administrativos para concursos em geral.
+                                </p>
+                                <p>Ministrado por Profª Cleide Regina.</p>
+                                <a href="menuDirAdmATOS.php" class="btn btn-primary">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
                 <?php endif; ?>
 
                 <?php
@@ -948,7 +1190,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-                
+
 
                 <?php
                 $codCurso = 2883;
@@ -960,7 +1202,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">CURSO PARA O BANCO DO BRASIL [Online]</h5>
-                                <p class="card-text">Curso preparatório para o concurso do Banco do Brasil para Escriturário – Agente Comercial/Agente de Tecnologia 
+                                <p class="card-text">Curso preparatório para o concurso do Banco do Brasil para Escriturário – Agente Comercial/Agente de Tecnologia
                                 </p>
                                 </p>
                                 <p></p>
@@ -1060,7 +1302,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-               
+
             </div>
 
             <!-- jQuery CDN - Slim version (=without AJAX) -->
