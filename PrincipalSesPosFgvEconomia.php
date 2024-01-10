@@ -147,7 +147,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <h3>Conteúdo do curso:</h3>
                         <h5>Este curso ainda não iniciou, previsão de início em 09/01/24 às 19h de Cuiabá. </h5>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="alert alert-warning" role="alert">
                             Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
