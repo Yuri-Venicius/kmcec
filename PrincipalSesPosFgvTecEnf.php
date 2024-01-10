@@ -145,7 +145,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                     <div class="col-md-12">
                         <h3>Conteúdo do curso:</h3>
-                        <h5>Este curso ainda não iniciou, previsão de início em 09/01/24 às 19h de Cuiabá. </h5>
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-warning" role="alert">
