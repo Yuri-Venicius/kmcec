@@ -177,6 +177,27 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">LEGISLAÇÃO DO SUS - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseLegSusDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1e9JMJOHqTVWUTgrEZaDMevtO5J-jv2ij?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseLegSusDavoli">
+                                    <div class="card card-body">
+                                        <!-- <a href="SES_POS_TODOS_LEG_SUS_DAVOLI_AULA01.php">AULA 01</a> -->
+                                        <a>Ainda não há aula gravada</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
                 <?php endif; ?>
                 </div>
 
