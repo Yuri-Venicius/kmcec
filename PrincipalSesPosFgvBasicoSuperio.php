@@ -148,7 +148,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-success" role="alert">
-                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1N-KgtqDnc2p2b6TeSQX-aNdG_tBEbC8yvPNesUB8OVc/edit?usp=sharing" class="alert-link">aqui</a>, o link para o cronograma de postagens.
+                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1N-KgtqDnc2p2b6TeSQX-aNdG_tBEbC8yvPNesUB8OVc/edit?usp=sharing" class="alert-link">aqui</a>, o link para o cronograma de postagens das aulas do curso.
                         </div>
                     </div>
                     <div class="col-sm-12">
