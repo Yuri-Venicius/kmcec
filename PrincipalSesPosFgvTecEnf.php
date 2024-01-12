@@ -156,6 +156,33 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger" role="alert">
+                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula MATÉRIAS ESPECÍFICAS! (Transmissão segue o cronograma ao lado)
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ESPECÍFICO ENFERMAGEM - GEOVANNE CASTILHO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/13P2vxW8GtQTpLyym7MZfpDRoMKgcSxVc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapsePtHelio">
+                                    <div class="card card-body">
+                                        <!-- <a href="SES_POS_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01</a> -->
+                                        <a>Ainda não há aula gravada</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
 
                     <div class="col-sm-6">
                         <div class="card">
