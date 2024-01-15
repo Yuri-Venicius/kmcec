@@ -168,12 +168,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="card-body">
                                 <h5 class="card-title">ESPECÍFICO ENFERMAGEM - GEOVANNE CASTILHO</h5>
                                 <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspecificoEnf" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
                                     <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/13P2vxW8GtQTpLyym7MZfpDRoMKgcSxVc?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
-                                <div class="collapse" id="collapsePtHelio">
+                                <div class="collapse" id="collapseEspecificoEnf">
                                     <div class="card card-body">
                                         <a href="SES_POS_ENFTECENF_ESPECIFICO_GEOVANNE_AULA01.php">AULA 01</a>
                                     </div>
