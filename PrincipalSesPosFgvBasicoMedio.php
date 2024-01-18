@@ -153,7 +153,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-warning" role="alert">
-                            Acesse clicando <a href="https://meet.google.com/ciw-ovyr-ojk" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
 
