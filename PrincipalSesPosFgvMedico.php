@@ -174,7 +174,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEspMedico">
                                     <div class="card card-body">
-                                        <a>Ainda não há conteúdo gravado</a>
+                                        <a href="SES_POS_MEDICO_ESP_MARCOS_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
