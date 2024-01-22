@@ -148,17 +148,17 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-success" role="alert">
-                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1reXoalDE1AL1RuIzpSr9fouY3-n92d49J8EZKiUS778/edit?usp=sharing" class="alert-link">aqui</a>, o link para o cronograma de postagens das aulas do curso.
+                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1reXoalDE1AL1RuIzpSr9fouY3-n92d49J8EZKiUS778/edit?usp=sharing" class="alert-link" target="_blank">aqui</a>, o link para o cronograma de postagens das aulas do curso.
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-warning" role="alert">
-                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link" target="_blank">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-danger" role="alert">
-                            Acesse clicando <a href="https://meet.google.com/vxn-jjfs-snd" class="alert-link">aqui</a>, o link para sala de aula da MATÉRIA ESPECÍFICA! (Transmissão segue o cronograma ao lado)
+                            Acesse clicando <a href="https://meet.google.com/vxn-jjfs-snd" class="alert-link" target="_blank">aqui</a>, o link para sala de aula da MATÉRIA ESPECÍFICA! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
 
