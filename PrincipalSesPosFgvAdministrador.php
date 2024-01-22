@@ -148,12 +148,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-success" role="alert">
-                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1BDRq1ffvEbw2mikx9jXQ_pwSSb0Io5TKyumSM3RqlZc/edit?usp=sharing" class="alert-link">aqui</a>, o link para o cronograma de postagens das aulas do curso.
+                            Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1BDRq1ffvEbw2mikx9jXQ_pwSSb0Io5TKyumSM3RqlZc/edit?usp=sharing" class="alert-link" target="_blank">aqui</a>, o link para o cronograma de postagens das aulas do curso.
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-warning" role="alert">
-                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                            Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link" target="_blank">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
 
