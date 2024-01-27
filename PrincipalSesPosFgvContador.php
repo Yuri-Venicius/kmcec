@@ -156,6 +156,31 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             Acesse clicando <a href="https://meet.google.com/pao-eyuv-gqv" class="alert-link" target="_blank">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                         </div>
                     </div>
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger" role="alert">
+                            Acesse clicando <a href="https://meet.google.com/gbi-etms-umr" class="alert-link" target="_blank">aqui</a>, o link para sala de aula ao vivo MATÉRIAS ESPECÍFICAS! (Transmissão segue o cronograma ao lado)
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ESPECÍFICO CONTABILIDADE - DANIEL MERRELES</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspContabilidade" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1qGBjfOOKaesIgOcBsfyiN0gdtJaUp-dN?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseEspContabilidade">
+                                    <div class="card card-body">
+                                        <a>Ainda não há conteúdo gravado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
 
                     <div class="col-sm-6">
                         <div class="card">
