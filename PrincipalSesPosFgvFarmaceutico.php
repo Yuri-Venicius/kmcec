@@ -170,15 +170,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspFarmaceutico" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
                                     </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1tsI8oz-O0F8KxrbHJ1p3nYFYrPMhicZa?usp=sharing" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1UgjNriT23V5uuOl0Z_dNXSW-O8ds0Zh1?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
                                 <div class="collapse" id="collapseEspFarmaceutico">
                                     <div class="card card-body">
-                                        <a href="SES_POS_TODOS_PORTUGUES_HELIO_AULA01.php">AULA 01</a>
-                                        <a href="SES_POS_TODOS_PORTUGUES_HELIO_AULA02.php">AULA 02</a>
-                                        <a href="SES_POS_TODOS_PORTUGUES_HELIO_AULA03.php">AULA 03</a>
-                                        <a href="SES_POS_TODOS_PORTUGUES_HELIO_AULA04.php">AULA 04</a>
-
+                                        <a>Ainda não há conteúdo gravado</a>
                                     </div>
                                 </div>
                             </div>
