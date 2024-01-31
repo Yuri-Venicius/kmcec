@@ -112,13 +112,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>VÍDEO AULAS - CURSO PARA O PROCESSO SELETIVO DA SEDUC - PROFESSOR EDUCAÇÃO BÁSICA</h2>
+            <h2>VÍDEO AULAS - CURSO PRÉ-EDITAL PARA O CONCURSO DA SEDUC 2024</h2>
             <p>Aqui ficam listadas suas vídeos aulas disponíveis, separadas por blocos de conteúdo.
                 Para acessar uma aula basta clicar em "Aulas" no bloco do conteúdo referente.</p>
 
             <div class="row">
 
-                <div class="col-sm-6">
+                <!-- <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
                         Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1B7t3uMTAl17ofRaSfqlmdQPc1pW1ByTw89fBPZ01xS4/edit?usp=sharing" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
@@ -127,7 +127,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="alert alert-warning" role="alert">
                         Acesse clicando <a href="https://meet.google.com/vpf-jdvf-ztc" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-sm-12">
                     <h3>Conteúdo Bônus: </h3>

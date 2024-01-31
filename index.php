@@ -127,6 +127,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
+                $codCurso = 3575;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Pré-edital para o concurso da SEDUC [Online]</h5>
+                                <p class="card-text">Curso Pré-edital para o concurso 2024 da SEDUC [Online].
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalSeducProfessor.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
                 $codCurso = 3593;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
@@ -259,28 +281,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
-                $codCurso = 3599;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">SES-MT Pós edital FGV - Advogado [Online]</h5>
-                                <p class="card-text">Curso preparatório para o concurso da SES-MT, Advogado, Online ao vivo
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSesPosFgvAdvogado.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
-                <?php
                 $codCurso = 3600;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
@@ -361,28 +361,6 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <p></p>
                                 <a href="PrincipalSesPosFgvContador.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
-
-                <?php
-                $codCurso = 3604;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">SES-MT Pós edital FGV - Enfermeiro do Trabalho [Online]</h5>
-                                <p class="card-text">Curso preparatório para o concurso da SES-MT, Enfermeiro do Trabalho, Online ao vivo
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSesPosFgvEnfTrabalho.php" class="btn btn-primary">Acessar</a>
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
@@ -532,27 +510,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     </div>
                 <?php endif; ?>
 
-                <?php
-                $codCurso = 3575;
-                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
-                if (
-                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
-                ) : ?>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso para processo seletivo SEDUC/2023 – Professor da Educação Básica [Online]</h5>
-                                <p class="card-text">Curso para processo seletivo SEDUC/2023 – Professor da Educação Básica [Online].
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalSeducProfessor.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                <?php endif; ?>
+
 
                 <?php
                 $codCurso = 3444;
