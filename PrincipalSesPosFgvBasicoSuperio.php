@@ -143,6 +143,29 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <p></p>
                     </div>
 
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">HISTÓRIA DE MT - CARLOS</h5>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                </p>
+                                <div class="collapse" id="collapseHistBidu">
+                                    <div class="card card-body">
+                                        <a href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">AULA 01</a>
+                                        <p></p>
+                                        <a href="SMS_TODOS_HISTORIA_CARLAO_AULA02.php">AULA 02</a>
+                                        <p></p>
+                                        <a href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">AULA 03</a>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
                     <div class="col-md-12">
                         <h3>Conteúdo do curso:</h3>
                     </div>

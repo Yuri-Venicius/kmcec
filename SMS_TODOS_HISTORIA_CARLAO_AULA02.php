@@ -88,7 +88,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             
 
-                <h2>CURSO PARA A SMS CUIABÁ - HISTÓRIA DE MT| PROFESSOR CARLOS</h2><h3>AULA 02</h3>
+                <h2>HISTÓRIA DE MT| PROFESSOR CARLOS</h2><h3>AULA 02</h3>
                 <div>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_TODOS_HISTORIA_CARLAO_AULA01.php">Anterior</a>
                 <a style="align-items: flex-end;" class="btn btn-primary" href="SMS_TODOS_HISTORIA_CARLAO_AULA03.php">Próximo</a>
