@@ -86,11 +86,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <!-- Page Content  -->
         <div id="content">
             <h2>SES-MT PÓS EDITAL - ESPECÍFICO CONTADOR | PROFESSOR DANIEL MERRELES</h2>
-            <h3>AULA 01</h3>
+            <h3>AULA 02</h3>
             <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA02.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA01.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/lUQIbe9VL5E" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/UjRAf0T5cJ0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
             </div>
             <p></p>
         </div>
