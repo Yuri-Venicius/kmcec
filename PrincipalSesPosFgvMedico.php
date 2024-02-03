@@ -199,6 +199,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <div class="card card-body">
                                         <a href="SES_POS_MEDICO_ESP_MARCOS_AULA01.php">AULA 01</a>
                                         <a href="SES_POS_MEDICO_ESP_MARCOS_AULA02.php">AULA 02</a>
+                                        <a href="SES_POS_MEDICO_ESP_MARCOS_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
