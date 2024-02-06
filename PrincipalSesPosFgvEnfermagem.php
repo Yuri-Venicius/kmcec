@@ -217,7 +217,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     </button>
                                     <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1BSqqsqI9KX1gmubc-F28LsMRjbUo2wC1?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
                                 </p>
-                                <div class="collapse" id="collapseRichard">
+                                <div class="collapse" id="collapseEspecificoEnfRichard">
                                     <div class="card card-body">
                                         <a href="SES_POS_ENFTECENF_ESPECIFICO_RICHARD_AULA01.php">AULA 01</a>
                                     </div>
