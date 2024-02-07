@@ -150,12 +150,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePtElder">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA01.php">AULA 01 - GRAVAÇÃO 16/02/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA02.php">AULA 02 - GRAVAÇÃO 23/02/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA03.php">AULA 03 - GRAVAÇÃO 06/03/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA04.php">AULA 04 - GRAVAÇÃO 02/05/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA05.php">AULA 05 - GRAVAÇÃO 09/05/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA06.php">AULA 06 - GRAVAÇÃO 15/05/2023</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA05.php">AULA 05</a>
+                                        <a href="TJMT_PRE_PORTUGUES_ELDER_AULA06.php">AULA 06</a>
                                     </div>
                                 </div>
                             </div>
@@ -175,8 +175,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapsePtHelio">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_PORTUGUES_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 13/03/2023</a>
-                                        <a href="TJMT_PRE_PORTUGUES_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 20/03/2023</a>
+                                        <a href="TJMT_PRE_PORTUGUES_HELIO_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_PORTUGUES_HELIO_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -197,9 +197,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGouveia">
                                     <div class="card card-body">
-                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA01.php">AULA 01 - GRAVAÇÃO 08/03/2023</a>
-                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA02.php">AULA 02 - GRAVAÇÃO 03/04/2023</a>
-                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA03.php">AULA 03 - GRAVAÇÃO 11/04/2023</a>
+                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PORTUGUES_GOUVEIA_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRedacaoHelio">
                                     <div class="card card-body">
-                                        <a href="TJMT_REDACAO_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 25/02/2023</a>
+                                        <a href="TJMT_REDACAO_HELIO_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
@@ -239,8 +239,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRedacaoKellen">
                                     <div class="card card-body">
-                                        <a href="TJMT_REDACAO_KELLEN_AULA01.php">AULA 01 - GRAVAÇÃO 13/04/2023</a>
-                                        <a href="TJMT_REDACAO_KELLEN_AULA02.php">AULA 02 - GRAVAÇÃO 14/04/2023</a>
+                                        <a href="TJMT_REDACAO_KELLEN_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_REDACAO_KELLEN_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -260,12 +260,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirConstJoseNeto">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA01.php">AULA 01 - GRAVAÇÃO 14/02/2023</a>
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA02.php">AULA 02 - GRAVAÇÃO 24/02/2023</a>
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA03.php">AULA 03 - GRAVAÇÃO 28/02/2023</a>
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA04.php">AULA 04 - GRAVAÇÃO 03/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA05.php">AULA 05 - GRAVAÇÃO 10/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA06.php">AULA 06 - GRAVAÇÃO 28/04/2023</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA05.php">AULA 05</a>
+                                        <a href="TJMT_PRE_DIR_CONST_JOSE_AULA06.php">AULA 06</a>
                                     </div>
                                 </div>
                             </div>
@@ -285,13 +285,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirAdmCleide">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA01.php">AULA 01 - GRAVAÇÃO 13/02/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA02.php">AULA 02 - GRAVAÇÃO 27/02/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA03.php">AULA 03 - GRAVAÇÃO 10/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA04.php">AULA 04 - GRAVAÇÃO 12/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA05.php">AULA 05 - GRAVAÇÃO 17/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA06.php">AULA 06 - GRAVAÇÃO 04/05/2023</a>
-                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA07.php">AULA 07 - GRAVAÇÃO 12/05/2023</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA05.php">AULA 05</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA06.php">AULA 06</a>
+                                        <a href="TJMT_PRE_DIR_ADM_CLEIDE_AULA07.php">AULA 07</a>
                                     </div>
                                 </div>
                             </div>
@@ -311,11 +311,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirCivilStanley">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA01.php">AULA 01 - GRAVAÇÃO 18/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA02.php">AULA 02 - GRAVAÇÃO 25/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA03.php">AULA 03 - GRAVAÇÃO 01/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA04.php">AULA 04 - GRAVAÇÃO 29/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA05.php">AULA 05 - GRAVAÇÃO 06/05/2023</a>
+                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_DIR_CIVIL_STANLEY_AULA05.php">AULA 05</a>
                                     </div>
                                 </div>
                             </div>
@@ -335,7 +335,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirProcStanley">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_PROC_CIVIL_STANLEY_AULA01.php">AULA 01 - GRAVAÇÃO 31/05/2023</a>
+                                        <a href="TJMT_PRE_DIR_PROC_CIVIL_STANLEY_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
@@ -355,11 +355,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirPenalLuizH">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA01.php">AULA 01 - GRAVAÇÃO 07/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA02.php">AULA 02 - GRAVAÇÃO 15/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA03.php">AULA 03 - GRAVAÇÃO 22/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA04.php">AULA 04 - GRAVAÇÃO 29/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA05.php">AULA 05 - GRAVAÇÃO 05/04/2023</a>
+                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_DIR_PENAL_LUIZ_AULA05.php">AULA 05</a>
                                     </div>
                                 </div>
                             </div>
@@ -379,11 +379,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirProcMarciano">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA01.php">AULA 01 - GRAVAÇÃO 24/04/2023</a>
-                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA02.php">AULA 02 - GRAVAÇÃO 08/05/2023</a>
-                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA03.php">AULA 03 - GRAVAÇÃO 11/05/2023</a>
-                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA04.php">AULA 04 - GRAVAÇÃO 18/05/2023</a>
-                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA05.php">AULA 05 - GRAVAÇÃO 22/05/2023</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_DIR_PROC_PENAL_MARCIANO_AULA05.php">AULA 05</a>
                                     </div>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLegEspDonega">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_PENAL_ESP_MICHELE_AULA01.php">AULA 01 - GRAVAÇÃO 09/03/2023</a>
+                                        <a href="TJMT_PRE_PENAL_ESP_MICHELE_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
@@ -423,8 +423,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseLegGuilhemre">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_PENAL_ESP_GUILHERME_AULA01.php">AULA 01 - GRAVAÇÃO 25/05/2023</a>
-                                        <a href="TJMT_PRE_PENAL_ESP_GUILHERME_AULA02.php">AULA 02 - GRAVAÇÃO 26/05/2023</a>
+                                        <a href="TJMT_PRE_PENAL_ESP_GUILHERME_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_PENAL_ESP_GUILHERME_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -444,9 +444,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirAmbDanielle">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA01.php">AULA 01 - GRAVAÇÃO 27/04/2023</a>
-                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA02.php">AULA 02 - GRAVAÇÃO 03/05/2023</a>
-                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA03.php">AULA 03 - GRAVAÇÃO 01/06/2023</a>
+                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_AMBIENTAL_TATYANE_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -466,7 +466,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirHumJose">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIRHUMANOS_JOSE_AULA01.php">AULA 01 - GRAVAÇÃO 03/06/2023</a>
+                                        <a href="TJMT_PRE_DIRHUMANOS_JOSE_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
@@ -486,9 +486,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseDirEleitoralHelio">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA01.php">AULA 01 - GRAVAÇÃO 21/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA02.php">AULA 02 - GRAVAÇÃO 23/03/2023</a>
-                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA03.php">AULA 03 - GRAVAÇÃO 30/03/2023</a>
+                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_DIR_ELEITORAL_HELIO_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -508,9 +508,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRegInternoTj">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA01.php">AULA 01 - GRAVAÇÃO 06/05/2023</a>
-                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA02.php">AULA 02 - GRAVAÇÃO 13/05/2023</a>
-                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA03.php">AULA 03 - GRAVAÇÃO 20/05/2023</a>
+                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_REGI_DAVOLI_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -530,11 +530,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseRlmIgor">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_RLM_IGOR_AULA01.php">AULA 01 - GRAVAÇÃO 15/02/2023</a>
-                                        <a href="TJMT_PRE_RLM_IGOR_AULA02.php">AULA 02 - GRAVAÇÃO 01/03/2023</a>
-                                        <a href="TJMT_PRE_RLM_IGOR_AULA03.php">AULA 03 - GRAVAÇÃO 25/04/2023</a>
-                                        <a href="TJMT_PRE_RLM_IGOR_AULA04.php">AULA 04 - GRAVAÇÃO 05/05/2023</a>
-                                        <a href="TJMT_PRE_RLM_IGOR_AULA05.php">AULA 05 - GRAVAÇÃO 19/05/2023</a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA02.php">AULA 02/a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA03.php">AULA 03</a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA04.php">AULA 04</a>
+                                        <a href="TJMT_PRE_RLM_IGOR_AULA05.php">AULA 05</a>
                                     </div>
                                 </div>
                             </div>
@@ -554,8 +554,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseInfoSilvio">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_INFORMATICA_SILVIO_AULA01.php">AULA 01 - GRAVAÇÃO 04/04/2023</a>
-                                        <a href="TJMT_PRE_INFORMATICA_SILVIO_AULA02.php">AULA 02 - GRAVAÇÃO 06/04/2023</a>
+                                        <a href="TJMT_PRE_INFORMATICA_SILVIO_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_INFORMATICA_SILVIO_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -575,9 +575,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseInfoJoao">
                                     <div class="card card-body">
-                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA01.php">AULA 01 - GRAVAÇÃO 17/02/2023</a>
-                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA02.php">AULA 02 - GRAVAÇÃO 02/03/2023</a>
-                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA03.php">AULA 03 - GRAVAÇÃO 14/03/2023</a>
+                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA01.php">AULA 01</a>
+                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA02.php">AULA 02</a>
+                                         <a href="TJMT_PRE_INFORMATICA_JOAO_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -597,8 +597,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseHistBidu">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_HISTORIA_BIDU_AULA01.php">AULA 01 - GRAVAÇÃO 28/03/2023</a>
-                                        <a href="TJMT_PRE_HISTORIA_BIDU_AULA02.php">AULA 02 - GRAVAÇÃO 18/04/2023</a>
+                                        <a href="TJMT_PRE_HISTORIA_BIDU_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_HISTORIA_BIDU_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -618,9 +618,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGeografiaMt">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA01.php">AULA 01 - GRAVAÇÃO 17/03/2023</a>
-                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA02.php">AULA 02 - GRAVAÇÃO 31/03/2023</a>
-                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA03.php">AULA 03 - GRAVAÇÃO 19/04/2023</a>
+                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA02.php">AULA 02</a>
+                                        <a href="TJMT_PRE_GEOGRAFIA_MARCELO_AULA03.php">AULA 03</a>
                                     </div>
                                 </div>
                             </div>
@@ -640,8 +640,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEticaDouglas">
                                     <div class="card card-body">
-                                        <a href="TJMT_PRE_ETICA_DOUGLAS_AULA01.php">AULA 01 - GRAVAÇÃO 23/05/2023</a>
-                                        <a href="TJMT_PRE_ETICA_DOUGLAS_AULA02.php">AULA 02 - GRAVAÇÃO 24/05/2023</a>
+                                        <a href="TJMT_PRE_ETICA_DOUGLAS_AULA01.php">AULA 01</a>
+                                        <a href="TJMT_PRE_ETICA_DOUGLAS_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
