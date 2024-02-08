@@ -291,6 +291,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SES_POS_TODOS_LEG_SUS_DAVOLI_AULA04.php">AULA 04</a>
                                         <a href="SES_POS_TODOS_LEG_SUS_DAVOLI_AULA05.php">AULA 05</a>
                                         <a href="SES_POS_TODOS_LEG_SUS_DAVOLI_AULA06.php">AULA 06</a>
+                                        <a href="SES_POS_TODOS_LEG_SUS_DAVOLI_AULA07.php">AULA 07</a>
 
                                     </div>
                                 </div>
@@ -336,6 +337,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseConstEstJose">
                                     <div class="card card-body">
                                         <a href="SES_POS_TODOS_CONST_EST_JOSE_AULA01.php">AULA 01</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoaoCleber" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/16deWGxDXKGVSNRUcSETMDv024Or_FSFK" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseInfoJoaoCleber">
+                                    <div class="card card-body">
+                                        <a>Ainda não há gravação disponível</a>
                                     </div>
                                 </div>
                             </div>
