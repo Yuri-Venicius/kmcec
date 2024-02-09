@@ -220,6 +220,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseEspFisioMaritza">
                                     <div class="card card-body">
                                         <a href="SES_POS_FISIO_ESP_MARITZA_AULA01.php">AULA 01</a>
+                                        <a href="SES_POS_FISIO_ESP_MARITZA_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
