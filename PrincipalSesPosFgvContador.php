@@ -200,6 +200,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA01.php">AULA 01</a>
                                         <a href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA02.php">AULA 02</a>
                                         <a href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA03.php">AULA 03</a>
+                                        <a href="SES_POS_ESP_CONTABILIDADE_DANIEL_AULA04.php">AULA 04</a>
                                     </div>
                                 </div>
                             </div>
@@ -319,6 +320,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SES_POS_TODOS_CONST_EST_JOSE_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">SIMULADOS</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSim" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Z1BG8TZJWJoHTU7fbTu6CcbPt4Y-vXnX" class="btn btn-primary"><i class="fas fa-book-open"></i> Ver PDF</a>
+                                </p>
+                                <!-- <div class="collapse" id="collapseSim">
+                                    <div class="card card-body">
+                                        <a>AULA 01</a>
+                                    </div>
+                                </div> -->
                             </div>
                         </div>
                         <p></p>
