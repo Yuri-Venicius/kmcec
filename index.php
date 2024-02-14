@@ -127,6 +127,28 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
+                $codCurso = 3606;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Básico todos os cargos</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtBasico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
                 $codCurso = 3575;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (
