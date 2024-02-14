@@ -149,6 +149,160 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <?php endif; ?>
 
                 <?php
+                $codCurso = 3607;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Administrador</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtAdministrador.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3608;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Contador</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtContador.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3609;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Enfermagem/Tec. Enfermagem</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtEnfermagemTecEnfermagem.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3610;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Farmacêutico</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtFarmaceutico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3611;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Fisioterapeuta</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtFisioterapia.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3612;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Médico</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtMedico.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
+                $codCurso = 3613;
+                $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
+                if (
+                    $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso && $userTemp['statusAcesso'] == 'ATIVO')
+                ) : ?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aulão de véspera SES-MT - Técnico em Assuntos Culturais e Educacionais</h5>
+                                <p class="card-text">Sala de aula para transmissão ao vivo da SES-MT do aulão.
+                                </p>
+                                </p>
+                                <p></p>
+                                <a href="PrincipalAulaoVesperaSesMtTecAssuntos.php" class="btn btn-primary">Acessar</a>
+                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                <?php endif; ?>
+
+                <?php
                 $codCurso = 3575;
                 $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
                 if (

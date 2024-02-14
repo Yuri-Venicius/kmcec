@@ -112,11 +112,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
             </nav>
 
-            <h2>AULÃO DE VÉSPERA SES-MT BÁSICO TODOS OS CARGOS - TRANSMISSÃO AO VIVO</h2>
+            <h2>AULÃO DE VÉSPERA SES-MT CARGO TÉCNICO EM ASSUNTOS CULTURAIS E EDUCACIONAIS - TRANSMISSÃO AO VIVO</h2>
             <p></p>
 
             <?php
-            $codCurso = 3606;
+            $codCurso = 3613;
             $userTemp = verificaAcessoAoCurso($conexao, $usuarioLogado['id'], $codCurso);
             if (
                 $verificaAdm['nivelAcesso'] == '1' || ($userTemp['idUsuario'] == $usuarioLogado['id'] && $userTemp['idCurso'] == $codCurso)
