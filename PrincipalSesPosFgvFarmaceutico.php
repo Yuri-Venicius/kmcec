@@ -208,6 +208,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
+                                <h5 class="card-title">ESPECÍFICO FARMACÊUTICO - CLÁUDIO VENTURI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEspFarmaceuticoClaudio" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1CdEr6nJRMoR_UPYPs5aRxSH7sHC_l1bF" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseEspFarmaceuticoClaudio">
+                                    <div class="card card-body">
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01.php">AULA 01</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
                                 <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConstNeto" aria-expanded="false" aria-controls="collapseExample">
@@ -325,10 +345,10 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="card-body">
                                 <h5 class="card-title">SIMULADOS</h5>
                                 <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSim" aria-expanded="false" aria-controls="collapseExample">
+                                    <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSim" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Z1BG8TZJWJoHTU7fbTu6CcbPt4Y-vXnX" class="btn btn-primary"><i class="fas fa-book-open"></i> Ver PDF</a>
+                                    </button> -->
+                                    <a href="https://drive.google.com/drive/folders/1Z1BG8TZJWJoHTU7fbTu6CcbPt4Y-vXnX" class="btn btn-primary"><i class="fas fa-book-open"></i> Ver PDF</a>
                                 </p>
                                 <!-- <div class="collapse" id="collapseSim">
                                     <div class="card card-body">
