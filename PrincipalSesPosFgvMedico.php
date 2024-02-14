@@ -327,6 +327,66 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
+                                <h5 class="card-title">ADMINISTRAÇÃO PÚBLICA - FERNANDO DAVOLI</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAdmPubDavoli" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/18aHVmNkGXxsZHAIVTXy55n68tBQtw68s" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseAdmPubDavoli">
+                                    <div class="card card-body">
+                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">ESTATUTO DO SERVIDOR - CLEIDE REGINA</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEstServidorCleide" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Qoc7hs0uFvG9f37UTAu_Tai7j1G0VbUM" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseEstServidorCleide">
+                                    <div class="card card-body">
+                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">GEOGRAFIA REGIONAL - MARCELO ALONSO</h5>
+                                <p class="card-text">
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeoRegMarcelo" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                    </button>
+                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/18GXTtO71PqxnVPtfAIahPVZtoOmRUAAw" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                                </p>
+                                <div class="collapse" id="collapseGeoRegMarcelo">
+                                    <div class="card card-body">
+                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
                                 <h5 class="card-title">SIMULADOS</h5>
                                 <p class="card-text">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSim" aria-expanded="false" aria-controls="collapseExample">
