@@ -337,7 +337,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseAdmPubDavoli">
                                     <div class="card card-body">
-                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                        <a href="SES_POS_TODOS_ADMINPUB_DAVOLI_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>

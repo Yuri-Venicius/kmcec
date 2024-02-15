@@ -218,6 +218,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseEspFarmaceuticoClaudio">
                                     <div class="card card-body">
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01.php">AULA 01</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01-2.php">AULA 01 - Parte 2</a>
                                     </div>
                                 </div>
                             </div>
@@ -352,7 +353,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseAdmPubDavoli">
                                     <div class="card card-body">
-                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                        <a href="SES_POS_TODOS_ADMINPUB_DAVOLI_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
