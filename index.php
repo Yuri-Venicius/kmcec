@@ -316,7 +316,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 </p>
                                 <p></p>
-                                <a href="PrincipalSeducProfessor.php" class="btn btn-primary">Acessar</a>
+                                <a href="PrincipalSeducPre2024.php" class="btn btn-primary">Acessar</a>
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
