@@ -85,13 +85,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
         <!-- Page Content  -->
         <div id="content">
-            <h2>SES-MT PÓS EDITAL - ESPECÍFICO ADMINISTRADOR | PROFESSOR FERNANDO DAVOLI</h2>
-            <h3>AULA 03</h3>
+            <h2>SES-MT PÓS EDITAL - GEOGRAFIA | PROFESSOR MARCELO ALONSO</h2>
+            <h3>AULA 01</h3>
             <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_ESP_ADMIN_FERNANDO_AULA02.php">Anterior</a>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_ESP_ADMIN_FERNANDO_AULA04.php">Próximo</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SES_POS_TODOS_GEOGRAFIA_MARCELO_AULA02.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/2do1VchkqhU" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/JIk1bcZqB3g" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
             </div>
             <p></p>
         </div>

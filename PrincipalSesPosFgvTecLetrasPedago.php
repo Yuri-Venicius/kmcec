@@ -219,6 +219,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseEspLetrasHelio">
                                     <div class="card card-body">
                                         <a href="SES_POS_ESP_PEDAGOGO_HELIO_AULA01.php">AULA 01</a>
+                                        <a href="SES_POS_ESP_PEDAGOGO_HELIO_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
@@ -395,7 +396,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGeoRegMarcelo">
                                     <div class="card card-body">
-                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                        <a href="SES_POS_TODOS_GEOGRAFIA_MARCELO_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
