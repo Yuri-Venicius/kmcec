@@ -184,7 +184,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseGeoRegMarcelo">
                                     <div class="card card-body">
-                                        <a>Ainda não há conteúdo gravado, verifique o cronograma acima para saber quando será a aula.</a>
+                                        <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>

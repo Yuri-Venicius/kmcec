@@ -85,11 +85,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <!-- Page Content  -->
             <div id="content">
-                <h2>CURSO PRÉ-EDITAL PARA A SEDUC 2024 - ESTATUTO DO SERVIDOR | PROFESSORA CLEIDE REGINA</h2><h3>AULA 01</h3>
+                <h2>CURSO PRÉ-EDITAL PARA A SEDUC 2024 - GEOGRAFIA REGIONAL | PROFESSOR MARCELO ALONSO</h2><h3>AULA 01</h3>
                 <div>
                 <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="SEDUC_PRE_2024_EST_CLEIDE_AULA02.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/AlYrIblv03M" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/JIk1bcZqB3g" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <p></p>
             </div>
