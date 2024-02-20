@@ -55,7 +55,7 @@ session_start();
 					</div>
 					<div class="alert alert-primary" role="warning">
 						Esta tendo dificuldades para acessar? Entre em contato com nosso suporte, clicando 
-							<a href="https://api.whatsapp.com/send?phone=5565998120834&text=Ol%C3%A1,%20estou%20enfrentando%20dificuldade%20em%20acessar%20o%20portal%20do%20aluno%20na%20km,%20poderia%C2%A0me%C2%A0ajudar?" class="alert-link">
+							<a href="https://api.whatsapp.com/send?phone=5565996246889&text=Ol%C3%A1,%20estou%20enfrentando%20dificuldade%20em%20acessar%20o%20portal%20do%20aluno%20na%20km,%20poderia%C2%A0me%C2%A0ajudar?" class="alert-link">
 								aqui
 							</a>.
 					</div>
