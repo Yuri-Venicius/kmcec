@@ -164,7 +164,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseLdbOzanil">
                                 <div class="card card-body">
-                                    <a>Ainda não há conteúdo gravado</a>
+                                    <a href="SEDUC_PRE_2024_LDB_OZANIL_AULA01.php">Ainda não há conteúdo gravado</a>
                                 </div>
                             </div>
                         </div>
