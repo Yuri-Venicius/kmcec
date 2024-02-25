@@ -205,6 +205,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseGeoRegMarcelo">
                                     <div class="card card-body">
                                         <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA01.php">AULA 01</a>
+                                        <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>

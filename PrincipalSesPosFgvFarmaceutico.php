@@ -217,9 +217,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseEspFarmaceuticoClaudio">
                                     <div class="card card-body">
-                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01.php">AULA 01</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01.php">AULA 01 - Parte 1</a>
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01-2.php">AULA 01 - Parte 2</a>
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA01-3.php">AULA 01 - Parte 3</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-1.php">AULA 02 - Parte 1</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-2.php">AULA 02 - Parte 2</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-3.php">AULA 02 - Parte 3</a>
                                     </div>
                                 </div>
                             </div>
@@ -397,6 +400,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 <div class="collapse" id="collapseGeoRegMarcelo">
                                     <div class="card card-body">
                                         <a href="SES_POS_TODOS_GEOGRAFIA_MARCELO_AULA01.php">AULA 01</a>
+                                        <a href="SES_POS_TODOS_GEOGRAFIA_MARCELO_AULA02.php">AULA 02</a>
                                     </div>
                                 </div>
                             </div>
