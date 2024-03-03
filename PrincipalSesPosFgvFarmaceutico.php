@@ -424,7 +424,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                 </p>
                                 <div class="collapse" id="collapseHistBidu">
                                     <div class="card card-body">
-                                        <a>Ainda não há aula gravada</a>
+                                        <a href="SES_POS_TODOS_HISTORIA_BIDU_AULA01.php">AULA 01</a>
                                     </div>
                                 </div>
                             </div>
