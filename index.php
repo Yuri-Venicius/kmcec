@@ -673,12 +673,12 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Curso Pré edital Para o Concurso Guarda Municipal de VG [Online]</h5>
-                                <p class="card-text">Curso Pré edital Para o Concurso Guarda Municipal de VG [Online].
+                                <h5 class="card-title">Curso Pós Edital para o Concurso da Guarda Municipal de Várzea Grande [Online]</h5>
+                                <p class="card-text">Curso Pós Edital para o Concurso da Guarda Municipal de Várzea Grande [Online].
                                 </p>
                                 </p>
                                 <p></p>
-                                <a href="PrincipalGcmVgPre2023.php" class="btn btn-primary">Acessar</a>
+                                <a href="PrincipalGcmVgPos2024.php" class="btn btn-primary">Acessar</a>
                                 <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                             </div>
                         </div>
