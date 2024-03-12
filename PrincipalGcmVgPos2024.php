@@ -120,11 +120,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
+                        <br>
+                        <a>Cronograma:</a>
                         Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1Zn4-UyosM-4YublRY67AmQE4Jkp5MRNEG7Y3OtW7c5c/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="alert alert-warning" role="alert">
+                        <br>
+                        <a>Sala de aula ao vivo:</a>
                         Acesse clicando <a href="https://meet.google.com/dgt-yszp-dma" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
                 </div>
@@ -134,19 +138,19 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
 
                 <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso Pré-edital para o Concurso da Guarda Municipal de Várzea Grande [Online]</h5>
-                                <p class="card-text">Curso Pré-edital para o Concurso da Guarda Municipal de Várzea Grande [Online].
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalGcmVgPre2023.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Pré-edital para o Concurso da Guarda Municipal de Várzea Grande [Online]</h5>
+                            <p class="card-text">Curso Pré-edital para o Concurso da Guarda Municipal de Várzea Grande [Online].
+                            </p>
+                            </p>
+                            <p></p>
+                            <a href="PrincipalGcmVgPre2023.php" class="btn btn-primary">Acessar</a>
+                            <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                         </div>
-                        <p></p>
                     </div>
+                    <p></p>
+                </div>
 
                 <div class="col-md-12">
                     <h3>Conteúdo do curso: </h3>
