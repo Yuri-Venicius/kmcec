@@ -118,16 +118,16 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <div class="row">
 
-                <!-- <div class="col-sm-6">
+                <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
-                        Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1hkYacYP-VPjdiZ7-gNrMbS93wxNydlp3Sn0V6mruUTE/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                        Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1Zn4-UyosM-4YublRY67AmQE4Jkp5MRNEG7Y3OtW7c5c/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="alert alert-warning" role="alert">
-                        Acesse clicando <a href="https://meet.google.com/phs-gwas-mvb" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                        Acesse clicando <a href="https://meet.google.com/dgt-yszp-dma" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
-                </div> -->
+                </div>
 
                 <div class="col-sm-12">
                     <h3>Conteúdo Bônus: </h3>
@@ -152,8 +152,84 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <h3>Conteúdo do curso: </h3>
                 </div>
 
-                <div class="col-md-12">
-                    <h5>Este curso ainda não iniciou, previsão de início em 12/03/24. </h5>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">PORTUGÊS - HÉLIO TAQUES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsPtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1dDz6krHQ38XleuyYDJOwDpyy_GgDCNel" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsPtHelio">
+                                <div class="card card-body">
+                                    <a>Ainda não há gravação de conteúdo transmitido.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">PORTUGÊS - HÉLIO TAQUES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsInformaticaJoao" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1HyVxbzchJ1PQ4_d_zOH6IS2X_J1a16WN" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsInformaticaJoao">
+                                <div class="card card-body">
+                                    <a>Ainda não há gravação de conteúdo transmitido.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/145XIRXVtmH56SdHYrpPjrTdbTg73kZms" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRlmIgor">
+                                <div class="card card-body">
+                                    <a>Ainda não há gravação de conteúdo transmitido.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">DIREITO ADMINISTRATIVO - CLEIDE REGINA</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCleide" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1Jz9PuFqkAp0n3gVRrFkb-CgjaZpT8VnO" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseCleide">
+                                <div class="card card-body">
+                                    <a>Ainda não há gravação de conteúdo transmitido.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
                 </div>
 
             </div>
