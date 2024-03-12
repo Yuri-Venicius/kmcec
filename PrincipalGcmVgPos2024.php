@@ -195,7 +195,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">RACIOCÍNIO LÓGICO</h5>
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
                             <p class="card-text">
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
                                     <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
