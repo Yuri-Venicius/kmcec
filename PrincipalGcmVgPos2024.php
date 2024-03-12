@@ -120,15 +120,15 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
+                        <a><b>Cronograma:</b></a>
                         <br>
-                        <a>Cronograma:</a>
                         Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1Zn4-UyosM-4YublRY67AmQE4Jkp5MRNEG7Y3OtW7c5c/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="alert alert-warning" role="alert">
+                        <a><b>Sala de aula ao vivo:</b></a>
                         <br>
-                        <a>Sala de aula ao vivo:</a>
                         Acesse clicando <a href="https://meet.google.com/dgt-yszp-dma" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
                 </div>
