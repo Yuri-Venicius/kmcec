@@ -236,6 +236,20 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                     <p></p>
                 </div>
 
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SIMULADOS</h5>
+                            <p class="card-text">
+                                <a href="https://drive.google.com/drive/folders/1TLgyTYzRWqyZ2BGNKzGPHfclmX4sSm-b" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseSimu">
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
             </div>
 
 
