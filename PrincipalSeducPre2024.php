@@ -134,19 +134,19 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
 
                 <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Conteúdo bônus do curso pré-edital para o concurso da SEDUC 2024 [Online]</h5>
-                                <p class="card-text">Conteúdo bônus do curso pré-edital para o concurso da SEDUC 2024. [Online]
-                                </p>
-                                </p>
-                                <p></p>
-                                <a href="PrincipalCursoProcessoSeletivoSeduc2023.php" class="btn btn-primary">Acessar</a>
-                                <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Conteúdo bônus do curso pré-edital para o concurso da SEDUC 2024 [Online]</h5>
+                            <p class="card-text">Conteúdo bônus do curso pré-edital para o concurso da SEDUC 2024. [Online]
+                            </p>
+                            </p>
+                            <p></p>
+                            <a href="PrincipalCursoProcessoSeletivoSeduc2023.php" class="btn btn-primary">Acessar</a>
+                            <!-- <a style="margin-left: 30px;" href="" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a> -->
                         </div>
-                        <p></p>
                     </div>
+                    <p></p>
+                </div>
 
                 <div class="col-md-12">
                     <h3>Conteúdo do curso: </h3>
@@ -168,7 +168,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SEDUC_PRE_2024_LDB_OZANIL_AULA02.php">AULA 02</a>
                                     <a href="SEDUC_PRE_2024_LDB_OZANIL_AULA03.php">AULA 03</a>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                     <p></p>
@@ -216,48 +216,48 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
 
                 <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">GEOGRAFIA REGIONAL - MARCELO ALONSO</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeoRegMarcelo" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1npXSJ_1o4noV9HPD1qXWBoZYFama6LPW?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseGeoRegMarcelo">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA01.php">AULA 01</a>
-                                        <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA02.php">AULA 02</a>
-                                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">GEOGRAFIA REGIONAL - MARCELO ALONSO</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGeoRegMarcelo" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1npXSJ_1o4noV9HPD1qXWBoZYFama6LPW?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseGeoRegMarcelo">
+                                <div class="card card-body">
+                                    <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA01.php">AULA 01</a>
+                                    <a href="SEDUC_PRE_2024_GEO_MARCELO_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
-                        <p></p>
                     </div>
+                    <p></p>
+                </div>
 
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">HISTÓRIA REGIONAL - CARLOS BIDU</h5>
-                                <p class="card-text">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
-                                        <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
-                                    </button>
-                                    <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1rpfBhYT0zDUqQK_ZUiFO_9_-N5x3l5KK?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
-                                </p>
-                                <div class="collapse" id="collapseHistBidu">
-                                    <div class="card card-body">
-                                        <a href="SEDUC_PRE_2024_HIST_BIDU_AULA01.php">AULA 01</a>
-                                        <a href="SEDUC_PRE_2024_HIST_BIDU_AULA02.php">AULA 02</a>
-                                    </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">HISTÓRIA REGIONAL - CARLOS BIDU</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseHistBidu" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1rpfBhYT0zDUqQK_ZUiFO_9_-N5x3l5KK?usp=drive_link" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseHistBidu">
+                                <div class="card card-body">
+                                    <a href="SEDUC_PRE_2024_HIST_BIDU_AULA01.php">AULA 01</a>
+                                    <a href="SEDUC_PRE_2024_HIST_BIDU_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
-                        <p></p>
                     </div>
+                    <p></p>
+                </div>
 
-                    <div class="col-sm-6">
+                <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
@@ -272,6 +272,26 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                     <a href="SEDUC_PRE_2024_INFORMATICA_JOAO_AULA01.php">AULA 01</a>
                                     <a href="SEDUC_PRE_2024_INFORMATICA_JOAO_AULA02.php">AULA 02</a>
                                     <a href="SEDUC_PRE_2024_INFORMATICA_JOAO_AULA03.php">AULA 03</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO - IGOR BRASIL</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1O86WhXNDw47CY0GfXtolM5u20Zh1vy01" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRlmIgor">
+                                <div class="card card-body">
+                                    <a href="SEDUC_PRE_2024_RLM_IGOR_AULA01.php">AULA 01</a>
                                 </div>
                             </div>
                         </div>
