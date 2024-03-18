@@ -120,7 +120,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
-                        Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">
+                            <button type="button" class="btn btn-outline-primary">Ver meu cronograma</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-6">
