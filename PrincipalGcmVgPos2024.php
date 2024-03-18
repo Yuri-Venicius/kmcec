@@ -239,6 +239,46 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">DIREITO PENAL - LUIZ H. DAMASCENO</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDirPenalLuiz" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/12LVSZuwi97a8QgwWu1yrRBA8gAQqhTez" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseDirPenalLuiz">
+                                <div class="card card-body">
+                                    <a>AIND NÃO HÁ CONTEÚDO GRAVADO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CTB - ALAN DE OLIVEIRA</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCtbAlan" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1m_5EBU45eU9JGUaSwzmzsGp3IucxMRZm" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseCtbAlan">
+                                <div class="card card-body">
+                                    <a>AIND NÃO HÁ CONTEÚDO GRAVADO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">SIMULADOS</h5>
                             <p class="card-text">
                                 <a href="https://drive.google.com/drive/folders/1TLgyTYzRWqyZ2BGNKzGPHfclmX4sSm-b" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
