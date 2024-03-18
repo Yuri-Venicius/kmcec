@@ -118,28 +118,121 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
             <div class="row">
 
-                <!-- <div class="col-sm-6">
+                <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
-                        Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1hkYacYP-VPjdiZ7-gNrMbS93wxNydlp3Sn0V6mruUTE/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
+                        Acesse clicando <a href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">aqui</a>, o cronograma de gravações deste curso!
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="alert alert-warning" role="alert">
-                        Acesse clicando <a href="https://meet.google.com/phs-gwas-mvb" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                        Acesse clicando <a href="https://meet.google.com/htx-dbju-pvg" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
                     </div>
-                </div> -->
-
-                <!-- <div class="col-sm-12">
-                    <h3>Conteúdo Bônus: </h3>
-                </div> -->
+                </div>
 
                 <div class="col-md-12">
                     <h3>Conteúdo do curso: </h3>
                 </div>
 
-                <div class="col-md-12">
-                    <h4>Este curso ainda não iniciou, previsão de início em 12/03/24. </h4>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">PORTUGUÊS - HÉLIO TAQUES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePtHelio" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/16y4o48728DyauQNVl_3KCTCJscQCT-iV" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapsePtHelio">
+                                <div class="card card-body">
+                                    <a>Ainda não há conteúdo gravado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
                 </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RACIOCÍNIO LÓGICO MATEMÁTICO - IGOR BRASIL</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseRlmIgor" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1DNbtxWaRUN4OT4FdOEKlrj0q7AuRgl6c" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseRlmIgor">
+                                <div class="card card-body">
+                                    <a>Ainda não há conteúdo gravado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">INFORMÁTICA - JOÃO CLEBER</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInfoJoao" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1hqEhAQL7Fqs8M9Z98OzHnxhopQISTazp" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseInfoJoao">
+                                <div class="card card-body">
+                                    <a>Ainda não há conteúdo gravado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MATEMÁTICA FINANCEIRA - FERNANDO BARROS</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMatematicaFinanceira" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1MslTURvlchsCNIbSK5I6FK03_HJks8f1" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseMatematicaFinanceira">
+                                <div class="card card-body">
+                                    <a>Ainda não há conteúdo gravado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CONHECIMENTOS BANCÁRIOS - EDGAR MEIRELES</h5>
+                            <p class="card-text">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseConhecBaancarios" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-play-circle"></i> AULAS DISPONÍVEIS
+                                </button>
+                                <a style="margin-left: 30px;" href="https://drive.google.com/drive/folders/1GV_fMTBfpMbtZp1cTb71ipRZ7DxDyBZ4" class="btn btn-primary"><i class="fas fa-book-open"></i> Materiais</a>
+                            </p>
+                            <div class="collapse" id="collapseConhecBaancarios">
+                                <div class="card card-body">
+                                    <a>Ainda não há conteúdo gravado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
 
             </div>
 
