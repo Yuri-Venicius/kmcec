@@ -120,6 +120,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
                 <div class="col-sm-6">
                     <div class="alert alert-primary" role="alert">
+                        <a><b>Cronograma:</b></a>
+                        <br>
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">
                             <button type="button" class="btn btn-outline-primary">Ver meu cronograma</button>
                         </a>
@@ -127,7 +129,11 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                 </div>
                 <div class="col-sm-6">
                     <div class="alert alert-warning" role="alert">
-                        Acesse clicando <a href="https://meet.google.com/htx-dbju-pvg" class="alert-link">aqui</a>, o link para sala de aula ao vivo! (Transmissão segue o cronograma ao lado)
+                        <a><b>Sala de aula ao vivo:</b></a>
+                        <br>
+                        <a target="_blank" href="https://meet.google.com/htx-dbju-pvg" class="alert-link">
+                            <button type="button" class="btn btn-outline-primary">Acesse o ao vivo</button>
+                        </a>
                     </div>
                 </div>
 
