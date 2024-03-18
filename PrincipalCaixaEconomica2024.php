@@ -123,7 +123,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <a><b>Cronograma:</b></a>
                         <br>
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">
-                            <button type="button" class="btn btn-outline-secondary">Ver meu cronograma</button>
+                            <button type="button" class="btn btn-outline-dark">Ver meu cronograma</button>
                         </a>
                     </div>
                 </div>
