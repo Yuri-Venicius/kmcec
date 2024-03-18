@@ -132,7 +132,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <a><b>Sala de aula ao vivo:</b></a>
                         <br>
                         <a target="_blank" href="https://meet.google.com/htx-dbju-pvg" class="alert-link">
-                            <button type="button" class="btn btn-outline-primary">Acesse o ao vivo</button>
+                            <button type="button" class="btn btn-outline-warning">Acesse o ao vivo</button>
                         </a>
                     </div>
                 </div>
