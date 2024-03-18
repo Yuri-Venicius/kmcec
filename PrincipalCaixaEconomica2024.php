@@ -123,7 +123,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <a><b>Cronograma:</b></a>
                         <br>
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1_tVJBBTESdOcPeGc84xTSdFo3sS2tjkZBetr5j92whM/edit#gid=0" class="alert-link">
-                            <button type="button" class="btn btn-outline-primary">Ver meu cronograma</button>
+                            <button type="button" class="btn btn-outline-secondary">Ver meu cronograma</button>
                         </a>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <a><b>Sala de aula ao vivo:</b></a>
                         <br>
                         <a target="_blank" href="https://meet.google.com/htx-dbju-pvg" class="alert-link">
-                            <button type="button" class="btn btn-outline-warning">Acesse o ao vivo</button>
+                            <button type="button" class="btn btn-outline-dark">Acesse o ao vivo</button>
                         </a>
                     </div>
                 </div>
