@@ -1,5 +1,5 @@
 <?php
-    session_start();
+session_start();
 include('verifica_login.php');
 include('buscaDadosBasicosUsuario.php');
 include('buscaDadosDoCurso.php');
@@ -7,17 +7,17 @@ include('verificaAcessoAoCurso.php');
 
 $usuarioLogado = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
-    ?>
+?>
 
-    <!DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>KM Online</title>
+    <title>KM Online</title>
     <link rel="icon" type="image/png" href="./assets/brand.png" />
 
     <!-- Bootstrap CSS CDN -->
@@ -35,13 +35,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <div class="wrapper">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
             <div class="sidebar-header">
 
                 <a href="index.php"><img src="./assets/LogoBRANCA KM Cursos & Concursos.png" width="151" height="121"></a>
@@ -72,7 +72,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                         <!-- <a href="listaAcessosUsuario.php"><i class="bi bi-grid-fill"></i></i> Gerir Acessos</a> -->
                     <?php endif ?>
                 </li>
- <p></p>
+                <p></p>
                 <li><a href="logout.php"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
             </ul>
             </li>
@@ -83,30 +83,17 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
             </p>
         </nav>
 
-            <!-- Page Content  -->
-            <div id="content">
-
-            
-
-                <h2>GUARDA MUNICIPAL DE VG PÓS EDITAL - PORTUGUÊS | PROFESSOR HÉLIO TAQUES</h2><h3>AULA 01</h3>
-                <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="GUARDAVG_POS_2024_HELIO_PORTUGUES_AULA02.php">Próximo</a>
-
+        <!-- Page Content  -->
+        <div id="content">
+            <h2>CAIXA ECONÔMICA FEDERAL 2024 - PORTUGUÊS | PROFESSOR HÉLIO TAQUES</h2>
+            <h3>AULA 01</h3>
+            <div>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="CAIXA_POS_PORTUGUES_HELIO_AULA02.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/9ORvwTwPVWs" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-                </div>
-                <p></p>
-                <div class="col-sm-6" style="margin: center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">DICAS DE USO DO PLAYER DE VÍDEO</h5>
-                        </div>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;">COMO ACELERAR O VÍDEO?</h5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no celular: Basta clicar na opção engrenagem e escolher a velocidade desejada<H5></p>
-                        <p class="card-text"><h5 style="margin-left: 30px; margin-right: 30px;"> Caso esteja no Computador: Basta clicar com o botão direito do mouse e escolher a velocidade desejada<H5></p>
-                    </div>
-                </div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/1I7KA5cT3qc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
             </div>
+            <p></p>
+        </div>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -118,18 +105,18 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });
 
-                $('#sidebarCollapse').on('click', function () {
+                $('#sidebarCollapse').on('click', function() {
                     $('#sidebar, #content').toggleClass('active');
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
             });
         </script>
-    </body>
+</body>
 
-    </html>
+</html>

@@ -153,7 +153,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapsePtHelio">
                                 <div class="card card-body">
-                                    <a>Ainda não há conteúdo gravado</a>
+                                    <a href="CAIXA_POS_PORTUGUES_HELIO_AULA01.php">AULA 01</a>
                                 </div>
                             </div>
                         </div>
