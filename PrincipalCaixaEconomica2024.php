@@ -233,7 +233,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseConhecBaancarios">
                                 <div class="card card-body">
-                                    <a>Ainda não há conteúdo gravado</a>
+                                    <a href="CAIXA_POS_CONHECIMENTO_EDGAR_AULA01.php">AULA 01</a>
                                 </div>
                             </div>
                         </div>
