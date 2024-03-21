@@ -223,7 +223,9 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-1.php">AULA 02 - Parte 1</a>
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-2.php">AULA 02 - Parte 2</a>
                                         <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA02-3.php">AULA 02 - Parte 3</a>
-                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA03-1.php">AULA 03 - Parte 1</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA03-1.php">AULA 03</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA04.php">AULA 04</a>
+                                        <a href="SES_POS_FARMACEUTICO_ESP_FARMAC_CLAUDIO_AULA05.php">AULA 05</a>
                                     </div>
                                 </div>
                             </div>
