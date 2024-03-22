@@ -269,7 +269,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseCtbAlan">
                                 <div class="card card-body">
-                                    <a>AIND NÃO HÁ CONTEÚDO GRAVADO</a>
+                                    <a href="GUARDAVG_POS_2024_CTB_ALAN_AULA01.php">AULA 01</a>
                                 </div>
                             </div>
                         </div>
