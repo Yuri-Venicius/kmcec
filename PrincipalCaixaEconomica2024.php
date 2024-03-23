@@ -193,7 +193,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseInfoJoao">
                                 <div class="card card-body">
-                                    <a>Ainda não há conteúdo gravado</a>
+                                    <a href="CAIXA_POS_INFORMATICA_JOAO_AULA01.php">AULA 01</a>
                                 </div>
                             </div>
                         </div>
