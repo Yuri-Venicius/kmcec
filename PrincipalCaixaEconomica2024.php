@@ -233,7 +233,8 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             </p>
                             <div class="collapse" id="collapseMatematicaFinanceira">
                                 <div class="card card-body">
-                                    <a>Ainda não há conteúdo gravado</a>
+                                    <a href="CAIXA_POS_MATEMATICA_FINAN_FERNANDO_AULA01.php">AULA 01</a>
+                                    <a href="CAIXA_POS_MATEMATICA_FINAN_FERNANDO_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>
@@ -254,6 +255,7 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
                             <div class="collapse" id="collapseConhecBaancarios">
                                 <div class="card card-body">
                                     <a href="CAIXA_POS_CONHECIMENTO_EDGAR_AULA01.php">AULA 01</a>
+                                    <a href="CAIXA_POS_CONHECIMENTO_EDGAR_AULA02.php">AULA 02</a>
                                 </div>
                             </div>
                         </div>

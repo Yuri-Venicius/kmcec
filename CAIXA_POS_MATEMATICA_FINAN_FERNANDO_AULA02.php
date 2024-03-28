@@ -85,12 +85,13 @@ $verificaAdm = buscaDadosBasicosUsuario($conexao, $_SESSION['usuario']);
 
         <!-- Page Content  -->
         <div id="content">
-            <h2>CAIXA ECONÔMICA FEDERAL 2024 - CONHECIMENTOS BANCÁRIOS | PROFESSOR EDGAR MEIRELES</h2>
-            <h3>AULA 01</h3>
+            <h2>CAIXA ECONÔMICA FEDERAL 2024 - MATEMÁTICA FINANCEIRA | PROFESSOR FERNANDO BARROS</h2>
+            <h3>AULA 02</h3>
             <div>
-                <a style="align-items: flex-end;" class="btn btn-primary" href="CAIXA_POS_CONHECIMENTO_EDGAR_AULA02.php">Próximo</a>
+                <a style="align-items: flex-end;" class="btn btn-primary" href="CAIXA_POS_MATEMATICA_FINAN_FERNANDO_AULA01.php">Anterior</a>
+                <!-- <a style="align-items: flex-end;" class="btn btn-primary" href="CAIXA_POS_MATEMATICA_FINAN_FERNANDO_AULA03.php">Próximo</a> -->
                 <p></p>
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/1sokJe2xNHM?rel=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/i4IMUxgW4uY?rel=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
             </div>
             <p></p>
         </div>
